@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git 
+  repo: git@github.com:ccworld1000/ccworld1000.github.io.git
+  branch: master
