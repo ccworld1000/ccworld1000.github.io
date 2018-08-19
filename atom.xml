@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-08-19T07:53:37.000Z</updated>
+  <updated>2018-08-19T14:36:37.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -17,28 +17,74 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CCRuntime Objective-C 封装 runtime APIs</title>
+    <link href="https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-%E5%B0%81%E8%A3%85-runtime-APIs/"/>
+    <id>https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/</id>
+    <published>2018-08-19T14:14:44.000Z</published>
+    <updated>2018-08-19T14:36:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a> 转换 MAObjCRuntime 为 ARC 模式</p><p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a>  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数.</p><p>CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://github.com/ccworld1000/CCRuntime&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CCRuntime&lt;/a&gt; 转换 MAObjCRuntime 为 ARC 模式&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+      
+    
+    </summary>
+    
+      <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
+    
+      <category term="组件优化" scheme="https://ccworld1000.github.io/categories/iOS-macOS/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
+    
+    
+      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
+    
+      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
+    
+      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>IGListKit 简化 优化 项目</title>
     <link href="https://ccworld1000.github.io/2018/08/19/IGListKit-%E7%AE%80%E5%8C%96-%E4%BC%98%E5%8C%96-%E9%A1%B9%E7%9B%AE/"/>
     <id>https://ccworld1000.github.io/2018/08/19/IGListKit-简化-优化-项目/</id>
     <published>2018-08-19T01:08:19.000Z</published>
-    <updated>2018-08-19T07:53:37.000Z</updated>
+    <updated>2018-08-19T14:11:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>## </p><h2 id="IGListKit-优势"><a href="#IGListKit-优势" class="headerlink" title="IGListKit 优势"></a>IGListKit 优势</h2><p> 一个数据驱动的“UICollectionView”框架，用于构建快速灵活的列表。</p><table><thead><tr><th></th><th>主要特性</th></tr></thead><tbody><tr><td>🙅</td><td>不要直接调用 <code>performBatchUpdates(_:, completion:)</code> 或 <code>reloadData()</code></td></tr><tr><td>🏠</td><td>更好的可复用cell和组件体系结构</td></tr><tr><td>🔠</td><td>创建具有多个数据类型的集合</td></tr><tr><td>🔑</td><td>解耦扩散算法</td></tr><tr><td>✅</td><td>全单元测试</td></tr><tr><td>🔍</td><td>自定义差异行为模型的</td></tr><tr><td>📱</td><td>简化 <code>UICollectionView</code>核心</td></tr><tr><td>🚀</td><td>可扩展API</td></tr><tr><td>🐦</td><td>Objective-C编写,同时完全支持Swift</td></tr></tbody></table><p><a href="https://github.com/ccworld1000/IGListKit/blob/master/README.zh.md" target="_blank" rel="noopener">更多详情请参考</a> </p><h2 id="CCIGListKitDemo-可参加demo具体代码"><a href="#CCIGListKitDemo-可参加demo具体代码" class="headerlink" title="CCIGListKitDemo 可参加demo具体代码"></a><a href="https://github.com/ccworld1000/CCIGListKitDemo" target="_blank" rel="noopener"><strong>CCIGListKitDemo</strong></a> 可参加demo具体代码</h2><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/MixedDataViewController.png?raw=true" alt="**MixedDataViewController.png**"></p><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/SearchViewController.png?raw=true" alt="**SearchViewController.png**"></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;## &lt;/p&gt;
+&lt;h2 id=&quot;IGListKit-优势&quot;&gt;&lt;a href=&quot;#IGListKit-优势&quot; class=&quot;headerlink&quot; title=&quot;IGListKit 优势&quot;&gt;&lt;/a&gt;IGListKit 优势&lt;/h2&gt;&lt;p&gt; 一个数据驱动的“UICollecti
+      
     
     </summary>
     
       <category term="组件优化" scheme="https://ccworld1000.github.io/categories/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
   </entry>
   

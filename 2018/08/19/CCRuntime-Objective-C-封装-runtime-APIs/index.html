@@ -110,20 +110,19 @@
 
 
 
-  <meta name="description" content="CRXTZnbLA1">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ccworld1000">
-<meta property="og:url" content="https://ccworld1000.github.io/baidu_verify_CRXTZnbLA1.html">
+  <meta name="description" content="CCRuntime 转换 MAObjCRuntime 为 ARC 模式 CCRuntime  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数. CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。">
+<meta name="keywords" content="CCRuntime,runtime,MAObjCRuntime,iOS,macOS,Objective-C">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CCRuntime Objective-C 封装 runtime APIs">
+<meta property="og:url" content="https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/index.html">
 <meta property="og:site_name" content="ccworld1000">
-<meta property="og:description" content="CRXTZnbLA1">
+<meta property="og:description" content="CCRuntime 转换 MAObjCRuntime 为 ARC 模式 CCRuntime  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数. CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-19T08:13:55.000Z">
+<meta property="og:updated_time" content="2018-08-19T14:36:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ccworld1000">
-<meta name="twitter:description" content="CRXTZnbLA1">
+<meta name="twitter:title" content="CCRuntime Objective-C 封装 runtime APIs">
+<meta name="twitter:description" content="CCRuntime 转换 MAObjCRuntime 为 ARC 模式 CCRuntime  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数. CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。">
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="ccworld1000" type="application/atom+xml" />
@@ -131,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="https://ccworld1000.github.io/baidu_verify_CRXTZnbLA1.html"/>
+  <link rel="canonical" href="https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/"/>
 
 
 
@@ -142,7 +141,7 @@
 </script>
 
   <meta name="baidu-site-verification" content="CRXTZnbLA1" />
-  <title> | ccworld1000</title>
+  <title>CCRuntime Objective-C 封装 runtime APIs | ccworld1000</title>
   
 
 
@@ -328,71 +327,230 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CC">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ccworld1000">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline"></h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          CRXTZnbLA1
+          <h1 class="post-title" itemprop="name headline">CCRuntime Objective-C 封装 runtime APIs
+              
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-08-19 22:14:44 / 修改时间：22:36:37" itemprop="dateCreated datePublished" datetime="2018-08-19T22:14:44+08:00">2018-08-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS-macOS/" itemprop="url" rel="index"><span itemprop="name">iOS && macOS</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS-macOS/组件优化/" itemprop="url" rel="index"><span itemprop="name">组件优化</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a> 转换 MAObjCRuntime 为 ARC 模式</p>
+<p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a>  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数.</p>
+<p>CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。</p>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>TO BE OR NOT TO BE</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/CCWechat.png" alt="CC 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/CCAlipay.png" alt="CC 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/CCRuntime/" rel="tag"># CCRuntime</a>
+          
+            <a href="/tags/runtime/" rel="tag"># runtime</a>
+          
+            <a href="/tags/MAObjCRuntime/" rel="tag"># MAObjCRuntime</a>
+          
+            <a href="/tags/iOS/" rel="tag"># iOS</a>
+          
+            <a href="/tags/macOS/" rel="tag"># macOS</a>
+          
+            <a href="/tags/Objective-C/" rel="tag"># Objective-C</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/19/IGListKit-简化-优化-项目/" rel="next" title="IGListKit 简化 优化 项目">
+                <i class="fa fa-chevron-left"></i> IGListKit 简化 优化 项目
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
