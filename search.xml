@@ -8,13 +8,13 @@
         <category>金融</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>c</tag>
-        <tag>Objective-C</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -27,12 +27,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCRuntime</tag>
         <tag>runtime</tag>
         <tag>MAObjCRuntime</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
