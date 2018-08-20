@@ -4,8 +4,44 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2018/08/21/CCTALib-TA-Lib-%E5%B9%BF%E6%B3%9B%E5%BA%94%E7%94%A8%E4%BA%8E%E4%BA%A4%E6%98%93%E5%BC%80%E5%8F%91%E5%88%86%E6%9E%90%E9%87%91%E8%9E%8D%E5%B8%82%E5%9C%BA%E6%95%B0%E6%8D%AE/</loc>
+    <lastmod>2018-08-20T16:15:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>CCTALib TA-Lib 广泛应用于交易开发分析金融市场数据</title>
+        <pubTime>2018-08-20T16:04:30.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>CCTALib</tag>
+         
+        <tag>TA-Lib</tag>
+         
+        <tag>talib</tag>
+         
+        <tag>c</tag>
+         
+        <tag>financial market</tag>
+         
+        <tag>market analysi</tag>
+         
+         
+           
+             
+              <breadCrumb title="金融" url="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-%E5%B0%81%E8%A3%85-runtime-APIs/</loc>
-    <lastmod>2018-08-19T14:36:37.000Z</lastmod>
+    <lastmod>2018-08-20T16:05:26.000Z</lastmod>
     <data>
         <display>
         <title>CCRuntime Objective-C 封装 runtime APIs</title>
@@ -27,9 +63,6 @@
            
              
               <breadCrumb title="iOS &amp;&amp; macOS" url="https://ccworld1000.github.io/categories/iOS-macOS/"/>
-          
-             
-              <breadCrumb title="组件优化" url="https://ccworld1000.github.io/categories/iOS-macOS/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
           
         </display>
     </data>
@@ -63,7 +96,6 @@
     </data>
     </url>
 
-    
     
     
     
