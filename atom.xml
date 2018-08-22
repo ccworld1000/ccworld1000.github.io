@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-08-20T16:15:09.000Z</updated>
+  <updated>2018-08-22T14:43:43.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCSugar Foundation 附加函数集</title>
+    <link href="https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-%E9%99%84%E5%8A%A0%E5%87%BD%E6%95%B0%E9%9B%86/"/>
+    <id>https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-附加函数集/</id>
+    <published>2018-08-22T14:33:17.000Z</published>
+    <updated>2018-08-22T14:43:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Write Objective C <em>like a boss</em>.</p></blockquote><p>Foundation 附加函数集函数集.</p><h2 id="支持-MAC-OS-与-iOS"><a href="#支持-MAC-OS-与-iOS" class="headerlink" title="支持 MAC OS 与 iOS"></a>支持 MAC OS 与 iOS</h2><p>始于 ObjectiveSugar 1.1.1</p><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><ol><li><p><a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a>安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod &apos;CCSugar&apos;</span><br></pre></td></tr></table></figure></li><li><p>导入头文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &lt;CCSugar.h&gt;</span><br></pre></td></tr></table></figure></li></ol><p>或者</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">​</span><br></pre></td></tr></table></figure><p>#import “CCSugar.h”</p><p>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line">### 文档 [更多查阅 [CCSugar](&lt;https://github.com/ccworld1000/CCSugar&gt;) 源码]</span><br><span class="line"></span><br><span class="line">**NSNumber** 集</span><br></pre></td></tr></table></figure></p><pre><code>[@3 times:^{    NSLog(@&quot;Hello!&quot;);}];// Hello!// Hello!// Hello![@3 timesWithIndex:^(NSUInteger index) {    NSLog(@&quot;Another version with number: %lu&quot;, (unsigned long)index);}];// Another version with number: 0// Another version with number: 1// Another version with number: 2[@1 upto:4 do:^(NSInteger numbah) {    NSLog(@&quot;Current number.. %ld&quot;, (long)numbah);}];// Current number.. 1// Current number.. 2// Current number.. 3// Current number.. 4[@7 downto:4 do:^(NSInteger numbah) {    NSLog(@&quot;Current number.. %ld&quot;, (long)numbah);}];// Current number.. 7// Current number.. 6// Current number.. 5// Current number.. 4NSDate *firstOfDecember = [NSDate date]; // let&apos;s pretend it&apos;s 1st of DecemberNSDate *firstOfNovember = [(@30).days since:firstOfDecember];NSLog(@&quot;firstOfNovember : %@&quot;, firstOfNovember);NSDate *future = (@24).days.fromNow;NSLog(@&quot;future : %@&quot;, future);NSDate *past = @(1).month.ago;NSLog(@&quot;past : %@&quot;, past);</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">\--</span><br><span class="line"></span><br><span class="line">**NSArray** / **NSSet** 集</span><br></pre></td></tr></table></figure><p>// All of these methods return a modified copy of the array.<br>// They’re not modifying the source array.</p><p>NSArray *cars = @[@”Testarossa”, @”F50”, @”F458 Italia”]; // or NSSet</p><p>[cars each:^(id object) {<br>    NSLog(@”Car: %@”, object);<br>}];<br>// Car: Testarossa<br>// Car: F50<br>// Car: F458 Italia</p><p>[cars eachWithIndex:^(id object, NSUInteger index) {<br>    NSLog(@”Car: %@ index: %i”, object, index);<br>}];<br>// Car: Testarossa index: 0<br>// Car: F50 index: 1<br>// Car: F458 Italia index: 2</p><p>[cars each:^(id object) {<br>    NSLog(@”Car: %@”, object);<br>} options:NSEnumerationReverse];<br>// Car: F458 Italia<br>// Car: F50<br>// Car: Testarossa</p><p>[cars eachWithIndex:^(id object, NSUInteger index) {<br>    NSLog(@”Car: %@ index: %i”, object, index);<br>} options:NSEnumerationReverse];<br>// Car: F458 Italia index: 2<br>// Car: F50 index: 1<br>// Car: Testarossa index: 0</p><p>[cars map:^(NSString* car) {<br>    return car.lowercaseString;<br>}];<br>// testarossa, f50, f458 italia</p><p>// Or, a more common example:<br>[cars map:^(NSString* carName) {<br>    return [[Car alloc] initWithName:carName];<br>}];<br>// array of Car objects</p><p>NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”];</p><p>[mixedData select:^BOOL(id object) {<br>  return ([object class] == [NSString class]);<br>}];<br>// Objective Sugar, Github, 5</p><p>[mixedData reject:^BOOL(id object) {<br>    return ([object class] == [NSString class]);<br>}];<br>// 1, 4</p><p>NSArray *numbers = @[ @5, @2, @7, @1 ];<br>[numbers sort];<br>// 1, 2, 5, 7</p><p>cars.sample<br>// 458 Italia<br>cars.sample<br>// F50<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- 仅仅针对**NSArray**</span><br></pre></td></tr></table></figure></p><p>NSArray *numbers = @[@1, @2, @3, @4, @5, @6];</p><p>// index from 2 to 4<br>numbers[@”2..4”];<br>// [@3, @4, @5]</p><p>// index from 2 to 4 (excluded)<br>numbers[@”2…4”];<br>// [@3, @4]</p><p>// With NSRange location: 2, length: 4<br>numbers[@”2,4”];<br>// [@3, @4, @5, @6]</p><p>NSValue *range = [NSValue valueWithRange:NSMakeRange(2, 4)];<br>numbers[range];<br>// [@3, @4, @5, @6]</p><p>[numbers reverse];<br>// [@6, @5, @4, @3, @2, @1]</p><p>NSArray *fruits = @[ @”banana”, @”mango”, @”apple”, @”pear” ];</p><p>[fruits includes:@”apple”];<br>// YES</p><p>[fruits take:3];<br>// banana, mango, apple</p><p>[fruits takeWhile:^BOOL(id fruit) {<br>    return ![fruit isEqualToString:@”apple”];<br>}];<br>// banana, mango</p><p>NSArray *nestedArray = @[ @[ @1, @2, @3 ], @[ @4, @5, @6, @[ @7, @8 ] ], @9, @10 ];<br>[nestedArray flatten];<br>// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</p><p>NSArray *abc = @[ @”a”, @”b”, @”c” ];<br>[abc join];<br>// abc</p><p>[abc join:@”-“];<br>// a-b-c</p><p>NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”];</p><p>[mixedData detect:^BOOL(id object) {<br>    return ([object class] == [NSString class]);<br>}];<br>// Objective Sugar</p><p>// TODO: Make a better / simpler example of this<br>NSArray <em>landlockedCountries = @[ @”Bolivia”, @”Paraguay”, @”Austria”, @”Switzerland”, @”Hungary” ];<br>NSArray </em>europeanCountries = @[ @”France”, @”Germany”, @”Austria”, @”Spain”, @”Hungary”, @”Poland”, @”Switzerland” ];</p><p>[landlockedCountries intersectionWithArray:europeanCountries];<br>// landlockedEuropeanCountries = Austria, Switzerland, Hungary</p><p>[landlockedCountries unionWithArray:europeanCountries];<br>// landlockedOrEuropean = Bolivia, Paraguay, Austria, Switzerland, Hungary, France, Germany, Spain, Poland</p><p>[landlockedCountries relativeComplement:europeanCountries];<br>// nonEuropeanLandlockedCountries = Bolivia, Paraguay</p><p>[europeanCountries relativeComplement:landlockedCountries];<br>// notLandlockedEuropeanCountries = France, Germany, Spain, Poland</p><p>[landlockedCountries symmetricDifference:europeanCountries];<br>// uniqueCountries = Bolivia, Paraguay, France, Germany, Spain, Poland<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSMutableArray** 集</span><br></pre></td></tr></table></figure></p><p>NSMutableArray *people = [NSMutableArray arrayWithArray:@[ @”Alice”, @”Benjamin”, @”Christopher” ]];</p><p>[people push:@”Daniel”]; // Alice, Benjamin, Christopher, Daniel</p><p>[people pop]; // Daniel<br>// people = Alice, Benjamin, Christopher</p><p>[people pop:2]; // Benjamin, Christopher<br>// people = Alice</p><p>[people concat:@[ @”Evan”, @”Frank”, @”Gavin” ]];<br>// people = Alice, Evan, Frank, Gavin</p><p>[people keepIf:^BOOL(id object) {<br>    return [object characterAtIndex:0] == ‘E’;<br>}];<br>// people = Evan<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSDictionary** 集</span><br></pre></td></tr></table></figure></p><p>NSDictionary *dict = @{ @”one” : @1, @”two” : @2, @”three” : @3 };</p><p>[dict each:^(id key, id value){<br>    NSLog(@”Key: %@, Value: %@”, key, value);<br>}];<br>// Key: one, Value: 1<br>// Key: two, Value: 2<br>// Key: three, Value: 3</p><p>[dict eachKey:^(id key) {<br>    NSLog(@”Key: %@”, key);<br>}];<br>// Key: one<br>// Key: two<br>// Key: three</p><p>[dict eachValue:^(id value) {<br>    NSLog(@”Value: %@”, value);<br>}];<br>// Value: 1<br>// Value: 2<br>// Value: 3</p><p>[dict invert];<br>// { 1 = one, 2 = two, 3 = three}</p><p>NSDictionary *errors = @{<br>    @”username” : @[ @”already taken” ],<br>    @”password” : @[ @”is too short (minimum is 8 characters)”, @”not complex enough” ],<br>    @”email” : @[ @”can’t be blank” ];<br>};</p><p>[errors map:^(id attribute, id reasons) {<br>    return NSStringWithFormat(@”%@ %@”, attribute, [reasons join:@”, “]);<br>}];<br>// username already taken<br>// password is too short (minimum is 8 characters), not complex enough<br>// email can’t be blank</p><p>[errors hasKey:@”email”]<br>// true<br>[errors hasKey:@”Alcatraz”]<br>// false<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSString** 集</span><br></pre></td></tr></table></figure></p><p>NSString *sentence = NSStringWithFormat(@”This is a text-with-argument %@”, @1234);<br>// This is a text-with-argument 1234</p><p>[sentence split];<br>// array = this, is, a, text-with-argument, 1234</p><p>[sentence split:@”-“]<br>// array = this is a text, with, argument 1234</p><p>[sentence containsString:@”this is a”];<br>// YES</p><p>[sentence match:@”-[a-z]+-“]<br>// -with-<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **C** 集</span><br></pre></td></tr></table></figure></p><p>unless(_messages) {<br>    // The body is only executed if the condition is false<br>    _messages = [self initializeMessages];<br>}</p><p>int iterations = 10;<br>until(iterations == 0) {<br>    // The body is executed until the condition is false<br>    // 10 9 8 7 6 5 4 3 2 1<br>    printf(“%d “, iterations);<br>    iterations–;<br>}<br>printf(“\n”);</p><p>iterations = 10;<br>do {<br>    // The body is executed at least once until the condition is false<br>    // Will print: Executed!<br>    printf(“Executed!\n”);<br>} until(true);<br><code>`</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Write Objective C &lt;em&gt;like a boss&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Foundation 附加函数集函数集.&lt;/p&gt;
+&lt;h2 id=&quot;支持-MAC-OS-与-iOS&quot;&gt;&lt;a href=&quot;#支持-
+      
+    
+    </summary>
+    
+      <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
+      <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
+    
+      <category term="NSNumber" scheme="https://ccworld1000.github.io/tags/NSNumber/"/>
+    
+      <category term="NSArray" scheme="https://ccworld1000.github.io/tags/NSArray/"/>
+    
+      <category term="NSSet" scheme="https://ccworld1000.github.io/tags/NSSet/"/>
+    
+      <category term="NSMutableArray" scheme="https://ccworld1000.github.io/tags/NSMutableArray/"/>
+    
+      <category term="NSDictionary" scheme="https://ccworld1000.github.io/tags/NSDictionary/"/>
+    
+      <category term="NSString" scheme="https://ccworld1000.github.io/tags/NSString/"/>
+    
+      <category term="ObjectiveSugar" scheme="https://ccworld1000.github.io/tags/ObjectiveSugar/"/>
+    
+  </entry>
   
   <entry>
     <title>CCTALib TA-Lib 广泛应用于交易开发分析金融市场数据</title>
@@ -37,19 +92,19 @@
       <category term="金融" scheme="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
@@ -79,17 +134,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
     
       <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
     
       <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
