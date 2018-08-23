@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)]]></title>
+    <url>%2F2018%2F08%2F23%2FOKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X%2F</url>
+    <content type="text"><![CDATA[OKKLineMin介绍OKKLineMin kline for min for learning for iPhone* (支持 Swift4 &amp; iPhone X)* (主要用于学习目的) 截屏[支持 拖曳、 长按 、缩放] iPhone X 全屏 iPhone X 半屏 iPhone 设备]]></content>
+      <categories>
+        <category>金融</category>
+      </categories>
+      <tags>
+        <tag>iOS</tag>
+        <tag>OKKLineMin</tag>
+        <tag>kline</tag>
+        <tag>K线，Swift</tag>
+        <tag>iPhone X</tag>
+        <tag>OKKLineSwift</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCSugar Foundation 附加函数集]]></title>
     <url>%2F2018%2F08%2F22%2FCCSugar-Foundation-%E9%99%84%E5%8A%A0%E5%87%BD%E6%95%B0%E9%9B%86%2F</url>
     <content type="text"><![CDATA[Write Objective C like a boss. Foundation 附加函数集函数集. 支持 MAC OS 与 iOS始于 ObjectiveSugar 1.1.1 用法 CocoaPods安装 1pod &apos;CCSugar&apos; 导入头文件 1#import &lt;CCSugar.h&gt; 或者 1​ #import “CCSugar.h” ​12345```### 文档 [更多查阅 [CCSugar](https://github.com/ccworld1000/CCSugar) 源码]**NSNumber** 集 [@3 times:^{ NSLog(@&quot;Hello!&quot;); }]; // Hello! // Hello! // Hello! [@3 timesWithIndex:^(NSUInteger index) { NSLog(@&quot;Another version with number: %lu&quot;, (unsigned long)index); }]; // Another version with number: 0 // Another version with number: 1 // Another version with number: 2 [@1 upto:4 do:^(NSInteger numbah) { NSLog(@&quot;Current number.. %ld&quot;, (long)numbah); }]; // Current number.. 1 // Current number.. 2 // Current number.. 3 // Current number.. 4 [@7 downto:4 do:^(NSInteger numbah) { NSLog(@&quot;Current number.. %ld&quot;, (long)numbah); }]; // Current number.. 7 // Current number.. 6 // Current number.. 5 // Current number.. 4 NSDate *firstOfDecember = [NSDate date]; // let&apos;s pretend it&apos;s 1st of December NSDate *firstOfNovember = [(@30).days since:firstOfDecember]; NSLog(@&quot;firstOfNovember : %@&quot;, firstOfNovember); NSDate *future = (@24).days.fromNow; NSLog(@&quot;future : %@&quot;, future); NSDate *past = @(1).month.ago; NSLog(@&quot;past : %@&quot;, past); 1234\--**NSArray** / **NSSet** 集 // All of these methods return a modified copy of the array.// They’re not modifying the source array. NSArray *cars = @[@”Testarossa”, @”F50”, @”F458 Italia”]; // or NSSet [cars each:^(id object) { NSLog(@”Car: %@”, object);}];// Car: Testarossa// Car: F50// Car: F458 Italia [cars eachWithIndex:^(id object, NSUInteger index) { NSLog(@”Car: %@ index: %i”, object, index);}];// Car: Testarossa index: 0// Car: F50 index: 1// Car: F458 Italia index: 2 [cars each:^(id object) { NSLog(@”Car: %@”, object);} options:NSEnumerationReverse];// Car: F458 Italia// Car: F50// Car: Testarossa [cars eachWithIndex:^(id object, NSUInteger index) { NSLog(@”Car: %@ index: %i”, object, index);} options:NSEnumerationReverse];// Car: F458 Italia index: 2// Car: F50 index: 1// Car: Testarossa index: 0 [cars map:^(NSString* car) { return car.lowercaseString;}];// testarossa, f50, f458 italia // Or, a more common example:[cars map:^(NSString* carName) { return [[Car alloc] initWithName:carName];}];// array of Car objects NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”]; [mixedData select:^BOOL(id object) { return ([object class] == [NSString class]);}];// Objective Sugar, Github, 5 [mixedData reject:^BOOL(id object) { return ([object class] == [NSString class]);}];// 1, 4 NSArray *numbers = @[ @5, @2, @7, @1 ];[numbers sort];// 1, 2, 5, 7 cars.sample// 458 Italiacars.sample// F5012-- 仅仅针对**NSArray** NSArray *numbers = @[@1, @2, @3, @4, @5, @6]; // index from 2 to 4numbers[@”2..4”];// [@3, @4, @5] // index from 2 to 4 (excluded)numbers[@”2…4”];// [@3, @4] // With NSRange location: 2, length: 4numbers[@”2,4”];// [@3, @4, @5, @6] NSValue *range = [NSValue valueWithRange:NSMakeRange(2, 4)];numbers[range];// [@3, @4, @5, @6] [numbers reverse];// [@6, @5, @4, @3, @2, @1] NSArray *fruits = @[ @”banana”, @”mango”, @”apple”, @”pear” ]; [fruits includes:@”apple”];// YES [fruits take:3];// banana, mango, apple [fruits takeWhile:^BOOL(id fruit) { return ![fruit isEqualToString:@”apple”];}];// banana, mango NSArray *nestedArray = @[ @[ @1, @2, @3 ], @[ @4, @5, @6, @[ @7, @8 ] ], @9, @10 ];[nestedArray flatten];// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 NSArray *abc = @[ @”a”, @”b”, @”c” ];[abc join];// abc [abc join:@”-“];// a-b-c NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”]; [mixedData detect:^BOOL(id object) { return ([object class] == [NSString class]);}];// Objective Sugar // TODO: Make a better / simpler example of thisNSArray landlockedCountries = @[ @”Bolivia”, @”Paraguay”, @”Austria”, @”Switzerland”, @”Hungary” ];NSArray europeanCountries = @[ @”France”, @”Germany”, @”Austria”, @”Spain”, @”Hungary”, @”Poland”, @”Switzerland” ]; [landlockedCountries intersectionWithArray:europeanCountries];// landlockedEuropeanCountries = Austria, Switzerland, Hungary [landlockedCountries unionWithArray:europeanCountries];// landlockedOrEuropean = Bolivia, Paraguay, Austria, Switzerland, Hungary, France, Germany, Spain, Poland [landlockedCountries relativeComplement:europeanCountries];// nonEuropeanLandlockedCountries = Bolivia, Paraguay [europeanCountries relativeComplement:landlockedCountries];// notLandlockedEuropeanCountries = France, Germany, Spain, Poland [landlockedCountries symmetricDifference:europeanCountries];// uniqueCountries = Bolivia, Paraguay, France, Germany, Spain, Poland12-- **NSMutableArray** 集 NSMutableArray *people = [NSMutableArray arrayWithArray:@[ @”Alice”, @”Benjamin”, @”Christopher” ]]; [people push:@”Daniel”]; // Alice, Benjamin, Christopher, Daniel [people pop]; // Daniel// people = Alice, Benjamin, Christopher [people pop:2]; // Benjamin, Christopher// people = Alice [people concat:@[ @”Evan”, @”Frank”, @”Gavin” ]];// people = Alice, Evan, Frank, Gavin [people keepIf:^BOOL(id object) { return [object characterAtIndex:0] == ‘E’;}];// people = Evan12-- **NSDictionary** 集 NSDictionary *dict = @{ @”one” : @1, @”two” : @2, @”three” : @3 }; [dict each:^(id key, id value){ NSLog(@”Key: %@, Value: %@”, key, value);}];// Key: one, Value: 1// Key: two, Value: 2// Key: three, Value: 3 [dict eachKey:^(id key) { NSLog(@”Key: %@”, key);}];// Key: one// Key: two// Key: three [dict eachValue:^(id value) { NSLog(@”Value: %@”, value);}];// Value: 1// Value: 2// Value: 3 [dict invert];// { 1 = one, 2 = two, 3 = three} NSDictionary *errors = @{ @”username” : @[ @”already taken” ], @”password” : @[ @”is too short (minimum is 8 characters)”, @”not complex enough” ], @”email” : @[ @”can’t be blank” ];}; [errors map:^(id attribute, id reasons) { return NSStringWithFormat(@”%@ %@”, attribute, [reasons join:@”, “]);}];// username already taken// password is too short (minimum is 8 characters), not complex enough// email can’t be blank [errors hasKey:@”email”]// true[errors hasKey:@”Alcatraz”]// false12-- **NSString** 集 NSString *sentence = NSStringWithFormat(@”This is a text-with-argument %@”, @1234);// This is a text-with-argument 1234 [sentence split];// array = this, is, a, text-with-argument, 1234 [sentence split:@”-“]// array = this is a text, with, argument 1234 [sentence containsString:@”this is a”];// YES [sentence match:@”-[a-z]+-“]// -with-12-- **C** 集 unless(_messages) { // The body is only executed if the condition is false _messages = [self initializeMessages];} int iterations = 10;until(iterations == 0) { // The body is executed until the condition is false // 10 9 8 7 6 5 4 3 2 1 printf(“%d “, iterations); iterations–;}printf(“\n”); iterations = 10;do { // The body is executed at least once until the condition is false // Will print: Executed! printf(“Executed!\n”);} until(true);`]]></content>
@@ -11,9 +27,9 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCSugar</tag>
         <tag>Foundation</tag>
+        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -35,10 +51,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

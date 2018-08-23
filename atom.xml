@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-08-22T14:54:51.000Z</updated>
+  <updated>2018-08-23T12:46:37.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OKKLineMin kline for min for learning for iPhone (support Swift4 &amp; iPhone X)</title>
+    <link href="https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/"/>
+    <id>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</id>
+    <published>2018-08-23T12:33:55.000Z</published>
+    <updated>2018-08-23T12:46:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="OKKLineMin"><a href="#OKKLineMin" class="headerlink" title="OKKLineMin"></a>OKKLineMin</h3><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><a href="https://github.com/ccworld1000/OKKLineMin" target="_blank" rel="noopener"><strong>OKKLineMin</strong></a> kline for min for learning for iPhone*<em> </em>(支持 Swift4 &amp; iPhone X)* (主要用于学习目的)</p><h3 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h3><p>[支持 拖曳、 长按 、缩放]</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/OKKLineMin.gif" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/OKKLineMin.gif" alt="OKKLineMin"></a></p><p>iPhone X 全屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/X.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/X.png" alt="X"></a></p><p>iPhone X 半屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/Half.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/Half.png" alt="X"></a></p><p>iPhone 设备</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/iPhoneDevice.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/iPhoneDevice.png" alt="iPhoneDevice"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;OKKLineMin&quot;&gt;&lt;a href=&quot;#OKKLineMin&quot; class=&quot;headerlink&quot; title=&quot;OKKLineMin&quot;&gt;&lt;/a&gt;OKKLineMin&lt;/h3&gt;&lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerli
+      
+    
+    </summary>
+    
+      <category term="金融" scheme="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="OKKLineMin" scheme="https://ccworld1000.github.io/tags/OKKLineMin/"/>
+    
+      <category term="kline" scheme="https://ccworld1000.github.io/tags/kline/"/>
+    
+      <category term="K线，Swift" scheme="https://ccworld1000.github.io/tags/K%E7%BA%BF%EF%BC%8CSwift/"/>
+    
+      <category term="iPhone X" scheme="https://ccworld1000.github.io/tags/iPhone-X/"/>
+    
+      <category term="OKKLineSwift" scheme="https://ccworld1000.github.io/tags/OKKLineSwift/"/>
+    
+  </entry>
   
   <entry>
     <title>CCSugar Foundation 附加函数集</title>
@@ -47,11 +82,11 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -98,13 +133,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
