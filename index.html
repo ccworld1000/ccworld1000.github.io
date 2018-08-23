@@ -452,17 +452,22 @@
       
         
           
-            <h3 id="OKKLineMin"><a href="#OKKLineMin" class="headerlink" title="OKKLineMin"></a>OKKLineMin</h3><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><a href="https://github.com/ccworld1000/OKKLineMin" target="_blank" rel="noopener"><strong>OKKLineMin</strong></a> kline for min for learning for iPhone*<em> </em>(支持 Swift4 &amp; iPhone X)* (主要用于学习目的)</p>
-<h3 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h3><p>[支持 拖曳、 长按 、缩放]</p>
-<p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/OKKLineMin.gif" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/OKKLineMin.gif" alt="OKKLineMin"></a></p>
-<p>iPhone X 全屏</p>
-<p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/X.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/X.png" alt="X"></a></p>
-<p>iPhone X 半屏</p>
-<p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/Half.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/Half.png" alt="X"></a></p>
-<p>iPhone 设备</p>
-<p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/iPhoneDevice.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/iPhoneDevice.png" alt="iPhoneDevice"></a></p>
+          OKKLineMin介绍OKKLineMin kline for min for learning for iPhone* (支持 Swift4 &amp; iPhone X)* (主要用于学习目的)
+截屏[支持 拖曳、 长按 、缩放]
 
-          
+iPhone X 全屏
+
+iPhone X 半屏
+
+iPho
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -618,123 +623,25 @@
       
         
           
-            <blockquote>
-<p>Write Objective C <em>like a boss</em>.</p>
-</blockquote>
-<p>Foundation 附加函数集函数集.</p>
-<h2 id="支持-MAC-OS-与-iOS"><a href="#支持-MAC-OS-与-iOS" class="headerlink" title="支持 MAC OS 与 iOS"></a>支持 MAC OS 与 iOS</h2><p>始于 ObjectiveSugar 1.1.1</p>
-<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><ol>
-<li><p><a href="http://cocoapods.org/" target="_blank" rel="noopener">CocoaPods</a>安装</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod &apos;CCSugar&apos;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>导入头文件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &lt;CCSugar.h&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>或者</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">​</span><br></pre></td></tr></table></figure>
-<p>#import “CCSugar.h”</p>
-<p>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line"></span><br><span class="line">### 文档 [更多查阅 [CCSugar](https://github.com/ccworld1000/CCSugar) 源码]</span><br><span class="line"></span><br><span class="line">**NSNumber** 集</span><br></pre></td></tr></table></figure></p>
-<pre><code>[@3 times:^{
-    NSLog(@&quot;Hello!&quot;);
-}];
-// Hello!
-// Hello!
-// Hello!
-
-[@3 timesWithIndex:^(NSUInteger index) {
-    NSLog(@&quot;Another version with number: %lu&quot;, (unsigned long)index);
-}];
-// Another version with number: 0
-// Another version with number: 1
-// Another version with number: 2
-
-
-[@1 upto:4 do:^(NSInteger numbah) {
-    NSLog(@&quot;Current number.. %ld&quot;, (long)numbah);
-}];
-// Current number.. 1
-// Current number.. 2
-// Current number.. 3
-// Current number.. 4
-
-[@7 downto:4 do:^(NSInteger numbah) {
-    NSLog(@&quot;Current number.. %ld&quot;, (long)numbah);
-}];
-// Current number.. 7
-// Current number.. 6
-// Current number.. 5
-// Current number.. 4
-
-NSDate *firstOfDecember = [NSDate date]; // let&apos;s pretend it&apos;s 1st of December
-
-NSDate *firstOfNovember = [(@30).days since:firstOfDecember];
-NSLog(@&quot;firstOfNovember : %@&quot;, firstOfNovember);
-
-NSDate *future = (@24).days.fromNow;
-NSLog(@&quot;future : %@&quot;, future);
-
-NSDate *past = @(1).month.ago;
-NSLog(@&quot;past : %@&quot;, past);
-</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">\--</span><br><span class="line"></span><br><span class="line">**NSArray** / **NSSet** 集</span><br></pre></td></tr></table></figure>
-<p>// All of these methods return a modified copy of the array.<br>// They’re not modifying the source array.</p>
-<p>NSArray *cars = @[@”Testarossa”, @”F50”, @”F458 Italia”]; // or NSSet</p>
-<p>[cars each:^(id object) {<br>    NSLog(@”Car: %@”, object);<br>}];<br>// Car: Testarossa<br>// Car: F50<br>// Car: F458 Italia</p>
-<p>[cars eachWithIndex:^(id object, NSUInteger index) {<br>    NSLog(@”Car: %@ index: %i”, object, index);<br>}];<br>// Car: Testarossa index: 0<br>// Car: F50 index: 1<br>// Car: F458 Italia index: 2</p>
-<p>[cars each:^(id object) {<br>    NSLog(@”Car: %@”, object);<br>} options:NSEnumerationReverse];<br>// Car: F458 Italia<br>// Car: F50<br>// Car: Testarossa</p>
-<p>[cars eachWithIndex:^(id object, NSUInteger index) {<br>    NSLog(@”Car: %@ index: %i”, object, index);<br>} options:NSEnumerationReverse];<br>// Car: F458 Italia index: 2<br>// Car: F50 index: 1<br>// Car: Testarossa index: 0</p>
-<p>[cars map:^(NSString* car) {<br>    return car.lowercaseString;<br>}];<br>// testarossa, f50, f458 italia</p>
-<p>// Or, a more common example:<br>[cars map:^(NSString* carName) {<br>    return [[Car alloc] initWithName:carName];<br>}];<br>// array of Car objects</p>
-<p>NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”];</p>
-<p>[mixedData select:^BOOL(id object) {<br>  return ([object class] == [NSString class]);<br>}];<br>// Objective Sugar, Github, 5</p>
-<p>[mixedData reject:^BOOL(id object) {<br>    return ([object class] == [NSString class]);<br>}];<br>// 1, 4</p>
-<p>NSArray *numbers = @[ @5, @2, @7, @1 ];<br>[numbers sort];<br>// 1, 2, 5, 7</p>
-<p>cars.sample<br>// 458 Italia<br>cars.sample<br>// F50<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- 仅仅针对**NSArray**</span><br></pre></td></tr></table></figure></p>
-<p>NSArray *numbers = @[@1, @2, @3, @4, @5, @6];</p>
-<p>// index from 2 to 4<br>numbers[@”2..4”];<br>// [@3, @4, @5]</p>
-<p>// index from 2 to 4 (excluded)<br>numbers[@”2…4”];<br>// [@3, @4]</p>
-<p>// With NSRange location: 2, length: 4<br>numbers[@”2,4”];<br>// [@3, @4, @5, @6]</p>
-<p>NSValue *range = [NSValue valueWithRange:NSMakeRange(2, 4)];<br>numbers[range];<br>// [@3, @4, @5, @6]</p>
-<p>[numbers reverse];<br>// [@6, @5, @4, @3, @2, @1]</p>
-<p>NSArray *fruits = @[ @”banana”, @”mango”, @”apple”, @”pear” ];</p>
-<p>[fruits includes:@”apple”];<br>// YES</p>
-<p>[fruits take:3];<br>// banana, mango, apple</p>
-<p>[fruits takeWhile:^BOOL(id fruit) {<br>    return ![fruit isEqualToString:@”apple”];<br>}];<br>// banana, mango</p>
-<p>NSArray *nestedArray = @[ @[ @1, @2, @3 ], @[ @4, @5, @6, @[ @7, @8 ] ], @9, @10 ];<br>[nestedArray flatten];<br>// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</p>
-<p>NSArray *abc = @[ @”a”, @”b”, @”c” ];<br>[abc join];<br>// abc</p>
-<p>[abc join:@”-“];<br>// a-b-c</p>
-<p>NSArray *mixedData = @[ @1, @”Objective Sugar!”, @”Github”, @4, @”5”];</p>
-<p>[mixedData detect:^BOOL(id object) {<br>    return ([object class] == [NSString class]);<br>}];<br>// Objective Sugar</p>
-<p>// TODO: Make a better / simpler example of this<br>NSArray <em>landlockedCountries = @[ @”Bolivia”, @”Paraguay”, @”Austria”, @”Switzerland”, @”Hungary” ];<br>NSArray </em>europeanCountries = @[ @”France”, @”Germany”, @”Austria”, @”Spain”, @”Hungary”, @”Poland”, @”Switzerland” ];</p>
-<p>[landlockedCountries intersectionWithArray:europeanCountries];<br>// landlockedEuropeanCountries = Austria, Switzerland, Hungary</p>
-<p>[landlockedCountries unionWithArray:europeanCountries];<br>// landlockedOrEuropean = Bolivia, Paraguay, Austria, Switzerland, Hungary, France, Germany, Spain, Poland</p>
-<p>[landlockedCountries relativeComplement:europeanCountries];<br>// nonEuropeanLandlockedCountries = Bolivia, Paraguay</p>
-<p>[europeanCountries relativeComplement:landlockedCountries];<br>// notLandlockedEuropeanCountries = France, Germany, Spain, Poland</p>
-<p>[landlockedCountries symmetricDifference:europeanCountries];<br>// uniqueCountries = Bolivia, Paraguay, France, Germany, Spain, Poland<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSMutableArray** 集</span><br></pre></td></tr></table></figure></p>
-<p>NSMutableArray *people = [NSMutableArray arrayWithArray:@[ @”Alice”, @”Benjamin”, @”Christopher” ]];</p>
-<p>[people push:@”Daniel”]; // Alice, Benjamin, Christopher, Daniel</p>
-<p>[people pop]; // Daniel<br>// people = Alice, Benjamin, Christopher</p>
-<p>[people pop:2]; // Benjamin, Christopher<br>// people = Alice</p>
-<p>[people concat:@[ @”Evan”, @”Frank”, @”Gavin” ]];<br>// people = Alice, Evan, Frank, Gavin</p>
-<p>[people keepIf:^BOOL(id object) {<br>    return [object characterAtIndex:0] == ‘E’;<br>}];<br>// people = Evan<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSDictionary** 集</span><br></pre></td></tr></table></figure></p>
-<p>NSDictionary *dict = @{ @”one” : @1, @”two” : @2, @”three” : @3 };</p>
-<p>[dict each:^(id key, id value){<br>    NSLog(@”Key: %@, Value: %@”, key, value);<br>}];<br>// Key: one, Value: 1<br>// Key: two, Value: 2<br>// Key: three, Value: 3</p>
-<p>[dict eachKey:^(id key) {<br>    NSLog(@”Key: %@”, key);<br>}];<br>// Key: one<br>// Key: two<br>// Key: three</p>
-<p>[dict eachValue:^(id value) {<br>    NSLog(@”Value: %@”, value);<br>}];<br>// Value: 1<br>// Value: 2<br>// Value: 3</p>
-<p>[dict invert];<br>// { 1 = one, 2 = two, 3 = three}</p>
-<p>NSDictionary *errors = @{<br>    @”username” : @[ @”already taken” ],<br>    @”password” : @[ @”is too short (minimum is 8 characters)”, @”not complex enough” ],<br>    @”email” : @[ @”can’t be blank” ];<br>};</p>
-<p>[errors map:^(id attribute, id reasons) {<br>    return NSStringWithFormat(@”%@ %@”, attribute, [reasons join:@”, “]);<br>}];<br>// username already taken<br>// password is too short (minimum is 8 characters), not complex enough<br>// email can’t be blank</p>
-<p>[errors hasKey:@”email”]<br>// true<br>[errors hasKey:@”Alcatraz”]<br>// false<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **NSString** 集</span><br></pre></td></tr></table></figure></p>
-<p>NSString *sentence = NSStringWithFormat(@”This is a text-with-argument %@”, @1234);<br>// This is a text-with-argument 1234</p>
-<p>[sentence split];<br>// array = this, is, a, text-with-argument, 1234</p>
-<p>[sentence split:@”-“]<br>// array = this is a text, with, argument 1234</p>
-<p>[sentence containsString:@”this is a”];<br>// YES</p>
-<p>[sentence match:@”-[a-z]+-“]<br>// -with-<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">-- **C** 集</span><br></pre></td></tr></table></figure></p>
-<p>unless(_messages) {<br>    // The body is only executed if the condition is false<br>    _messages = [self initializeMessages];<br>}</p>
-<p>int iterations = 10;<br>until(iterations == 0) {<br>    // The body is executed until the condition is false<br>    // 10 9 8 7 6 5 4 3 2 1<br>    printf(“%d “, iterations);<br>    iterations–;<br>}<br>printf(“\n”);</p>
-<p>iterations = 10;<br>do {<br>    // The body is executed at least once until the condition is false<br>    // Will print: Executed!<br>    printf(“Executed!\n”);<br>} until(true);<br><code>`</code></p>
-
           
+Write Objective C like a boss.
+
+Foundation 附加函数集函数集.
+支持 MAC OS 与 iOS始于 ObjectiveSugar 1.1.1
+用法
+CocoaPods安装
+1pod &apos;CCSugar&apos;
+
+导入头文件
+1#import &
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/22/CCSugar-Foundation-附加函数集/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -890,17 +797,16 @@ NSLog(@&quot;past : %@&quot;, past);
       
         
           
-            <h2 id="CCTALib"><a href="#CCTALib" class="headerlink" title="CCTALib"></a><a href="https://github.com/ccworld1000/CCTALib" target="_blank" rel="noopener">CCTALib</a></h2><p><a href="https://github.com/ccworld1000/CCTALib" target="_blank" rel="noopener">CCTALib</a> : TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data</p>
-<h2 id="Multi-Platform-Tools-for-Market-Analysis-…"><a href="#Multi-Platform-Tools-for-Market-Analysis-…" class="headerlink" title="Multi-Platform Tools for Market Analysis …"></a>Multi-Platform Tools for Market Analysis …</h2><p>TA-Lib is widely used by  trading software developers requiring to perform technical analysis of financial market data.</p>
-<ul>
-<li>Includes 200 indicators such as ADX, MACD, RSI, Stochastic, Bollinger Bands etc…</li>
-<li>Candlestick pattern recognition</li>
-<li>Open-source API for C/C++, Java, Perl, Python and 100% Managed .NET</li>
-</ul>
-<h2 id="Free-Open-Source-Library"><a href="#Free-Open-Source-Library" class="headerlink" title="Free Open-Source Library"></a>Free Open-Source Library</h2><p>TA-Lib is available under a BSD License allowing it to be integrated in your  own open-source or commercial application.</p>
-<h2 id="Commercial-Application"><a href="#Commercial-Application" class="headerlink" title="Commercial Application"></a>Commercial Application</h2><p>TA-Lib is also available as an easy to install Excel Add-Ins.</p>
-<h2 id="Technical-Analysis-Library"><a href="#Technical-Analysis-Library" class="headerlink" title="Technical Analysis Library"></a>Technical Analysis Library</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br></pre></td><td class="code"><pre><span class="line">AD                  Chaikin A/D Line</span><br><span class="line">ADOSC               Chaikin A/D Oscillator</span><br><span class="line">ADX                 Average Directional Movement Index</span><br><span class="line">ADXR                Average Directional Movement Index Rating</span><br><span class="line">APO                 Absolute Price Oscillator</span><br><span class="line">AROON               Aroon</span><br><span class="line">AROONOSC            Aroon Oscillator</span><br><span class="line">ATR                 Average True Range</span><br><span class="line">AVGPRICE            Average Price</span><br><span class="line">BBANDS              Bollinger Bands</span><br><span class="line">BETA                Beta</span><br><span class="line">BOP                 Balance Of Power</span><br><span class="line">CCI                 Commodity Channel Index</span><br><span class="line">CDL2CROWS           Two Crows</span><br><span class="line">CDL3BLACKCROWS      Three Black Crows</span><br><span class="line">CDL3INSIDE          Three Inside Up/Down</span><br><span class="line">CDL3LINESTRIKE      Three-Line Strike </span><br><span class="line">CDL3OUTSIDE         Three Outside Up/Down</span><br><span class="line">CDL3STARSINSOUTH    Three Stars In The South</span><br><span class="line">CDL3WHITESOLDIERS   Three Advancing White Soldiers</span><br><span class="line">CDLABANDONEDBABY    Abandoned Baby</span><br><span class="line">CDLADVANCEBLOCK     Advance Block</span><br><span class="line">CDLBELTHOLD         Belt-hold</span><br><span class="line">CDLBREAKAWAY        Breakaway</span><br><span class="line">CDLCLOSINGMARUBOZU  Closing Marubozu</span><br><span class="line">CDLCONCEALBABYSWALL Concealing Baby Swallow</span><br><span class="line">CDLCOUNTERATTACK    Counterattack</span><br><span class="line">CDLDARKCLOUDCOVER   Dark Cloud Cover</span><br><span class="line">CDLDOJI             Doji</span><br><span class="line">CDLDOJISTAR         Doji Star</span><br><span class="line">CDLDRAGONFLYDOJI    Dragonfly Doji</span><br><span class="line">CDLENGULFING        Engulfing Pattern</span><br><span class="line">CDLEVENINGDOJISTAR  Evening Doji Star</span><br><span class="line">CDLEVENINGSTAR      Evening Star</span><br><span class="line">CDLGAPSIDESIDEWHITE Up/Down-gap side-by-side white lines</span><br><span class="line">CDLGRAVESTONEDOJI   Gravestone Doji</span><br><span class="line">CDLHAMMER           Hammer</span><br><span class="line">CDLHANGINGMAN       Hanging Man</span><br><span class="line">CDLHARAMI           Harami Pattern</span><br><span class="line">CDLHARAMICROSS      Harami Cross Pattern</span><br><span class="line">CDLHIGHWAVE         High-Wave Candle</span><br><span class="line">CDLHIKKAKE          Hikkake Pattern</span><br><span class="line">CDLHIKKAKEMOD       Modified Hikkake Pattern</span><br><span class="line">CDLHOMINGPIGEON     Homing Pigeon</span><br><span class="line">CDLIDENTICAL3CROWS  Identical Three Crows</span><br><span class="line">CDLINNECK           In-Neck Pattern</span><br><span class="line">CDLINVERTEDHAMMER   Inverted Hammer</span><br><span class="line">CDLKICKING          Kicking</span><br><span class="line">CDLKICKINGBYLENGTH  Kicking - bull/bear determined by the longer marubozu</span><br><span class="line">CDLLADDERBOTTOM     Ladder Bottom</span><br><span class="line">CDLLONGLEGGEDDOJI   Long Legged Doji</span><br><span class="line">CDLLONGLINE         Long Line Candle</span><br><span class="line">CDLMARUBOZU         Marubozu</span><br><span class="line">CDLMATCHINGLOW      Matching Low</span><br><span class="line">CDLMATHOLD          Mat Hold</span><br><span class="line">CDLMORNINGDOJISTAR  Morning Doji Star</span><br><span class="line">CDLMORNINGSTAR      Morning Star</span><br><span class="line">CDLONNECK           On-Neck Pattern</span><br><span class="line">CDLPIERCING         Piercing Pattern</span><br><span class="line">CDLRICKSHAWMAN      Rickshaw Man</span><br><span class="line">CDLRISEFALL3METHODS Rising/Falling Three Methods</span><br><span class="line">CDLSEPARATINGLINES  Separating Lines</span><br><span class="line">CDLSHOOTINGSTAR     Shooting Star</span><br><span class="line">CDLSHORTLINE        Short Line Candle</span><br><span class="line">CDLSPINNINGTOP      Spinning Top</span><br><span class="line">CDLSTALLEDPATTERN   Stalled Pattern</span><br><span class="line">CDLSTICKSANDWICH    Stick Sandwich</span><br><span class="line">CDLTAKURI           Takuri (Dragonfly Doji with very long lower shadow)</span><br><span class="line">CDLTASUKIGAP        Tasuki Gap</span><br><span class="line">CDLTHRUSTING        Thrusting Pattern</span><br><span class="line">CDLTRISTAR          Tristar Pattern</span><br><span class="line">CDLUNIQUE3RIVER     Unique 3 River</span><br><span class="line">CDLUPSIDEGAP2CROWS  Upside Gap Two Crows</span><br><span class="line">CDLXSIDEGAP3METHODS Upside/Downside Gap Three Methods</span><br><span class="line">CMO                 Chande Momentum Oscillator</span><br><span class="line">CORREL              Pearson&apos;s Correlation Coefficient (r)</span><br><span class="line">DEMA                Double Exponential Moving Average</span><br><span class="line">DX                  Directional Movement Index</span><br><span class="line">EMA                 Exponential Moving Average</span><br><span class="line">HT_DCPERIOD         Hilbert Transform - Dominant Cycle Period</span><br><span class="line">HT_DCPHASE          Hilbert Transform - Dominant Cycle Phase</span><br><span class="line">HT_PHASOR           Hilbert Transform - Phasor Components</span><br><span class="line">HT_SINE             Hilbert Transform - SineWave</span><br><span class="line">HT_TRENDLINE        Hilbert Transform - Instantaneous Trendline</span><br><span class="line">HT_TRENDMODE        Hilbert Transform - Trend vs Cycle Mode</span><br><span class="line">KAMA                Kaufman Adaptive Moving Average</span><br><span class="line">LINEARREG           Linear Regression</span><br><span class="line">LINEARREG_ANGLE     Linear Regression Angle</span><br><span class="line">LINEARREG_INTERCEPT Linear Regression Intercept</span><br><span class="line">LINEARREG_SLOPE     Linear Regression Slope</span><br><span class="line">MA                  All Moving Average</span><br><span class="line">MACD                Moving Average Convergence/Divergence</span><br><span class="line">MACDEXT             MACD with controllable MA type</span><br><span class="line">MACDFIX             Moving Average Convergence/Divergence Fix 12/26</span><br><span class="line">MAMA                MESA Adaptive Moving Average</span><br><span class="line">MAX                 Highest value over a specified period</span><br><span class="line">MAXINDEX            Index of highest value over a specified period</span><br><span class="line">MEDPRICE            Median Price</span><br><span class="line">MFI                 Money Flow Index</span><br><span class="line">MIDPOINT            MidPoint over period</span><br><span class="line">MIDPRICE            Midpoint Price over period</span><br><span class="line">MIN                 Lowest value over a specified period</span><br><span class="line">MININDEX            Index of lowest value over a specified period</span><br><span class="line">MINMAX              Lowest and highest values over a specified period</span><br><span class="line">MINMAXINDEX         Indexes of lowest and highest values over a specified period</span><br><span class="line">MINUS_DI            Minus Directional Indicator</span><br><span class="line">MINUS_DM            Minus Directional Movement</span><br><span class="line">MOM                 Momentum</span><br><span class="line">NATR                Normalized Average True Range</span><br><span class="line">OBV                 On Balance Volume</span><br><span class="line">PLUS_DI             Plus Directional Indicator</span><br><span class="line">PLUS_DM             Plus Directional Movement</span><br><span class="line">PPO                 Percentage Price Oscillator</span><br><span class="line">ROC                 Rate of change : ((price/prevPrice)-1)*100</span><br><span class="line">ROCP                Rate of change Percentage: (price-prevPrice)/prevPrice</span><br><span class="line">ROCR                Rate of change ratio: (price/prevPrice)</span><br><span class="line">ROCR100             Rate of change ratio 100 scale: (price/prevPrice)*100</span><br><span class="line">RSI                 Relative Strength Index</span><br><span class="line">SAR                 Parabolic SAR</span><br><span class="line">SAREXT              Parabolic SAR - Extended</span><br><span class="line">SMA                 Simple Moving Average</span><br><span class="line">STDDEV              Standard Deviation</span><br><span class="line">STOCH               Stochastic</span><br><span class="line">STOCHF              Stochastic Fast</span><br><span class="line">STOCHRSI            Stochastic Relative Strength Index</span><br><span class="line">SUM                 Summation</span><br><span class="line">T3                  Triple Exponential Moving Average (T3)</span><br><span class="line">TEMA                Triple Exponential Moving Average</span><br><span class="line">TRANGE              True Range</span><br><span class="line">TRIMA               Triangular Moving Average</span><br><span class="line">TRIX                1-day Rate-Of-Change (ROC) of a Triple Smooth EMA</span><br><span class="line">TSF                 Time Series Forecast</span><br><span class="line">TYPPRICE            Typical Price</span><br><span class="line">ULTOSC              Ultimate Oscillator</span><br><span class="line">VAR                 Variance</span><br><span class="line">WCLPRICE            Weighted Close Price</span><br><span class="line">WILLR               Williams&apos; %R</span><br><span class="line">WMA                 Weighted Moving Average</span><br></pre></td></tr></table></figure>
-          
+          CCTALibCCTALib : TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data
+Multi-Platform 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/21/CCTALib-TA-Lib-广泛应用于交易开发分析金融市场数据/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1068,11 +974,17 @@ NSLog(@&quot;past : %@&quot;, past);
       
         
           
-            <p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a> 转换 MAObjCRuntime 为 ARC 模式</p>
-<p><a href="https://github.com/ccworld1000/CCRuntime" target="_blank" rel="noopener">CCRuntime</a>  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数.</p>
-<p>CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。</p>
-
-          
+          CCRuntime 转换 MAObjCRuntime 为 ARC 模式
+CCRuntime  是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数.
+CCRuntime在BSD许可证下发布的。对于官方许可证，
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1228,59 +1140,31 @@ NSLog(@&quot;past : %@&quot;, past);
       
         
           
-            <p>## </p>
-<h2 id="IGListKit-优势"><a href="#IGListKit-优势" class="headerlink" title="IGListKit 优势"></a>IGListKit 优势</h2><p> 一个数据驱动的“UICollectionView”框架，用于构建快速灵活的列表。</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>主要特性</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🙅</td>
-<td>不要直接调用 <code>performBatchUpdates(_:, completion:)</code> 或 <code>reloadData()</code></td>
-</tr>
-<tr>
-<td>🏠</td>
-<td>更好的可复用cell和组件体系结构</td>
-</tr>
-<tr>
-<td>🔠</td>
-<td>创建具有多个数据类型的集合</td>
-</tr>
-<tr>
-<td>🔑</td>
-<td>解耦扩散算法</td>
-</tr>
-<tr>
-<td>✅</td>
-<td>全单元测试</td>
-</tr>
-<tr>
-<td>🔍</td>
-<td>自定义差异行为模型的</td>
-</tr>
-<tr>
-<td>📱</td>
-<td>简化 <code>UICollectionView</code>核心</td>
-</tr>
-<tr>
-<td>🚀</td>
-<td>可扩展API</td>
-</tr>
-<tr>
-<td>🐦</td>
-<td>Objective-C编写,同时完全支持Swift</td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://github.com/ccworld1000/IGListKit/blob/master/README.zh.md" target="_blank" rel="noopener">更多详情请参考</a> </p>
-<h2 id="CCIGListKitDemo-可参加demo具体代码"><a href="#CCIGListKitDemo-可参加demo具体代码" class="headerlink" title="CCIGListKitDemo 可参加demo具体代码"></a><a href="https://github.com/ccworld1000/CCIGListKitDemo" target="_blank" rel="noopener"><strong>CCIGListKitDemo</strong></a> 可参加demo具体代码</h2><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/MixedDataViewController.png?raw=true" alt="**MixedDataViewController.png**"></p>
-<p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/SearchViewController.png?raw=true" alt="**SearchViewController.png**"></p>
+          ## 
+IGListKit 优势 一个数据驱动的“UICollectionView”框架，用于构建快速灵活的列表。
 
-          
+
+
+
+主要特性
+
+
+
+
+🙅
+不要直接调用 performBatchUpdates(_:, completion:) 或 reloadData()
+
+
+🏠
+更好的可复用cell和组
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/08/19/IGListKit-简化-优化-项目/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
