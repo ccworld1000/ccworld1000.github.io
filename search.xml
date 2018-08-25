@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Perl 6 perl6.org 网站中文翻译]]></title>
+    <url>%2F2018%2F08%2F25%2FPerl-6-perl6-org-%E7%BD%91%E7%AB%99%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%2F</url>
+    <content type="text"><![CDATA[本数据仓缘由 很多年过去,有关Perl 6相关的中文文档少之又少. 于是我打算翻译一些部分文档入口促进Perl 6 在中国的发展. 如果有一定的英文功底,建议直接看官方文档. 部分文档直接按英语翻译过来的意思可能不太好,所以有的采用意译. 2018/04/10 by CC Perl 5 &amp;&amp; Perl 6 讲到Perl 6 就不得不提Perl 5,后续我简写为P6 与 P5. 建议把P6当成一门新语言,可能对接触过P5的童鞋来讲是一样的. 不过他们确实很多相识点,更多细节需要通过学习深入了解, 祝大家在P6的路途愉快. 翻译进度 网站主体入口差不多翻译完成。 doc模块https://github.com/ccworld1000/doc还没有咋开始。 缘由：编译通不过去，一旦开始翻译就没有办法与官网同步。 如果有更好的提议，欢迎提议。 已翻译入口 P6官方中文文档入口1 或者 P6官方中文文档入口2 翻译当前进度：大致入口翻译已经完毕，可以下载到本地运行。 贡献本数据仓 如果想帮忙可以fork [https://github.com/ccworld1000/perl6.org](https://github.com/ccworld1000/perl6.org),帮助形式不限. 项目本身采用我私用工具CCAutoTag自动打tag,这个实际上也是最近用P6完成的. 截屏]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>Perl 6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+        <tag>perl</tag>
+        <tag>perl6.org</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)]]></title>
     <url>%2F2018%2F08%2F23%2FOKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X%2F</url>
     <content type="text"><![CDATA[OKKLineMin介绍OKKLineMin kline for min for learning for iPhone* (支持 Swift4 &amp; iPhone X)* (主要用于学习目的) 截屏[支持 拖曳、 长按 、缩放] iPhone X 全屏 iPhone X 半屏 iPhone 设备]]></content>
@@ -26,10 +41,10 @@
       <tags>
         <tag>iOS</tag>
         <tag>macOS</tag>
+        <tag>c</tag>
         <tag>Objective-C</tag>
         <tag>CCSugar</tag>
         <tag>Foundation</tag>
-        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -48,13 +63,13 @@
         <category>金融</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>c</tag>
+        <tag>Objective-C</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -67,12 +82,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCRuntime</tag>
-        <tag>runtime</tag>
-        <tag>MAObjCRuntime</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCRuntime</tag>
+        <tag>runtime</tag>
+        <tag>MAObjCRuntime</tag>
       </tags>
   </entry>
   <entry>

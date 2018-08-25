@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-08-23T12:46:37.000Z</updated>
+  <updated>2018-08-25T02:54:25.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Perl 6 perl6.org 网站中文翻译</title>
+    <link href="https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-%E7%BD%91%E7%AB%99%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/"/>
+    <id>https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-网站中文翻译/</id>
+    <published>2018-08-25T02:47:29.000Z</published>
+    <updated>2018-08-25T02:54:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="本数据仓缘由"><a href="#本数据仓缘由" class="headerlink" title="本数据仓缘由"></a>本数据仓缘由</h5><blockquote><pre><code>很多年过去,有关Perl 6相关的中文文档少之又少.</code></pre><p>于是我打算翻译一些部分文档入口促进Perl 6 在中国的发展.</p><p>如果有一定的英文功底,建议直接看官方文档.</p><p>部分文档直接按英语翻译过来的意思可能不太好,所以有的采用意译.</p><h5 id="2018-04-10-by-CC"><a href="#2018-04-10-by-CC" class="headerlink" title="2018/04/10 by CC"></a>2018/04/10 by CC</h5></blockquote><h5 id="Perl-5-amp-amp-Perl-6"><a href="#Perl-5-amp-amp-Perl-6" class="headerlink" title="Perl 5 &amp;&amp; Perl 6"></a>Perl 5 &amp;&amp; Perl 6</h5><blockquote><pre><code>讲到Perl 6 就不得不提Perl 5,后续我简写为P6 与 P5.</code></pre><p>建议把P6当成一门新语言,可能对接触过P5的童鞋来讲是一样的.</p><p>不过他们确实很多相识点,更多细节需要通过学习深入了解,</p><p>祝大家在P6的路途愉快.</p></blockquote><h5 id="翻译进度"><a href="#翻译进度" class="headerlink" title="翻译进度"></a>翻译进度</h5><blockquote><pre><code>网站主体入口差不多翻译完成。</code></pre><p>doc模块<a href="https://github.com/ccworld1000/doc" target="_blank" rel="noopener">https://github.com/ccworld1000/doc</a>还没有咋开始。</p><p>缘由：编译通不过去，一旦开始翻译就没有办法与官网同步。</p><p>如果有更好的提议，欢迎提议。</p></blockquote><h5 id="已翻译入口"><a href="#已翻译入口" class="headerlink" title="已翻译入口"></a>已翻译入口</h5><blockquote><p><a href="https://github.com/ccworld1000/doc/blob/master/README.zh.md" target="_blank" rel="noopener">P6官方中文文档入口1</a> 或者 <a href="https://github.com/perl6/doc/blob/master/README.zh.md" target="_blank" rel="noopener">P6官方中文文档入口2</a></p><p>翻译当前进度：大致入口翻译已经完毕，可以下载到本地运行。</p></blockquote><h5 id="贡献本数据仓"><a href="#贡献本数据仓" class="headerlink" title="贡献本数据仓"></a>贡献本数据仓</h5><blockquote><pre><code>如果想帮忙可以fork  [https://github.com/ccworld1000/perl6.org](https://github.com/ccworld1000/perl6.org),帮助形式不限.</code></pre><p>项目本身采用我私用工具CCAutoTag自动打tag,这个实际上也是最近用P6完成的.</p></blockquote><h5 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h5><p><img src="https://github.com/ccworld1000/perl6.org/blob/master/ScreenShots/p6.zh.jpg?raw=true" alt="p6.zh"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;本数据仓缘由&quot;&gt;&lt;a href=&quot;#本数据仓缘由&quot; class=&quot;headerlink&quot; title=&quot;本数据仓缘由&quot;&gt;&lt;/a&gt;本数据仓缘由&lt;/h5&gt;&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;很多年过去,有关Perl 6相关的中文文档少之又少.
+&lt;/code
+      
+    
+    </summary>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
+    
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
+    
+      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
+    
+      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
+    
+      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
+    
+  </entry>
   
   <entry>
     <title>OKKLineMin kline for min for learning for iPhone (support Swift4 &amp; iPhone X)</title>
@@ -80,13 +115,13 @@
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -127,19 +162,19 @@
       <category term="金融" scheme="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
@@ -169,17 +204,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
-    
-      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
-    
-      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
+    
+      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
+    
+      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
     
   </entry>
   
