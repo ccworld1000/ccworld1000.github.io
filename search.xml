@@ -39,6 +39,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCSugar</tag>
         <tag>Foundation</tag>
         <tag>c</tag>
@@ -49,9 +52,6 @@
         <tag>NSMutableArray</tag>
         <tag>NSDictionary</tag>
         <tag>NSString</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>ObjectiveSugar</tag>
       </tags>
   </entry>
@@ -63,10 +63,10 @@
         <category>金融</category>
       </categories>
       <tags>
-        <tag>c</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
@@ -82,12 +82,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCRuntime</tag>
         <tag>runtime</tag>
         <tag>MAObjCRuntime</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
