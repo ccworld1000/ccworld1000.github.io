@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]]]></title>
+    <url>%2F2018%2F09%2F01%2FCCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor%2F</url>
+    <content type="text"><![CDATA[CCFont for iOS &amp;&amp; OSX======================= 英文README 简单支持 MAC OSX [&gt;=10.9] 和 iOS [&gt;=8] https://github.com/ccworld1000/CCFont.git 截图 1OSX iOS CCFontCCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont. CCColorCCColor 单支持 machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串. Podfile1pod &apos;CCFont&apos; 用法1#import &lt;CCUtilities.h&gt; 或1#import &lt;CCFont/CCUtilities.h&gt; 演示代码12345678910111213141516171819202122232425262728293031323334353637383940414243444546 HSView *p = superView; __block NSUInteger index = 0; CGFloat space, height, width; space = height = 40; width = 400; dispatch_async(dispatch_get_main_queue(), ^&#123; while (index &lt; 10) &#123; NSInteger i = 10 + index++; NSString *leftText = [NSString stringWithFormat:@&quot;L : CCFont %ld&quot;, i]; NSString *rightText = [NSString stringWithFormat:@&quot;R : CCFont %ld&quot;, i]; #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR UILabel *l = [UILabel new]; UILabel *r = [UILabel new]; l.text = leftText; r.text = rightText;#else NSTextField *l = [NSTextField new]; NSTextField *r = [NSTextField new]; l.stringValue = leftText; r.stringValue = rightText;#endif l.font = [CCFont systemFontOfSize: i]; r.font = [CCFont systemFontOfSize: CCHalf(i)]; if (index % 2) &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; &#125; else &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; &#125; l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height); r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height); [p addSubview: l]; [p addSubview: r]; &#125; &#125;);]]></content>
+      <categories>
+        <category>iOS &amp;&amp; macOS</category>
+      </categories>
+      <tags>
+        <tag>CCFont</tag>
+        <tag>Foundation</tag>
+        <tag>CCColor</tag>
+        <tag>UIFont</tag>
+        <tag>NSFont</tag>
+        <tag>UIColor</tag>
+        <tag>NSColor</tag>
+        <tag>font</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[IGListKit简单入门 CCIGListKitDemo 例子]]></title>
     <url>%2F2018%2F08%2F28%2FIGListKit%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8-CCIGListKitDemo-%E4%BE%8B%E5%AD%90%2F</url>
     <content type="text"><![CDATA[简单IGListKit入门简单滴框架示意图 代码逻辑数据项 DemoItem实现 IGListDiffable12345678910111213- (nonnull id&lt;NSObject&gt;)diffIdentifier &#123; return _name;&#125;- (BOOL)isEqualToDiffableObject:(nullable id&lt;IGListDiffable&gt;)object &#123; if (self == object) &#123; return YES; &#125; DemoItem *item = (DemoItem *)object; return _controllerClass == item.controllerClass &amp;&amp; _controllerIdentifier == item.controllerIdentifier;&#125; 数据列表12345678910111213141516171819202122232425262728- (NSArray *)demos &#123; if (!_demos) &#123; _demos = @[ [[DemoItem alloc] initWithName:@"Tail Loading" controllerClass: @"LoadMoreViewController"], [[DemoItem alloc] initWithName:@"Search Autocomplete" controllerClass: @"SearchViewController"], [[DemoItem alloc] initWithName:@"Mixed Data" controllerClass: @"MixedDataViewController"], [[DemoItem alloc] initWithName:@"Nested Adapter" controllerClass: @"NestedAdapterViewController"], [[DemoItem alloc] initWithName:@"Empty View" controllerClass: @"EmptyViewController"], [[DemoItem alloc] initWithName:@"Single Section Controller" controllerClass: @"SingleSectionViewController"], [[DemoItem alloc] initWithName:@"Storyboard" controllerClass: @"SingleSectionViewController" controllerIdentifier: @"demo"], [[DemoItem alloc] initWithName:@"Single Section Storyboard" controllerClass: @"SingleSectionStoryboardViewController" controllerIdentifier: @"singleSectionDemo"], [[DemoItem alloc] initWithName:@"Working Range" controllerClass: @"WorkingRangeViewController"], [[DemoItem alloc] initWithName:@"Diff Algorithm" controllerClass: @"DiffTableViewController"], [[DemoItem alloc] initWithName:@"Supplementary Views" controllerClass: @"SupplementaryViewController"], [[DemoItem alloc] initWithName:@"Self-sizing cells" controllerClass: @"SelfSizingCellsViewController"], [[DemoItem alloc] initWithName:@"Display delegate" controllerClass: @"DisplayViewController"], [[DemoItem alloc] initWithName:@"Stacked Section Controllers" controllerClass: @"StackedViewController"], [[DemoItem alloc] initWithName:@"Objc Demo" controllerClass: @"ObjcDemoViewController"], [[DemoItem alloc] initWithName:@"Objc Generated Model Demo" controllerClass: @"ObjcGeneratedModelDemoViewController"], [[DemoItem alloc] initWithName:@"Calendar (auto diffing)" controllerClass: @"CalendarViewController"], [[DemoItem alloc] initWithName:@"Dependency Injection" controllerClass: @"AnnouncingDepsViewController"], [[DemoItem alloc] initWithName:@"Reorder Cells" controllerClass: @"ReorderableViewController"], [[DemoItem alloc] initWithName:@"Reorder Stacked Section Controllers" controllerClass: @"ReorderableStackedViewController"], ]; &#125; return _demos;&#125; 绑定数据列表123- (NSArray&lt;id &lt;IGListDiffable&gt;&gt; *)objectsForListAdapter:(IGListAdapter *)listAdapter &#123; return self.demos;&#125; 绑定IGListSectionController1234567- (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object &#123; return [DemoSectionController new];&#125;- (nullable UIView *)emptyViewForListAdapter:(IGListAdapter *)listAdapter &#123; return nil;&#125; adapter 与 collectionView 关联12self.adapter.collectionView = self.collectionView;self.adapter.dataSource = self; DemoSectionController 关联 cell1234567891011121314151617181920212223242526272829303132333435- (CGSize)sizeForItemAtIndex:(NSInteger)index &#123; return CGSizeMake(self.collectionContext.containerSize.width, 55);&#125;- (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index &#123; LabelCell *cell = [self.collectionContext dequeueReusableCellOfClass:[LabelCell class] forSectionController:self atIndex:index]; cell.text = self.item.name; return cell;&#125;- (void)didUpdateToObject:(id)object &#123; self.item = object;&#125;- (void)didSelectItemAtIndex:(NSInteger)index &#123; NSString *classString = self.item.controllerClass; NSString *controllerIdentifier = self.item.controllerIdentifier; CCDebugPrint(classString); UIViewController *vc = nil; if (controllerIdentifier) &#123; UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Demo" bundle: nil]; vc = [storyboard instantiateViewControllerWithIdentifier:controllerIdentifier]; &#125; else &#123; vc = [NSClassFromString(classString) new]; &#125; if (vc) &#123; vc.title = self.item.name; [self.viewController.navigationController pushViewController:vc animated: NO]; &#125; else &#123; CCDebugWarningPrint([NSString stringWithFormat:@"%@ : [The interface may not be implemented] ", classString]); &#125;&#125; 更多细节查查看CCIGListKitDemo]]></content>
@@ -12,11 +34,11 @@
         <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
+        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
-        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -58,12 +80,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCSugar</tag>
-        <tag>Foundation</tag>
+        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -85,10 +107,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -101,12 +123,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCRuntime</tag>
-        <tag>runtime</tag>
-        <tag>MAObjCRuntime</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCRuntime</tag>
+        <tag>runtime</tag>
+        <tag>MAObjCRuntime</tag>
       </tags>
   </entry>
   <entry>

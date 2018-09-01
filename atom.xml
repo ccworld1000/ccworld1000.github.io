@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-08-28T15:40:18.000Z</updated>
+  <updated>2018-09-01T05:04:51.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
+    <link href="https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/"/>
+    <id>https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/</id>
+    <published>2018-09-01T04:59:17.000Z</published>
+    <updated>2018-09-01T05:04:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCFont-for-iOS-amp-amp-OSX"><a href="#CCFont-for-iOS-amp-amp-OSX" class="headerlink" title="CCFont for iOS &amp;&amp; OSX"></a>CCFont for iOS &amp;&amp; OSX</h1><p>=======================</p><p><a href="https://github.com/ccworld1000/CCFont/blob/master/README.md" target="_blank" rel="noopener">英文README</a></p><p>简单支持 MAC OSX [&gt;=10.9] 和 iOS [&gt;=8]</p><p><a href="https://github.com/ccworld1000/CCFont.git" target="_blank" rel="noopener">https://github.com/ccworld1000/CCFont.git</a></p><h2 id="截图-1"><a href="#截图-1" class="headerlink" title="截图 1"></a>截图 1</h2><h3 id="OSX"><a href="#OSX" class="headerlink" title="OSX"></a>OSX</h3><p><a href="https://github.com/ccworld1000/CCFont/blob/master/CCFontMac.gif?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCFont/raw/master/CCFontMac.gif?raw=true" alt="CCFont CCFontMac Screenshot"></a></p><h3 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h3><p><a href="https://github.com/ccworld1000/CCFont/blob/master/CCFontiOS.gif?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCFont/raw/master/CCFontiOS.gif?raw=true" alt="CCFont CCFontiOS Screenshot"></a></p><h2 id="CCFont"><a href="#CCFont" class="headerlink" title="CCFont"></a>CCFont</h2><p>CCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont.</p><h2 id="CCColor"><a href="#CCColor" class="headerlink" title="CCColor"></a>CCColor</h2><p>CCColor 单支持 machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串.</p><h2 id="Podfile"><a href="#Podfile" class="headerlink" title="Podfile"></a>Podfile</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod &apos;CCFont&apos;</span><br></pre></td></tr></table></figure><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &lt;CCUtilities.h&gt;</span><br></pre></td></tr></table></figure><h1 id="或"><a href="#或" class="headerlink" title="或"></a>或</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &lt;CCFont/CCUtilities.h&gt;</span><br></pre></td></tr></table></figure><h1 id="演示代码"><a href="#演示代码" class="headerlink" title="演示代码"></a>演示代码</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">    HSView *p = superView;</span><br><span class="line">    __block NSUInteger index = 0;</span><br><span class="line">    </span><br><span class="line">    CGFloat space, height, width;</span><br><span class="line">    space = height = 40;</span><br><span class="line">    width = 400;</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">    dispatch_async(dispatch_get_main_queue(), ^&#123;</span><br><span class="line">        while (index &lt; 10) &#123;</span><br><span class="line">            NSInteger i = 10 + index++;</span><br><span class="line">            </span><br><span class="line">            NSString *leftText = [NSString stringWithFormat:@&quot;L : CCFont %ld&quot;,  i];</span><br><span class="line">            NSString *rightText = [NSString stringWithFormat:@&quot;R : CCFont %ld&quot;,  i];</span><br><span class="line">            </span><br><span class="line">#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR</span><br><span class="line">            UILabel *l = [UILabel new];</span><br><span class="line">            UILabel *r = [UILabel new];</span><br><span class="line">            l.text = leftText;</span><br><span class="line">            r.text = rightText;</span><br><span class="line">#else</span><br><span class="line">            NSTextField *l = [NSTextField new];</span><br><span class="line">            NSTextField *r = [NSTextField new];</span><br><span class="line">            </span><br><span class="line">            l.stringValue = leftText;</span><br><span class="line">            r.stringValue = rightText;</span><br><span class="line">#endif</span><br><span class="line">            </span><br><span class="line">            l.font = [CCFont systemFontOfSize: i];</span><br><span class="line">            r.font = [CCFont systemFontOfSize: CCHalf(i)];</span><br><span class="line">            </span><br><span class="line">            if (index % 2) &#123;</span><br><span class="line">                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]];</span><br><span class="line">                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]];</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]];</span><br><span class="line">                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]];</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">            l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height);</span><br><span class="line">            r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height);</span><br><span class="line">            </span><br><span class="line">            [p addSubview: l];</span><br><span class="line">            [p addSubview: r];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCFont-for-iOS-amp-amp-OSX&quot;&gt;&lt;a href=&quot;#CCFont-for-iOS-amp-amp-OSX&quot; class=&quot;headerlink&quot; title=&quot;CCFont for iOS &amp;amp;&amp;amp; OSX&quot;&gt;&lt;/a&gt;CCFon
+      
+    
+    </summary>
+    
+      <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
+    
+    
+      <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
+    
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
+      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
+    
+      <category term="UIFont" scheme="https://ccworld1000.github.io/tags/UIFont/"/>
+    
+      <category term="NSFont" scheme="https://ccworld1000.github.io/tags/NSFont/"/>
+    
+      <category term="UIColor" scheme="https://ccworld1000.github.io/tags/UIColor/"/>
+    
+      <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
+    
+      <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
+  </entry>
   
   <entry>
     <title>IGListKit简单入门 CCIGListKitDemo 例子</title>
@@ -45,6 +92,8 @@
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
+    
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
       <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
@@ -52,8 +101,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -152,17 +199,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -209,13 +256,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
@@ -245,17 +292,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
-    
-      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
-    
-      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
+    
+      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
+    
+      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
     
   </entry>
   
