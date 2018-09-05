@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ccworld1000.github.io/about/index.html</loc>
+    
+    <lastmod>2018-09-05T15:26:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/</loc>
     
     <lastmod>2018-09-01T05:04:51.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://ccworld1000.github.io/2018/08/28/IGListKit%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8-CCIGListKitDemo-%E4%BE%8B%E5%AD%90/</loc>
     
     <lastmod>2018-08-28T15:40:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ccworld1000.github.io/about/index.html</loc>
-    
-    <lastmod>2018-08-25T03:43:56.000Z</lastmod>
     
   </url>
   

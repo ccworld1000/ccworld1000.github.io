@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/</loc>
     <lastmod>2018-09-01T05:04:51.000Z</lastmod>
@@ -11,9 +12,15 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
-        <tag>CCFont</tag>
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>Foundation</tag>
+         
+        <tag>CCFont</tag>
          
         <tag>CCColor</tag>
          
@@ -26,12 +33,6 @@
         <tag>NSColor</tag>
          
         <tag>font</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
          
         <tag>color</tag>
          
@@ -80,7 +81,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-%E7%BD%91%E7%AB%99%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/</loc>
@@ -149,8 +149,6 @@
         <title>CCSugar Foundation 附加函数集</title>
         <pubTime>2018-08-22T14:33:17.000Z</pubTime>
         
-        <tag>Foundation</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
@@ -158,6 +156,8 @@
         <tag>Objective-C</tag>
          
         <tag>CCSugar</tag>
+         
+        <tag>Foundation</tag>
          
         <tag>c</tag>
          
@@ -231,17 +231,17 @@
         <title>CCRuntime Objective-C 封装 runtime APIs</title>
         <pubTime>2018-08-19T14:14:44.000Z</pubTime>
         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
-         
         <tag>CCRuntime</tag>
          
         <tag>runtime</tag>
          
         <tag>MAObjCRuntime</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
          
            

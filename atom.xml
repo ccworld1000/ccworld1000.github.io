@@ -37,9 +37,15 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
+      <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
@@ -52,12 +58,6 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
@@ -199,8 +199,6 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
@@ -208,6 +206,8 @@
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
@@ -292,17 +292,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
     
       <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
     
       <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
