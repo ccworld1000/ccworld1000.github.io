@@ -1,3 +1,4 @@
+https://ccworld1000.github.io/2018/09/08/CCDebug-一种灵活的、轻量级的、可扩展的、可定制的日志调试-支持iOS与macOS/
 https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/
 https://ccworld1000.github.io/2018/08/28/IGListKit简单入门-CCIGListKitDemo-例子/
 https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-网站中文翻译/

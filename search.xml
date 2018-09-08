@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]]]></title>
-    <url>%2F2018%2F09%2F01%2FCCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor%2F</url>
-    <content type="text"><![CDATA[CCFont for iOS &amp;&amp; OSX======================= 英文README 简单支持 MAC OSX [&gt;=10.9] 和 iOS [&gt;=8] https://github.com/ccworld1000/CCFont.git 截图 1OSX iOS CCFontCCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont. CCColorCCColor 单支持 machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串. Podfile1pod &apos;CCFont&apos; 用法1#import &lt;CCUtilities.h&gt; 或1#import &lt;CCFont/CCUtilities.h&gt; 演示代码12345678910111213141516171819202122232425262728293031323334353637383940414243444546 HSView *p = superView; __block NSUInteger index = 0; CGFloat space, height, width; space = height = 40; width = 400; dispatch_async(dispatch_get_main_queue(), ^&#123; while (index &lt; 10) &#123; NSInteger i = 10 + index++; NSString *leftText = [NSString stringWithFormat:@&quot;L : CCFont %ld&quot;, i]; NSString *rightText = [NSString stringWithFormat:@&quot;R : CCFont %ld&quot;, i]; #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR UILabel *l = [UILabel new]; UILabel *r = [UILabel new]; l.text = leftText; r.text = rightText;#else NSTextField *l = [NSTextField new]; NSTextField *r = [NSTextField new]; l.stringValue = leftText; r.stringValue = rightText;#endif l.font = [CCFont systemFontOfSize: i]; r.font = [CCFont systemFontOfSize: CCHalf(i)]; if (index % 2) &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; &#125; else &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; &#125; l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height); r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height); [p addSubview: l]; [p addSubview: r]; &#125; &#125;);]]></content>
+    <title><![CDATA[CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS]]></title>
+    <url>%2F2018%2F09%2F08%2FCCDebug-%E4%B8%80%E7%A7%8D%E7%81%B5%E6%B4%BB%E7%9A%84%E3%80%81%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E3%80%81%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E6%97%A5%E5%BF%97%E8%B0%83%E8%AF%95-%E6%94%AF%E6%8C%81iOS%E4%B8%8EmacOS%2F</url>
+    <content type="text"><![CDATA[CCDebug [ iOS &amp;&amp; OSX ]CCDebug : 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持 iOS &amp;&amp; OSX ======================= https://github.com/ccworld1000/CCDebug.git 首选安装 XcodeColorshttps://github.com/robbiehanson/XcodeColors 支持 Xcode 4, 5, 6, 7, 8 , 9 &amp; 10bug 或建议G Email ： ccworld1000@gmail.com Podfile1pod &apos;CCDebug&apos; Demo1234567891011121314151617181920+ (void) logTest &#123; [CCDebug debugLogSwitch: YES]; [CCDebug enableNSLogPrefix: NO]; /** * colorRGBEnable | [XcodeColors installation] https://github.com/robbiehanson/XcodeColors * screenshot https://github.com/ccworld1000/CCDebug * @param showColor showColor description */ [CCDebug colorRGBEnable: YES]; [CCDebug warningCustomColors:60 green:120 blue:60]; CCDebugWarningPrint(@&quot;cc warning&quot;); CCDebugErrorPrint(@&quot;cc error&quot;); CCDebugPrint(@&quot;cc log&quot;); CCDebugTimerPrint(@&quot;NStimer test&quot;);&#125; 截屏OSX iOS OSX Xcode_8.3.2 iOS Xcode_8.3.2 CCDebugCCDebug 简单支持 machosx 与 iOS.]]></content>
       <categories>
         <category>iOS &amp;&amp; macOS</category>
       </categories>
@@ -11,14 +11,34 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>Foundation</tag>
+        <tag>color</tag>
+        <tag>CCDebug</tag>
+        <tag>debug</tag>
+        <tag>logging</tag>
+        <tag>NSLog</tag>
+        <tag>XcodeColors</tag>
+        <tag>Xcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]]]></title>
+    <url>%2F2018%2F09%2F01%2FCCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor%2F</url>
+    <content type="text"><![CDATA[CCFont for iOS &amp;&amp; OSX======================= 英文README 简单支持 MAC OSX [&gt;=10.9] 和 iOS [&gt;=8] https://github.com/ccworld1000/CCFont.git 截图 1OSX iOS CCFontCCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont. CCColorCCColor 单支持 machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串. Podfile1pod &apos;CCFont&apos; 用法1#import &lt;CCUtilities.h&gt; 或1#import &lt;CCFont/CCUtilities.h&gt; 演示代码12345678910111213141516171819202122232425262728293031323334353637383940414243444546 HSView *p = superView; __block NSUInteger index = 0; CGFloat space, height, width; space = height = 40; width = 400; dispatch_async(dispatch_get_main_queue(), ^&#123; while (index &lt; 10) &#123; NSInteger i = 10 + index++; NSString *leftText = [NSString stringWithFormat:@&quot;L : CCFont %ld&quot;, i]; NSString *rightText = [NSString stringWithFormat:@&quot;R : CCFont %ld&quot;, i]; #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR UILabel *l = [UILabel new]; UILabel *r = [UILabel new]; l.text = leftText; r.text = rightText;#else NSTextField *l = [NSTextField new]; NSTextField *r = [NSTextField new]; l.stringValue = leftText; r.stringValue = rightText;#endif l.font = [CCFont systemFontOfSize: i]; r.font = [CCFont systemFontOfSize: CCHalf(i)]; if (index % 2) &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%f%lx%lx&quot;, 255 / (index * 1.), index * 4, index * 8]]; &#125; else &#123; l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@&quot;%lx%x%lx&quot;, index * 4, 255, index * 8]]; &#125; l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height); r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height); [p addSubview: l]; [p addSubview: r]; &#125; &#125;);]]></content>
+      <categories>
+        <category>iOS &amp;&amp; macOS</category>
+      </categories>
+      <tags>
         <tag>CCFont</tag>
+        <tag>Foundation</tag>
         <tag>CCColor</tag>
         <tag>UIFont</tag>
         <tag>NSFont</tag>
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>color</tag>
       </tags>
   </entry>
@@ -80,11 +100,11 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>CCSugar</tag>
-        <tag>Foundation</tag>
         <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
@@ -123,12 +143,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCRuntime</tag>
-        <tag>runtime</tag>
-        <tag>MAObjCRuntime</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCRuntime</tag>
+        <tag>runtime</tag>
+        <tag>MAObjCRuntime</tag>
       </tags>
   </entry>
   <entry>

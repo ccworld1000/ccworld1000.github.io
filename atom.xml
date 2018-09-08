@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-09-01T05:04:51.000Z</updated>
+  <updated>2018-09-08T10:56:33.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
+    <link href="https://ccworld1000.github.io/2018/09/08/CCDebug-%E4%B8%80%E7%A7%8D%E7%81%B5%E6%B4%BB%E7%9A%84%E3%80%81%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E3%80%81%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E6%97%A5%E5%BF%97%E8%B0%83%E8%AF%95-%E6%94%AF%E6%8C%81iOS%E4%B8%8EmacOS/"/>
+    <id>https://ccworld1000.github.io/2018/09/08/CCDebug-一种灵活的、轻量级的、可扩展的、可定制的日志调试-支持iOS与macOS/</id>
+    <published>2018-09-08T10:19:24.000Z</published>
+    <updated>2018-09-08T10:56:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCDebug-iOS-amp-amp-OSX"><a href="#CCDebug-iOS-amp-amp-OSX" class="headerlink" title="CCDebug [ iOS &amp;&amp; OSX ]"></a>CCDebug [ iOS &amp;&amp; OSX ]</h1><p>CCDebug : 一种灵活的、轻量级的、可扩展的、可定制的日志调试  支持  iOS &amp;&amp; OSX</p><p>=======================</p><p><a href="https://github.com/ccworld1000/CCDebug.git" target="_blank" rel="noopener">https://github.com/ccworld1000/CCDebug.git</a></p><h2 id="首选安装-XcodeColors"><a href="#首选安装-XcodeColors" class="headerlink" title="首选安装 XcodeColors"></a>首选安装 XcodeColors</h2><p><a href="https://github.com/robbiehanson/XcodeColors" target="_blank" rel="noopener">https://github.com/robbiehanson/XcodeColors</a></p><h4 id="支持-Xcode-4-5-6-7-8-9-amp-10"><a href="#支持-Xcode-4-5-6-7-8-9-amp-10" class="headerlink" title="支持 Xcode 4, 5, 6, 7, 8 , 9 &amp; 10"></a>支持 Xcode 4, 5, 6, 7, 8 , 9 &amp; 10</h4><h2 id="bug-或建议"><a href="#bug-或建议" class="headerlink" title="bug 或建议"></a>bug 或建议</h2><p>G Email ： <a href="mailto:ccworld1000@gmail.com" target="_blank" rel="noopener">ccworld1000@gmail.com</a></p><h2 id="Podfile"><a href="#Podfile" class="headerlink" title="Podfile"></a>Podfile</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod &apos;CCDebug&apos;</span><br></pre></td></tr></table></figure><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">+ (void) logTest &#123;</span><br><span class="line">    [CCDebug debugLogSwitch: YES];</span><br><span class="line">    </span><br><span class="line">    [CCDebug enableNSLogPrefix: NO];</span><br><span class="line">    </span><br><span class="line">    /**</span><br><span class="line">     *  colorRGBEnable | [XcodeColors installation] https://github.com/robbiehanson/XcodeColors</span><br><span class="line">     *  screenshot https://github.com/ccworld1000/CCDebug</span><br><span class="line">     *  @param showColor showColor description</span><br><span class="line">     */</span><br><span class="line">    [CCDebug colorRGBEnable: YES];</span><br><span class="line">    </span><br><span class="line">    [CCDebug warningCustomColors:60 green:120 blue:60];</span><br><span class="line">    </span><br><span class="line">    CCDebugWarningPrint(@&quot;cc warning&quot;);</span><br><span class="line">    CCDebugErrorPrint(@&quot;cc error&quot;);</span><br><span class="line">    CCDebugPrint(@&quot;cc log&quot;);</span><br><span class="line">    </span><br><span class="line">    CCDebugTimerPrint(@&quot;NStimer test&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h2><h3 id="OSX"><a href="#OSX" class="headerlink" title="OSX"></a>OSX</h3><p><a href="https://github.com/ccworld1000/CCDebug/blob/master/Documentation/OSXRunning.png?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCDebug/raw/master/Documentation/OSXRunning.png?raw=true" alt="CCDebug Mac Screenshot"></a></p><h3 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h3><p><a href="https://github.com/ccworld1000/CCDebug/blob/master/Documentation/iOSRunning.png?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCDebug/raw/master/Documentation/iOSRunning.png?raw=true" alt="CCDebug iOS Screenshot"></a></p><h3 id="OSX-Xcode-8-3-2"><a href="#OSX-Xcode-8-3-2" class="headerlink" title="OSX Xcode_8.3.2"></a>OSX Xcode_8.3.2</h3><p><a href="https://github.com/ccworld1000/CCDebug/blob/master/Documentation/OSXRunning_Xcode_8.3.2.png?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCDebug/raw/master/Documentation/OSXRunning_Xcode_8.3.2.png?raw=true" alt="CCDebug Mac Xcode_8.3.2 Screenshot"></a></p><h3 id="iOS-Xcode-8-3-2"><a href="#iOS-Xcode-8-3-2" class="headerlink" title="iOS Xcode_8.3.2"></a>iOS Xcode_8.3.2</h3><p><a href="https://github.com/ccworld1000/CCDebug/blob/master/Documentation/iOSRunning_Xcode_8.3.2.png?raw=true" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCDebug/raw/master/Documentation/iOSRunning_Xcode_8.3.2.png?raw=true" alt="CCDebug iOS Xcode_8.3.2 Screenshot"></a></p><h2 id="CCDebug"><a href="#CCDebug" class="headerlink" title="CCDebug"></a>CCDebug</h2><p>CCDebug 简单支持 machosx 与 iOS.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCDebug-iOS-amp-amp-OSX&quot;&gt;&lt;a href=&quot;#CCDebug-iOS-amp-amp-OSX&quot; class=&quot;headerlink&quot; title=&quot;CCDebug [ iOS &amp;amp;&amp;amp; OSX ]&quot;&gt;&lt;/a&gt;CCDebug [ 
+      
+    
+    </summary>
+    
+      <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
+      <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
+    
+      <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
+    
+      <category term="logging" scheme="https://ccworld1000.github.io/tags/logging/"/>
+    
+      <category term="NSLog" scheme="https://ccworld1000.github.io/tags/NSLog/"/>
+    
+      <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+  </entry>
   
   <entry>
     <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
@@ -37,15 +80,9 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+      <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
-      <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
@@ -58,6 +95,12 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
@@ -199,6 +242,8 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
@@ -206,8 +251,6 @@
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
-    
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
@@ -292,17 +335,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
-    
-      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
-    
-      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
+    
+      <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
+    
+      <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
     
   </entry>
   
