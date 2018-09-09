@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS]]></title>
-    <url>%2F2018%2F09%2F08%2FCCDebug-%E4%B8%80%E7%A7%8D%E7%81%B5%E6%B4%BB%E7%9A%84%E3%80%81%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E3%80%81%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E6%97%A5%E5%BF%97%E8%B0%83%E8%AF%95-%E6%94%AF%E6%8C%81iOS%E4%B8%8EmacOS%2F</url>
-    <content type="text"><![CDATA[CCDebug [ iOS &amp;&amp; OSX ]CCDebug : 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持 iOS &amp;&amp; OSX ======================= https://github.com/ccworld1000/CCDebug.git 首选安装 XcodeColorshttps://github.com/robbiehanson/XcodeColors 支持 Xcode 4, 5, 6, 7, 8 , 9 &amp; 10bug 或建议G Email ： ccworld1000@gmail.com Podfile1pod &apos;CCDebug&apos; Demo1234567891011121314151617181920+ (void) logTest &#123; [CCDebug debugLogSwitch: YES]; [CCDebug enableNSLogPrefix: NO]; /** * colorRGBEnable | [XcodeColors installation] https://github.com/robbiehanson/XcodeColors * screenshot https://github.com/ccworld1000/CCDebug * @param showColor showColor description */ [CCDebug colorRGBEnable: YES]; [CCDebug warningCustomColors:60 green:120 blue:60]; CCDebugWarningPrint(@&quot;cc warning&quot;); CCDebugErrorPrint(@&quot;cc error&quot;); CCDebugPrint(@&quot;cc log&quot;); CCDebugTimerPrint(@&quot;NStimer test&quot;);&#125; 截屏OSX iOS OSX Xcode_8.3.2 iOS Xcode_8.3.2 CCDebugCCDebug 简单支持 machosx 与 iOS.]]></content>
+    <title><![CDATA[CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB]]></title>
+    <url>%2F2018%2F09%2F09%2FCCSQLite-Objective-C-%E5%B0%81%E8%A3%85%E7%9A%84SQLite-%E7%BB%93%E5%90%88YapDatabase-key-value-store-FMDB%2F</url>
+    <content type="text"><![CDATA[CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB. 目的 转变 FMDB 到 ARC 模式 YapDatabase 键/值 store CCSQLite 结合 FMDB 和 YapDatabase 键/值 目的 转变 FMDB 到 ARC 模式 YapDatabase 键/值 store CCSQLite 结合 FMDB 和 YapDatabase 键/值 支持 OBJECT, JSON 到 键/值 缘由 &amp;&amp; 为啥 当我在写”HSCache [缓存处理方面]”, 想选择FMDB或者YapDatabase, 但是他们看起来不一样. 因此想结合YapDatabase(键/值 store) 与 FMDB, 于是 CCSQLite 在路上. 大于版本 1.1.1调整变化 Podfile1pod &apos;CCSQLite&apos; 演示for Objective-Csee CCSQLiteDemoiOS CCSQLiteiOSDemoOSX CCSQLiteOSXDemofor Swift call Objective-CiOS CCSQLiteDataiOSOSX CCSQLiteDatamacOS演示代码1#import &lt;CCSQLite.h&gt; or 1#import &quot;CCSQLite.h&quot; or 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101#import "CCSQLite/CCSQLite.h"+ (void) SQLiteTest &#123; NSLog(@"SQLiteTest"); NSString *path = nil;#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) lastObject];#else path = NSTemporaryDirectory() ;#endif path = [path stringByAppendingPathComponent:CCSQLiteTestDB]; if ([[NSFileManager defaultManager] fileExistsAtPath:path]) &#123; [[NSFileManager defaultManager] removeItemAtPath:path error: nil]; &#125; CCSQLite *SQLite = [CCSQLite databaseWithPath: path]; if ([SQLite open]) &#123; BOOL result = [SQLite executeUpdate: @"create table if not exists t_student (id integer primary key autoincrement, name text not NULL, age integer not NULL);"]; if (result) &#123; NSLog(@"create table t_student ok"); NSLog(@"path : %@", path); &#125; &#125; [SQLite executeUpdate:@"insert into t_student (name, age) values (?, ?);", @"cc test 0", @0]; [SQLite executeUpdate:@"insert into t_student (name, age) values (?, ?);", @"cc test 1", @1]; [SQLite executeUpdateWithFormat:@"insert into t_student (name, age) values (%@, %i);", @"cc test 2", 2000]; // [SQLite executeUpdate:@"delete from t_student where id = ?", @1]; CCResultSet *resultSet = [SQLite executeQuery:@"select * from t_student;"]; while ([resultSet next]) &#123; int idNum = [resultSet intForColumn:@"id"]; NSString *name = [resultSet objectForColumnName:@"name"]; int age = [resultSet intForColumn:@"age"]; NSLog(@"id = %d name = %@ age = %d", idNum, name, age); &#125; // [SQLite executeUpdate:@"drop table if exists t_student;"]; NSString *sql = @"create table bulktest1 (id integer primary key autoincrement, x text);" "create table bulktest2 (id integer primary key autoincrement, y text);" "create table bulktest3 (id integer primary key autoincrement, z text);" "insert into bulktest1 (x) values ('XXX');" "insert into bulktest2 (y) values ('YYY');" "insert into bulktest3 (z) values ('ZZZ');"; BOOL success = [SQLite executeStatements:sql]; if (success) &#123; NSLog(@"success"); &#125; sql = @"select count(*) as count from bulktest1;" "select count(*) as count from bulktest2;" "select count(*) as count from bulktest3;"; [SQLite executeStatements:sql withResultBlock:^int(NSDictionary *resultsDictionary) &#123; NSInteger count = [resultsDictionary[@"count"] integerValue]; NSLog(@"count = %ld", count); return 0; &#125;]; [SQLite close]; CCSQLiteQueue *queue = [CCSQLiteQueue databaseQueueWithPath:path]; __block NSInteger index = 3000; [queue inDatabase:^(CCSQLite *db) &#123; while (index &lt; 3100) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inDatabase %ld", index], @(index)]; &#125; &#125;]; [queue inTransaction:^(CCSQLite *db, BOOL *rollback) &#123; NSLog(@"rollback NO"); while (index &lt; 3150) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inTransaction %ld", index], @(index)]; &#125; &#125;]; [queue inTransaction:^(CCSQLite *db, BOOL *rollback) &#123; NSLog(@"rollback YES"); while (index &lt; 3200) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inTransaction %ld", index], @(index)]; if (index == 3188) &#123; *rollback = YES; return ; &#125; &#125; &#125;];&#125; CCKeyValue 演示代码12345678910111213141516CCKeyValue *kv = [CCKeyValue defaultKeyValueWithPath:path];kv.valueType = CCKeyValueTypeJson;NSData * data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"CCJSON" ofType:@"json"]];[kv setObject:data key:@"jsonkey"];id CCJSON = [kv objectForKey:@"jsonkey"];if ([CCJSON isKindOfClass:[NSArray class]]) &#123; NSArray *list = CCJSON; [list enumerateObjectsUsingBlock:^(NSDictionary *d, NSUInteger idx, BOOL * _Nonnull stop) &#123; NSLog(@"%@\n", d); &#125;];&#125; 结果 Swift 调用 Objective-C123456789override func viewDidLoad() &#123; super.viewDidLoad() // Do any additional setup after loading the view, typically from a nib. CCSQLiteData.writeList() if let list = CCSQLiteData.readList() &#123; print(list) &#125;&#125; ###]]></content>
       <categories>
         <category>iOS &amp;&amp; macOS</category>
       </categories>
@@ -11,13 +11,36 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>color</tag>
+        <tag>CCSQLite</tag>
+        <tag>FMDB</tag>
+        <tag>YapDatabase</tag>
+        <tag>database</tag>
+        <tag>JSON</tag>
+        <tag>key</tag>
+        <tag>value</tag>
+        <tag>cache</tag>
+        <tag>sqlite</tag>
+        <tag>swift</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS]]></title>
+    <url>%2F2018%2F09%2F08%2FCCDebug-%E4%B8%80%E7%A7%8D%E7%81%B5%E6%B4%BB%E7%9A%84%E3%80%81%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E3%80%81%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E6%97%A5%E5%BF%97%E8%B0%83%E8%AF%95-%E6%94%AF%E6%8C%81iOS%E4%B8%8EmacOS%2F</url>
+    <content type="text"><![CDATA[CCDebug [ iOS &amp;&amp; OSX ]CCDebug : 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持 iOS &amp;&amp; OSX ======================= https://github.com/ccworld1000/CCDebug.git 首选安装 XcodeColorshttps://github.com/robbiehanson/XcodeColors 支持 Xcode 4, 5, 6, 7, 8 , 9 &amp; 10bug 或建议G Email ： ccworld1000@gmail.com Podfile1pod &apos;CCDebug&apos; Demo1234567891011121314151617181920+ (void) logTest &#123; [CCDebug debugLogSwitch: YES]; [CCDebug enableNSLogPrefix: NO]; /** * colorRGBEnable | [XcodeColors installation] https://github.com/robbiehanson/XcodeColors * screenshot https://github.com/ccworld1000/CCDebug * @param showColor showColor description */ [CCDebug colorRGBEnable: YES]; [CCDebug warningCustomColors:60 green:120 blue:60]; CCDebugWarningPrint(@&quot;cc warning&quot;); CCDebugErrorPrint(@&quot;cc error&quot;); CCDebugPrint(@&quot;cc log&quot;); CCDebugTimerPrint(@&quot;NStimer test&quot;);&#125; 截屏OSX iOS OSX Xcode_8.3.2 iOS Xcode_8.3.2 CCDebugCCDebug 简单支持 machosx 与 iOS.]]></content>
+      <categories>
+        <category>iOS &amp;&amp; macOS</category>
+      </categories>
+      <tags>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -28,6 +51,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>CCColor</tag>
@@ -36,10 +63,6 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -54,11 +77,11 @@
         <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
-        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
+        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -100,10 +123,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>Foundation</tag>
         <tag>CCSugar</tag>
         <tag>c</tag>
         <tag>C</tag>
@@ -138,7 +161,7 @@
   <entry>
     <title><![CDATA[CCRuntime Objective-C 封装 runtime APIs]]></title>
     <url>%2F2018%2F08%2F19%2FCCRuntime-Objective-C-%E5%B0%81%E8%A3%85-runtime-APIs%2F</url>
-    <content type="text"><![CDATA[CCRuntime 转换 MAObjCRuntime 为 ARC 模式 CCRuntime 是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数. CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。]]></content>
+    <content type="text"><![CDATA[CCRuntimeCCRuntime 转换 MAObjCRuntime 为 ARC 模式 CCRuntime 是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数. CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。 快速开始The action begins in CCRuntime.h. Various methods are added to NSObject to allow querying and manipulation. Most of these are class methods, because they operate on classes. There are a couple of instance methods as well. All of these methods start with cc_ to avoid name conflicts. The CCMethod and CCIvar classes are used to represent a single method and a single instance variable, respectively. Their use should be fairly obvious. 查询You can query any class’s methods, instance variables, or other attributes using the methods provided. For example: 12345678910111213// get all subclasses of a classNSArray *subclasses = [MyClass cc_subclasses];// check out the methods on NSStringNSArray *methods = [NSString cc_methods];for(CCMethod *method in methods) NSLog(@"%@", method);// does it have any ivars?NSLog(@"%@", [NSString cc_ivars]);// how big is a constant string instance?NSLog(@"%ld", (long)[[@"foo" cc_class] cc_instanceSize]); 修改You can add new methods using +cc_addMethod:. You can modify the implementation of an existing method using the -setImplementation: method on CCMethod. Example: 12345678// swizzle out -[NSObject description] (don&apos;t do this)static NSString *NewDescription(id self, SEL _cmd)&#123; return @&quot;HELLO WORLD!&quot;;&#125;CCMethod *description = [NSObject cc_methodForSelector: @selector(description)];[description setImplementation: (IMP)NewDescription]; You can create new classes using +cc_createSubclassNamed: or +cc_createUnregisteredSubclassNamed:. Note that if you want to add instance variables to a class then you have to use the Unregistered version, and add them before registering the class. ObjectsTwo instance methods are provided as well. -cc_class exists because Apple likes to fiddle with the return value of -class, and -cc_class always gives you the right value. -cc_setClass: does pretty much what it says: sets the class of the object. It won’t reallocate the object or anything, so the new class had better have a memory layout that’s compatible with the old one, or else hilarity will ensue. 发送消息After getting a list of methods from a class, it’s common to want to actually use those on instances of the class. CCMethodprovides an easy method for doing this, as well as several convenience wrappers around it. The basic method for sending messages is -[CCMethod returnValue:sendToTarget:]. You use it like this: 123CCMethod *method = ...;SomeType ret;[method returnValue: &amp;ret sendToTarget: obj, CCARG(@"hello"), CCARG(42), CCARG(xyz)]; It may seem odd to have the return value at the beginning of the argument list, but this comes closest to the order of the normal ret = [obj method] syntax. All arguments must be wrapped in the CCARG macro. This macro takes care of packaging up each argument so that it can survive passage through the variable argument list and also includes some extra metadata about the argument types so that the code can do some basic sanity checking. No automatic type conversions are performed. If you pass a double to a method that expects an int, this method will abort. That checking is only based on size, however, so if you pass a float where an int is expected, you’ll just get a bad value. Note that while it’s not 100% guaranteed, this code does a generally good job of detecting if you forgot to use the CCARGmacro and warning you loudly and calling abort instead of simply crashing in a mysterious manner. Also note that there is no sanity checking on the return value, so it’s your responsibility to ensure that you use the right type and have enough space to hold it. For methods which return an object, the -[CCMethod sendToTarget:] method is provided which directly returns idinstead of making you use return-by-reference. This simplifies the calling of such methods: 12CCMethod *method = ...;id ret = [method sendToTarget: obj, CCARG(@"hello"), CCARG(42), CCARG(xyz)]; There is also an NSObject category which provides methods that allows you to switch the order around to be more natural. For example: 12CCMethod *method = ...;id ret = [obj cc_sendMethod: method, CCARG(@"hello"), CCARG(42), CCARG(xyz)]; And the same idea for cc_returnValue:sendMethod:. Finally, there are a pair of convenience methods that take a selector, and combine the method lookup with the actual message sending: 123id ret = [obj cc_sendSelector: @selector(...), CCARG(@"hello"), CCARG(42), CCARG(xyz)];SomeType ret2;[obj cc_returnValue: &amp;ret2 sendSelector: @selector(...), CCARG(12345)];]]></content>
       <categories>
         <category>iOS &amp;&amp; macOS</category>
       </categories>
