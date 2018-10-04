@@ -1,3 +1,4 @@
+https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-层次架构体系/
 https://ccworld1000.github.io/2018/09/09/CCSQLite-Objective-C-封装的SQLite-结合YapDatabase-key-value-store-FMDB/
 https://ccworld1000.github.io/2018/09/08/CCDebug-一种灵活的、轻量级的、可扩展的、可定制的日志调试-支持iOS与macOS/
 https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/
@@ -7,4 +8,3 @@ https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-f
 https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-附加函数集/
 https://ccworld1000.github.io/2018/08/21/CCTALib-TA-Lib-广泛应用于交易开发分析金融市场数据/
 https://ccworld1000.github.io/2018/08/19/CCRuntime-Objective-C-封装-runtime-APIs/
-https://ccworld1000.github.io/2018/08/19/IGListKit-简化-优化-项目/

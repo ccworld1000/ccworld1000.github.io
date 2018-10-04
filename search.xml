@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Perl 6 architecture 层次架构体系]]></title>
+    <url>%2F2018%2F10%2F04%2FPerl-6-architecture-%E5%B1%82%E6%AC%A1%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB%2F</url>
+    <content type="text"><![CDATA[Perl 6 architecture 层次架构体系]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>rakudo</tag>
+        <tag>VM</tag>
+        <tag>moarvm</tag>
+        <tag>nqp</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+        <tag>perl</tag>
+        <tag>perl6.org</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB]]></title>
     <url>%2F2018%2F09%2F09%2FCCSQLite-Objective-C-%E5%B0%81%E8%A3%85%E7%9A%84SQLite-%E7%BB%93%E5%90%88YapDatabase-key-value-store-FMDB%2F</url>
     <content type="text"><![CDATA[CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB. 目的 转变 FMDB 到 ARC 模式 YapDatabase 键/值 store CCSQLite 结合 FMDB 和 YapDatabase 键/值 目的 转变 FMDB 到 ARC 模式 YapDatabase 键/值 store CCSQLite 结合 FMDB 和 YapDatabase 键/值 支持 OBJECT, JSON 到 键/值 缘由 &amp;&amp; 为啥 当我在写”HSCache [缓存处理方面]”, 想选择FMDB或者YapDatabase, 但是他们看起来不一样. 因此想结合YapDatabase(键/值 store) 与 FMDB, 于是 CCSQLite 在路上. 大于版本 1.1.1调整变化 Podfile1pod &apos;CCSQLite&apos; 演示for Objective-Csee CCSQLiteDemoiOS CCSQLiteiOSDemoOSX CCSQLiteOSXDemofor Swift call Objective-CiOS CCSQLiteDataiOSOSX CCSQLiteDatamacOS演示代码1#import &lt;CCSQLite.h&gt; or 1#import &quot;CCSQLite.h&quot; or 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101#import "CCSQLite/CCSQLite.h"+ (void) SQLiteTest &#123; NSLog(@"SQLiteTest"); NSString *path = nil;#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) lastObject];#else path = NSTemporaryDirectory() ;#endif path = [path stringByAppendingPathComponent:CCSQLiteTestDB]; if ([[NSFileManager defaultManager] fileExistsAtPath:path]) &#123; [[NSFileManager defaultManager] removeItemAtPath:path error: nil]; &#125; CCSQLite *SQLite = [CCSQLite databaseWithPath: path]; if ([SQLite open]) &#123; BOOL result = [SQLite executeUpdate: @"create table if not exists t_student (id integer primary key autoincrement, name text not NULL, age integer not NULL);"]; if (result) &#123; NSLog(@"create table t_student ok"); NSLog(@"path : %@", path); &#125; &#125; [SQLite executeUpdate:@"insert into t_student (name, age) values (?, ?);", @"cc test 0", @0]; [SQLite executeUpdate:@"insert into t_student (name, age) values (?, ?);", @"cc test 1", @1]; [SQLite executeUpdateWithFormat:@"insert into t_student (name, age) values (%@, %i);", @"cc test 2", 2000]; // [SQLite executeUpdate:@"delete from t_student where id = ?", @1]; CCResultSet *resultSet = [SQLite executeQuery:@"select * from t_student;"]; while ([resultSet next]) &#123; int idNum = [resultSet intForColumn:@"id"]; NSString *name = [resultSet objectForColumnName:@"name"]; int age = [resultSet intForColumn:@"age"]; NSLog(@"id = %d name = %@ age = %d", idNum, name, age); &#125; // [SQLite executeUpdate:@"drop table if exists t_student;"]; NSString *sql = @"create table bulktest1 (id integer primary key autoincrement, x text);" "create table bulktest2 (id integer primary key autoincrement, y text);" "create table bulktest3 (id integer primary key autoincrement, z text);" "insert into bulktest1 (x) values ('XXX');" "insert into bulktest2 (y) values ('YYY');" "insert into bulktest3 (z) values ('ZZZ');"; BOOL success = [SQLite executeStatements:sql]; if (success) &#123; NSLog(@"success"); &#125; sql = @"select count(*) as count from bulktest1;" "select count(*) as count from bulktest2;" "select count(*) as count from bulktest3;"; [SQLite executeStatements:sql withResultBlock:^int(NSDictionary *resultsDictionary) &#123; NSInteger count = [resultsDictionary[@"count"] integerValue]; NSLog(@"count = %ld", count); return 0; &#125;]; [SQLite close]; CCSQLiteQueue *queue = [CCSQLiteQueue databaseQueueWithPath:path]; __block NSInteger index = 3000; [queue inDatabase:^(CCSQLite *db) &#123; while (index &lt; 3100) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inDatabase %ld", index], @(index)]; &#125; &#125;]; [queue inTransaction:^(CCSQLite *db, BOOL *rollback) &#123; NSLog(@"rollback NO"); while (index &lt; 3150) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inTransaction %ld", index], @(index)]; &#125; &#125;]; [queue inTransaction:^(CCSQLite *db, BOOL *rollback) &#123; NSLog(@"rollback YES"); while (index &lt; 3200) &#123; index++; [db executeUpdate:@"insert into t_student (name, age) values (?, ?);", [NSString stringWithFormat:@"cc test inTransaction %ld", index], @(index)]; if (index == 3188) &#123; *rollback = YES; return ; &#125; &#125; &#125;];&#125; CCKeyValue 演示代码12345678910111213141516CCKeyValue *kv = [CCKeyValue defaultKeyValueWithPath:path];kv.valueType = CCKeyValueTypeJson;NSData * data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"CCJSON" ofType:@"json"]];[kv setObject:data key:@"jsonkey"];id CCJSON = [kv objectForKey:@"jsonkey"];if ([CCJSON isKindOfClass:[NSArray class]]) &#123; NSArray *list = CCJSON; [list enumerateObjectsUsingBlock:^(NSDictionary *d, NSUInteger idx, BOOL * _Nonnull stop) &#123; NSLog(@"%@\n", d); &#125;];&#125; 结果 Swift 调用 Objective-C123456789override func viewDidLoad() &#123; super.viewDidLoad() // Do any additional setup after loading the view, typically from a nib. CCSQLiteData.writeList() if let list = CCSQLiteData.readList() &#123; print(list) &#125;&#125; ###]]></content>
@@ -31,16 +51,16 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -51,10 +71,6 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>CCColor</tag>
@@ -63,6 +79,10 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -77,11 +97,11 @@
         <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
+        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
-        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -123,12 +143,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>Foundation</tag>
-        <tag>CCSugar</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -150,10 +170,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

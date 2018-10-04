@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-09-09T01:31:48.000Z</updated>
+  <updated>2018-10-04T07:27:17.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Perl 6 architecture 层次架构体系</title>
+    <link href="https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-%E5%B1%82%E6%AC%A1%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB/"/>
+    <id>https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-层次架构体系/</id>
+    <published>2018-10-04T07:22:45.000Z</published>
+    <updated>2018-10-04T07:27:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Perl-6-architecture-层次架构体系"><a href="#Perl-6-architecture-层次架构体系" class="headerlink" title="Perl 6 architecture 层次架构体系"></a>Perl 6 architecture 层次架构体系</h3><p><img src="https://raw.github.com/ccworld1000/CCArchitecture/master/6.svg?sanitize=true" alt="Perl 6 architecture "></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Perl-6-architecture-层次架构体系&quot;&gt;&lt;a href=&quot;#Perl-6-architecture-层次架构体系&quot; class=&quot;headerlink&quot; title=&quot;Perl 6 architecture 层次架构体系&quot;&gt;&lt;/a&gt;Perl 6 a
+      
+    
+    </summary>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
+    
+    
+      <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
+    
+      <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
+    
+      <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
+    
+      <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
+    
+      <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
+    
+      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
+    
+      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
+    
+      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
+    
+  </entry>
   
   <entry>
     <title>CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB</title>
@@ -86,6 +129,14 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -97,14 +148,6 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -129,14 +172,6 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
@@ -152,6 +187,14 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -184,6 +227,8 @@
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
+    
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
       <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
@@ -191,8 +236,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -291,17 +334,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -348,13 +391,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
