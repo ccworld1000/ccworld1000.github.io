@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Cairo 2D Graphics library binding for Perl 6]]></title>
+    <url>%2F2018%2F10%2F15%2FCairo-2D-Graphics-library-binding-for-Perl-6%2F</url>
+    <content type="text"><![CDATA[Cairo 2D Graphics library binding for Perl 6Synopsis12345678910use Cairo;given Cairo::Image.create(Cairo::FORMAT_ARGB32, 128, 128) &#123; given Cairo::Context.new($_) &#123; .rgb(0, 0.7, 0.9); .rectangle(10, 10, 50, 50); .fill :preserve; .rgb(1, 1, 1); .stroke &#125;; .write_png("foobar.png")&#125; Native Cairo libraryIn order to use this module, native Cairo library is needed. See instructions at https://cairographics.org/download/. Examples doc/screenshot/arc.png doc/screenshot/clip-image.png doc/screenshot/clip.png doc/screenshot/curve-rectangle.png doc/screenshot/curve_to.png doc/screenshot/dash.png doc/screenshot/fill-and-stroke.png doc/screenshot/fill-style.png doc/screenshot/gradient.png doc/screenshot/image-pattern.png doc/screenshot/image.png doc/screenshot/multi-page-pdf.pdf doc/screenshot/multi-segment-caps.png doc/screenshot/rounded-rectangle.png]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>cairo</tag>
+        <tag>2D</tag>
+        <tag>graphic</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Perl 6 architecture 层次架构体系]]></title>
     <url>%2F2018%2F10%2F04%2FPerl-6-architecture-%E5%B1%82%E6%AC%A1%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB%2F</url>
     <content type="text"><![CDATA[Perl 6 architecture 层次架构体系]]></content>
@@ -8,14 +25,14 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>rakudo</tag>
-        <tag>VM</tag>
-        <tag>moarvm</tag>
-        <tag>nqp</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>rakudo</tag>
+        <tag>VM</tag>
+        <tag>moarvm</tag>
+        <tag>nqp</tag>
         <tag>perl</tag>
         <tag>perl6.org</tag>
       </tags>
@@ -51,16 +68,16 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -71,6 +88,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>CCColor</tag>
@@ -79,10 +100,6 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -143,12 +160,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
+        <tag>Foundation</tag>
         <tag>CCSugar</tag>
+        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -170,10 +187,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

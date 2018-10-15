@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-10-04T07:27:17.000Z</updated>
+  <updated>2018-10-15T15:55:50.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cairo 2D Graphics library binding for Perl 6</title>
+    <link href="https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-Perl-6/"/>
+    <id>https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-Perl-6/</id>
+    <published>2018-10-15T15:19:47.000Z</published>
+    <updated>2018-10-15T15:55:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Cairo-2D-Graphics-library-binding-for-Perl-6"><a href="#Cairo-2D-Graphics-library-binding-for-Perl-6" class="headerlink" title="Cairo 2D Graphics library binding for Perl 6"></a>Cairo 2D Graphics library binding for Perl 6</h1><h2 id="Synopsis"><a href="#Synopsis" class="headerlink" title="Synopsis"></a>Synopsis</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> Cairo;</span><br><span class="line"><span class="keyword">given</span> Cairo::Image.create(Cairo::FORMAT_ARGB32, <span class="number">128</span>, <span class="number">128</span>) &#123;</span><br><span class="line">    <span class="keyword">given</span> Cairo::Context.new($_) &#123;</span><br><span class="line">        .rgb(<span class="number">0</span>, <span class="number">0</span>.<span class="number">7</span>, <span class="number">0</span>.<span class="number">9</span>);</span><br><span class="line">        .rectangle(<span class="number">10</span>, <span class="number">10</span>, <span class="number">50</span>, <span class="number">50</span>);</span><br><span class="line">        .fill :preserve; .rgb(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>);</span><br><span class="line">        .stroke</span><br><span class="line">    &#125;;</span><br><span class="line">    .write_png(<span class="string">"foobar.png"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Native-Cairo-library"><a href="#Native-Cairo-library" class="headerlink" title="Native Cairo library"></a>Native Cairo library</h2><p>In order to use this module, native <code>Cairo</code> library is needed. See instructions at <a href="https://cairographics.org/download/" target="_blank" rel="noopener">https://cairographics.org/download/</a>.</p><h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><p><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/arc-negative.png?raw=true" alt="arc-negative.png"></p><p>doc/screenshot/arc.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/arc.png?raw=true" alt="arc.png"></p><p>doc/screenshot/clip-image.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/clip-image.png?raw=true" alt="clip-image.png"></p><p>doc/screenshot/clip.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/clip.png?raw=true" alt="clip.png"></p><p>doc/screenshot/curve-rectangle.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/curve-rectangle.png?raw=true" alt="curve-rectangle.png"></p><p>doc/screenshot/curve_to.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/curve_to.png?raw=true" alt="curve_to.png"></p><p>doc/screenshot/dash.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/dash.png?raw=true" alt="dash.png"></p><p>doc/screenshot/fill-and-stroke.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/fill-and-stroke.png?raw=true" alt="fill-and-stroke.png"></p><p>doc/screenshot/fill-style.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/fill-style.png?raw=true" alt="fill-style.png"></p><p>doc/screenshot/gradient.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/gradient.png?raw=true" alt="gradient.png"></p><p>doc/screenshot/image-pattern.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/image-pattern.png?raw=true" alt="image-pattern.png"></p><p>doc/screenshot/image.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/image.png?raw=true" alt="image.png"></p><p>doc/screenshot/multi-page-pdf.pdf<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/multi-page-pdf.pdf" alt="multi-page-pdf.pdf"></p><p>doc/screenshot/multi-segment-caps.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/multi-segment-caps.png?raw=true" alt="multi-segment-caps.png"></p><p>doc/screenshot/rounded-rectangle.png<br><img src="https://github.com/ccworld1000/cairo-p6/blob/master/doc/screenshot/rounded-rectangle.png?raw=true" alt="rounded-rectangle.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Cairo-2D-Graphics-library-binding-for-Perl-6&quot;&gt;&lt;a href=&quot;#Cairo-2D-Graphics-library-binding-for-Perl-6&quot; class=&quot;headerlink&quot; title=&quot;Cair
+      
+    
+    </summary>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
+    
+    
+      <category term="cairo" scheme="https://ccworld1000.github.io/tags/cairo/"/>
+    
+      <category term="2D" scheme="https://ccworld1000.github.io/tags/2D/"/>
+    
+      <category term="graphic" scheme="https://ccworld1000.github.io/tags/graphic/"/>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
+    
+      <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
+    
+      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
+    
+      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+  </entry>
   
   <entry>
     <title>Perl 6 architecture 层次架构体系</title>
@@ -37,14 +74,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
-    
-      <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
-    
-      <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
-    
-      <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
-    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -52,6 +81,14 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
+    
+      <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
+    
+      <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
+    
+      <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
     
       <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
     
@@ -129,14 +166,6 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -148,6 +177,14 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -172,6 +209,14 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
@@ -187,14 +232,6 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -334,17 +371,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -391,13 +428,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
