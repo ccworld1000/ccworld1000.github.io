@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCLog Simple and lightweight cross-platform logs]]></title>
+    <url>%2F2018%2F11%2F01%2FCCLog-Simple-and-lightweight-cross-platform-logs%2F</url>
+    <content type="text"><![CDATA[CCLog1234Simple and lightweight cross-platform logs,easy-to-use simple learning,and support for multiple languages,such as C, C++, Perl 6, shell, Objective-C ## Perl 61There are 2 (CCLog &amp; CCLogFull) ways of binding. Call CCLog.pm6 Call CCLogFull.pm6 ## Shell12345678910111213Provide simple commands. fg: ccnormal ccwarning ccerror cctimer ccloop ccthread ccprint ccsay ccdie ccnetworkThese commands are automatically installed locally and can be called directly. Call shell ## C &amp;&amp; C++ &amp;&amp; Objective-C1You can use C library or C source (CCLog.h CCLog.c) code directly. Call C &amp;&amp; C++ &amp;&amp; Objective-C ## Objective-C1Objective-C can call C directly, Or follow other ways to import. ## Local installation and unloading12zef install .zef uninstall CCLog ## Network install12zef updatezef install CCLog ## Check if the installation is successfulThe installation may be as follows Installation failure may be as follows, you can try again ## Color display controlPerl6 CCLog.pm6 call ccshowColor Perl6 CCLogFull.pm6 call CCLog_showColor C &amp;&amp; C++ &amp;&amp; Objective-C call CCLog_showColor fg: ## Tips display controlfg:]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>Objective-C</tag>
+        <tag>CCLog</tag>
+        <tag>cclog</tag>
+        <tag>logs</tag>
+        <tag>log</tag>
+        <tag>cross-platform</tag>
+        <tag>shell</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Cairo 2D Graphics library binding for Perl 6]]></title>
     <url>%2F2018%2F10%2F15%2FCairo-2D-Graphics-library-binding-for-Perl-6%2F</url>
     <content type="text"><![CDATA[Cairo 2D Graphics library binding for Perl 6Synopsis12345678910use Cairo;given Cairo::Image.create(Cairo::FORMAT_ARGB32, 128, 128) &#123; given Cairo::Context.new($_) &#123; .rgb(0, 0.7, 0.9); .rectangle(10, 10, 50, 50); .fill :preserve; .rgb(1, 1, 1); .stroke &#125;; .write_png("foobar.png")&#125; Native Cairo libraryIn order to use this module, native Cairo library is needed. See instructions at https://cairographics.org/download/. Examples doc/screenshot/arc.png doc/screenshot/clip-image.png doc/screenshot/clip.png doc/screenshot/curve-rectangle.png doc/screenshot/curve_to.png doc/screenshot/dash.png doc/screenshot/fill-and-stroke.png doc/screenshot/fill-style.png doc/screenshot/gradient.png doc/screenshot/image-pattern.png doc/screenshot/image.png doc/screenshot/multi-page-pdf.pdf doc/screenshot/multi-segment-caps.png doc/screenshot/rounded-rectangle.png]]></content>
@@ -8,13 +29,13 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>cairo</tag>
-        <tag>2D</tag>
-        <tag>graphic</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>cairo</tag>
+        <tag>2D</tag>
+        <tag>graphic</tag>
       </tags>
   </entry>
   <entry>

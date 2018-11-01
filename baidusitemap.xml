@@ -4,18 +4,26 @@
 
     
   <url>
-    <loc>https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-Perl-6/</loc>
-    <lastmod>2018-10-15T15:55:50.000Z</lastmod>
+    <loc>https://ccworld1000.github.io/2018/11/01/CCLog-Simple-and-lightweight-cross-platform-logs/</loc>
+    <lastmod>2018-11-01T14:47:46.000Z</lastmod>
     <data>
         <display>
-        <title>Cairo 2D Graphics library binding for Perl 6</title>
-        <pubTime>2018-10-15T15:19:47.000Z</pubTime>
+        <title>CCLog Simple and lightweight cross-platform logs</title>
+        <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
-        <tag>cairo</tag>
+        <tag>Objective-C</tag>
          
-        <tag>2D</tag>
+        <tag>CCLog</tag>
          
-        <tag>graphic</tag>
+        <tag>cclog</tag>
+         
+        <tag>logs</tag>
+         
+        <tag>log</tag>
+         
+        <tag>cross-platform</tag>
+         
+        <tag>shell</tag>
          
         <tag>Perl 6</tag>
          
@@ -24,6 +32,38 @@
         <tag>Perl 5</tag>
          
         <tag>Perl</tag>
+         
+         
+           
+             
+              <breadCrumb title="Perl 6" url="https://ccworld1000.github.io/categories/Perl-6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-Perl-6/</loc>
+    <lastmod>2018-10-15T15:55:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>Cairo 2D Graphics library binding for Perl 6</title>
+        <pubTime>2018-10-15T15:19:47.000Z</pubTime>
+        
+        <tag>Perl 6</tag>
+         
+        <tag>perl6</tag>
+         
+        <tag>Perl 5</tag>
+         
+        <tag>Perl</tag>
+         
+        <tag>cairo</tag>
+         
+        <tag>2D</tag>
+         
+        <tag>graphic</tag>
          
          
            

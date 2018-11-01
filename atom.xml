@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-10-15T15:55:50.000Z</updated>
+  <updated>2018-11-01T14:47:46.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCLog Simple and lightweight cross-platform logs</title>
+    <link href="https://ccworld1000.github.io/2018/11/01/CCLog-Simple-and-lightweight-cross-platform-logs/"/>
+    <id>https://ccworld1000.github.io/2018/11/01/CCLog-Simple-and-lightweight-cross-platform-logs/</id>
+    <published>2018-11-01T14:41:45.000Z</published>
+    <updated>2018-11-01T14:47:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CCLog"><a href="#CCLog" class="headerlink" title="CCLog"></a>CCLog</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Simple and lightweight cross-platform logs,</span><br><span class="line">easy-to-use simple learning,</span><br><span class="line">and support for multiple languages,</span><br><span class="line">such as C, C++, Perl 6, shell, Objective-C</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Perl-6"><a href="#Perl-6" class="headerlink" title="Perl 6"></a>Perl 6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">There are 2 (CCLog &amp; CCLogFull) ways of binding.</span><br></pre></td></tr></table></figure><p>Call CCLog.pm6</p><p><a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/short_perl6.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/short_perl6.png" alt="short_perl6"></a></p><p>Call CCLogFull.pm6</p><p><a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/full_perl6.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/full_perl6.png" alt="full_perl6"></a></p><p>## </p><h2 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Provide simple commands. fg: </span><br><span class="line">ccnormal</span><br><span class="line">ccwarning</span><br><span class="line">ccerror</span><br><span class="line">cctimer</span><br><span class="line">ccloop</span><br><span class="line">ccthread</span><br><span class="line">ccprint</span><br><span class="line">ccsay</span><br><span class="line">ccdie</span><br><span class="line">ccnetwork</span><br><span class="line"></span><br><span class="line">These commands are automatically installed locally and can be called directly.</span><br></pre></td></tr></table></figure><p>Call shell <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/shell.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/shell.png" alt="shell"></a></p><p>## </p><h2 id="C-amp-amp-C-amp-amp-Objective-C"><a href="#C-amp-amp-C-amp-amp-Objective-C" class="headerlink" title="C &amp;&amp; C++ &amp;&amp; Objective-C"></a>C &amp;&amp; C++ &amp;&amp; Objective-C</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">You can use C library or C source (CCLog.h CCLog.c) code directly.</span><br></pre></td></tr></table></figure><p>Call C &amp;&amp; C++ &amp;&amp; Objective-C <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/c.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/c.png" alt="c"></a></p><p>## </p><h2 id="Objective-C"><a href="#Objective-C" class="headerlink" title="Objective-C"></a>Objective-C</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Objective-C can call C directly, Or follow other ways to import.</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Local-installation-and-unloading"><a href="#Local-installation-and-unloading" class="headerlink" title="Local installation and unloading"></a>Local installation and unloading</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef install .</span><br><span class="line">zef uninstall CCLog</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Network-install"><a href="#Network-install" class="headerlink" title="Network install"></a>Network install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef update</span><br><span class="line">zef install CCLog</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Check-if-the-installation-is-successful"><a href="#Check-if-the-installation-is-successful" class="headerlink" title="Check if the installation is successful"></a>Check if the installation is successful</h2><p>The installation may be as follows <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/check_ok.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/check_ok.png" alt="check_ok"></a></p><p>Installation failure may be as follows, you can try again <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/check_error.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/check_error.png" alt="check_error"></a></p><p>## </p><h2 id="Color-display-control"><a href="#Color-display-control" class="headerlink" title="Color display control"></a>Color display control</h2><p>Perl6 CCLog.pm6 call ccshowColor Perl6 CCLogFull.pm6 call CCLog_showColor C &amp;&amp; C++ &amp;&amp; Objective-C call CCLog_showColor<br> fg: <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/colorControl.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/colorControl.png" alt="colorControl"></a></p><p>## </p><h2 id="Tips-display-control"><a href="#Tips-display-control" class="headerlink" title="Tips display control"></a>Tips display control</h2><p>fg: <a href="https://github.com/ccworld1000/CCLog/blob/master/CCLog/doc/sceenshot/logTips.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/CCLog/raw/master/CCLog/doc/sceenshot/logTips.png" alt="logTips"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;CCLog&quot;&gt;&lt;a href=&quot;#CCLog&quot; class=&quot;headerlink&quot; title=&quot;CCLog&quot;&gt;&lt;/a&gt;CCLog&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+      
+    
+    </summary>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
+    
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
+    
+      <category term="cclog" scheme="https://ccworld1000.github.io/tags/cclog/"/>
+    
+      <category term="logs" scheme="https://ccworld1000.github.io/tags/logs/"/>
+    
+      <category term="log" scheme="https://ccworld1000.github.io/tags/log/"/>
+    
+      <category term="cross-platform" scheme="https://ccworld1000.github.io/tags/cross-platform/"/>
+    
+      <category term="shell" scheme="https://ccworld1000.github.io/tags/shell/"/>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
+    
+      <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
+    
+      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
+    
+      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+  </entry>
   
   <entry>
     <title>Cairo 2D Graphics library binding for Perl 6</title>
@@ -37,12 +82,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="cairo" scheme="https://ccworld1000.github.io/tags/cairo/"/>
-    
-      <category term="2D" scheme="https://ccworld1000.github.io/tags/2D/"/>
-    
-      <category term="graphic" scheme="https://ccworld1000.github.io/tags/graphic/"/>
-    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -50,6 +89,12 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="cairo" scheme="https://ccworld1000.github.io/tags/cairo/"/>
+    
+      <category term="2D" scheme="https://ccworld1000.github.io/tags/2D/"/>
+    
+      <category term="graphic" scheme="https://ccworld1000.github.io/tags/graphic/"/>
     
   </entry>
   

@@ -1,3 +1,4 @@
+https://ccworld1000.github.io/2018/11/01/CCLog-Simple-and-lightweight-cross-platform-logs/
 https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-Perl-6/
 https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-层次架构体系/
 https://ccworld1000.github.io/2018/09/09/CCSQLite-Objective-C-封装的SQLite-结合YapDatabase-key-value-store-FMDB/
@@ -7,4 +8,3 @@ https://ccworld1000.github.io/2018/08/28/IGListKit简单入门-CCIGListKitDemo-�
 https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-网站中文翻译/
 https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/
 https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-附加函数集/
-https://ccworld1000.github.io/2018/08/21/CCTALib-TA-Lib-广泛应用于交易开发分析金融市场数据/
