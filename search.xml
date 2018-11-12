@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Simple draw chart for Perl 6]]></title>
+    <url>%2F2018%2F11%2F12%2FSimple-draw-chart-for-Perl-6%2F</url>
+    <content type="text"><![CDATA[Simple draw chart for Perl 6 , easy-to-use simple learning.Local installation and unloading12zef install .zef uninstall CCChart Network install12zef updatezef install CCChart CCChart pie ## CCChart lines ## CCChart testThe call will generate a default “default.png” in the command line execution directory.]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>CCLog</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+        <tag>CCChart</tag>
+        <tag>draw</tag>
+        <tag>pie</tag>
+        <tag>line</tag>
+        <tag>graphics</tag>
+        <tag>chart</tag>
+        <tag>png</tag>
+        <tag>Cairo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCLog Simple and lightweight cross-platform logs]]></title>
     <url>%2F2018%2F11%2F01%2FCCLog-Simple-and-lightweight-cross-platform-logs%2F</url>
     <content type="text"><![CDATA[CCLog1234Simple and lightweight cross-platform logs,easy-to-use simple learning,and support for multiple languages,such as C, C++, Perl 6, shell, Objective-C ## Perl 61There are 2 (CCLog &amp; CCLogFull) ways of binding. Call CCLog.pm6 Call CCLogFull.pm6 ## Shell12345678910111213Provide simple commands. fg: ccnormal ccwarning ccerror cctimer ccloop ccthread ccprint ccsay ccdie ccnetworkThese commands are automatically installed locally and can be called directly. Call shell ## C &amp;&amp; C++ &amp;&amp; Objective-C1You can use C library or C source (CCLog.h CCLog.c) code directly. Call C &amp;&amp; C++ &amp;&amp; Objective-C ## Objective-C1Objective-C can call C directly, Or follow other ways to import. ## Local installation and unloading12zef install .zef uninstall CCLog ## Network install12zef updatezef install CCLog ## Check if the installation is successfulThe installation may be as follows Installation failure may be as follows, you can try again ## Color display controlPerl6 CCLog.pm6 call ccshowColor Perl6 CCLogFull.pm6 call CCLog_showColor C &amp;&amp; C++ &amp;&amp; Objective-C call CCLog_showColor fg: ## Tips display controlfg:]]></content>
@@ -8,12 +31,12 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
         <tag>log</tag>
         <tag>cross-platform</tag>
+        <tag>Objective-C</tag>
         <tag>shell</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
@@ -66,9 +89,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCSQLite</tag>
         <tag>FMDB</tag>
         <tag>YapDatabase</tag>
@@ -89,16 +112,16 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -109,10 +132,7 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>CCColor</tag>
@@ -121,6 +141,9 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -131,15 +154,15 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>iOS</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
-        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
+        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -181,12 +204,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
-        <tag>CCSugar</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -205,13 +228,13 @@
         <category>金融</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -224,9 +247,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCRuntime</tag>
         <tag>runtime</tag>
         <tag>MAObjCRuntime</tag>
@@ -240,8 +263,8 @@
         <category>组件优化</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>iOS</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>

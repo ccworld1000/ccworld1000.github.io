@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-11-01T14:47:46.000Z</updated>
+  <updated>2018-11-12T14:44:22.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Simple draw chart for Perl 6</title>
+    <link href="https://ccworld1000.github.io/2018/11/12/Simple-draw-chart-for-Perl-6/"/>
+    <id>https://ccworld1000.github.io/2018/11/12/Simple-draw-chart-for-Perl-6/</id>
+    <published>2018-11-12T14:39:02.000Z</published>
+    <updated>2018-11-12T14:44:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Simple-draw-chart-for-Perl-6-easy-to-use-simple-learning"><a href="#Simple-draw-chart-for-Perl-6-easy-to-use-simple-learning" class="headerlink" title="Simple draw chart for Perl 6 , easy-to-use simple learning."></a>Simple draw chart for Perl 6 , easy-to-use simple learning.</h2><h2 id="Local-installation-and-unloading"><a href="#Local-installation-and-unloading" class="headerlink" title="Local installation and unloading"></a>Local installation and unloading</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef install .</span><br><span class="line">zef uninstall CCChart</span><br></pre></td></tr></table></figure><h2 id=""><a href="#" class="headerlink" title=" "></a> </h2><h2 id="Network-install"><a href="#Network-install" class="headerlink" title="Network install"></a>Network install</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef update</span><br><span class="line">zef install CCChart</span><br></pre></td></tr></table></figure><h2 id="-1"><a href="#-1" class="headerlink" title=" "></a> </h2><h2 id="CCChart-pie"><a href="#CCChart-pie" class="headerlink" title="CCChart pie"></a>CCChart pie</h2><p><img src="https://raw.githubusercontent.com/ccworld1000/CCChart/master//doc/screenshot/default.png" alt="CCChart pie"></p><p>## </p><h2 id="CCChart-lines"><a href="#CCChart-lines" class="headerlink" title="CCChart lines"></a>CCChart lines</h2><p><img src="https://raw.githubusercontent.com/ccworld1000/CCChart/master//doc/screenshot/default_lines.png" alt="CCChart pie"></p><p>## </p><h2 id="CCChart-test"><a href="#CCChart-test" class="headerlink" title="CCChart test"></a>CCChart test</h2><p>The call will generate a default “default.png” in the command line execution directory.</p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCChart/master/doc/screenshot/test.png" alt="CCChart test"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Simple-draw-chart-for-Perl-6-easy-to-use-simple-learning&quot;&gt;&lt;a href=&quot;#Simple-draw-chart-for-Perl-6-easy-to-use-simple-learning&quot; class=
+      
+    
+    </summary>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
+    
+    
+      <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
+    
+      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
+    
+      <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
+    
+      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
+    
+      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="CCChart" scheme="https://ccworld1000.github.io/tags/CCChart/"/>
+    
+      <category term="draw" scheme="https://ccworld1000.github.io/tags/draw/"/>
+    
+      <category term="pie" scheme="https://ccworld1000.github.io/tags/pie/"/>
+    
+      <category term="line" scheme="https://ccworld1000.github.io/tags/line/"/>
+    
+      <category term="graphics" scheme="https://ccworld1000.github.io/tags/graphics/"/>
+    
+      <category term="chart" scheme="https://ccworld1000.github.io/tags/chart/"/>
+    
+      <category term="png" scheme="https://ccworld1000.github.io/tags/png/"/>
+    
+      <category term="Cairo" scheme="https://ccworld1000.github.io/tags/Cairo/"/>
+    
+  </entry>
   
   <entry>
     <title>CCLog Simple and lightweight cross-platform logs</title>
@@ -37,8 +86,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
     
       <category term="cclog" scheme="https://ccworld1000.github.io/tags/cclog/"/>
@@ -48,6 +95,8 @@
       <category term="log" scheme="https://ccworld1000.github.io/tags/log/"/>
     
       <category term="cross-platform" scheme="https://ccworld1000.github.io/tags/cross-platform/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="shell" scheme="https://ccworld1000.github.io/tags/shell/"/>
     
@@ -162,11 +211,11 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCSQLite" scheme="https://ccworld1000.github.io/tags/CCSQLite/"/>
     
@@ -211,6 +260,14 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -222,14 +279,6 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -254,13 +303,7 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
@@ -277,6 +320,12 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -301,15 +350,13 @@
       <category term="CCIGListKitDemo &amp;&amp; IGListKit" scheme="https://ccworld1000.github.io/categories/CCIGListKitDemo-IGListKit/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
@@ -318,6 +365,8 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
+    
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -416,17 +465,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
-      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
+      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -467,19 +516,19 @@
       <category term="金融" scheme="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
@@ -508,11 +557,11 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCRuntime" scheme="https://ccworld1000.github.io/tags/CCRuntime/"/>
     
@@ -544,9 +593,9 @@
       <category term="组件优化" scheme="https://ccworld1000.github.io/categories/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
     
