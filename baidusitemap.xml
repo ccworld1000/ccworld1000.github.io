@@ -4,24 +4,16 @@
 
     
   <url>
-    <loc>https://ccworld1000.github.io/2018/11/12/Simple-draw-chart-for-Perl-6/</loc>
-    <lastmod>2018-11-12T14:44:22.000Z</lastmod>
+    <loc>https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/</loc>
+    <lastmod>2018-11-20T13:55:34.000Z</lastmod>
     <data>
         <display>
-        <title>Simple draw chart for Perl 6</title>
-        <pubTime>2018-11-12T14:39:02.000Z</pubTime>
+        <title>CCColor Simple and flexible color color conversion module for Raku Perl 6</title>
+        <pubTime>2018-11-20T13:51:11.000Z</pubTime>
         
-        <tag>CCLog</tag>
+        <tag>color</tag>
          
-        <tag>Perl 6</tag>
-         
-        <tag>perl6</tag>
-         
-        <tag>Perl 5</tag>
-         
-        <tag>Perl</tag>
-         
-        <tag>CCChart</tag>
+        <tag>CCColor</tag>
          
         <tag>draw</tag>
          
@@ -32,6 +24,56 @@
         <tag>graphics</tag>
          
         <tag>chart</tag>
+         
+        <tag>raku</tag>
+         
+        <tag>Perl 6</tag>
+         
+        <tag>perl6</tag>
+         
+        <tag>Perl 5</tag>
+         
+        <tag>Perl</tag>
+         
+         
+           
+             
+              <breadCrumb title="Perl 6" url="https://ccworld1000.github.io/categories/Perl-6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ccworld1000.github.io/2018/11/12/Simple-draw-chart-for-Perl-6/</loc>
+    <lastmod>2018-11-12T14:44:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>Simple draw chart for Perl 6</title>
+        <pubTime>2018-11-12T14:39:02.000Z</pubTime>
+        
+        <tag>draw</tag>
+         
+        <tag>pie</tag>
+         
+        <tag>line</tag>
+         
+        <tag>graphics</tag>
+         
+        <tag>chart</tag>
+         
+        <tag>Perl 6</tag>
+         
+        <tag>perl6</tag>
+         
+        <tag>Perl 5</tag>
+         
+        <tag>Perl</tag>
+         
+        <tag>CCLog</tag>
+         
+        <tag>CCChart</tag>
          
         <tag>png</tag>
          
@@ -55,6 +97,16 @@
         <title>CCLog Simple and lightweight cross-platform logs</title>
         <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
+        <tag>Objective-C</tag>
+         
+        <tag>Perl 6</tag>
+         
+        <tag>perl6</tag>
+         
+        <tag>Perl 5</tag>
+         
+        <tag>Perl</tag>
+         
         <tag>CCLog</tag>
          
         <tag>cclog</tag>
@@ -65,17 +117,7 @@
          
         <tag>cross-platform</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>shell</tag>
-         
-        <tag>Perl 6</tag>
-         
-        <tag>perl6</tag>
-         
-        <tag>Perl 5</tag>
-         
-        <tag>Perl</tag>
          
          
            
@@ -165,11 +207,11 @@
         <title>CCSQLite Objective-C 封装的SQLite. 结合YapDatabase(key/value store) + FMDB</title>
         <pubTime>2018-09-09T01:25:05.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCSQLite</tag>
          
@@ -209,11 +251,11 @@
         <title>CCRuntime Objective-C 封装 runtime APIs</title>
         <pubTime>2018-08-19T14:14:44.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCRuntime</tag>
          
@@ -239,14 +281,6 @@
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
         <pubTime>2018-09-08T10:19:24.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>color</tag>
-         
         <tag>CCDebug</tag>
          
         <tag>debug</tag>
@@ -258,6 +292,14 @@
         <tag>XcodeColors</tag>
          
         <tag>Xcode</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>color</tag>
          
          
            
@@ -278,7 +320,13 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
         <tag>Objective-C</tag>
+         
+        <tag>color</tag>
          
         <tag>CCFont</tag>
          
@@ -295,12 +343,6 @@
         <tag>NSColor</tag>
          
         <tag>font</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>color</tag>
          
          
            
@@ -320,9 +362,9 @@
         <title>IGListKit简单入门 CCIGListKitDemo 例子</title>
         <pubTime>2018-08-28T15:25:42.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>iOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>IGListKit</tag>
          
@@ -415,17 +457,17 @@
         <title>CCSugar Foundation 附加函数集</title>
         <pubTime>2018-08-22T14:33:17.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
-        <tag>Foundation</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
-        <tag>c</tag>
+        <tag>Objective-C</tag>
+         
+        <tag>Foundation</tag>
          
         <tag>CCSugar</tag>
+         
+        <tag>c</tag>
          
         <tag>C</tag>
          
@@ -461,19 +503,19 @@
         <title>CCTALib TA-Lib 广泛应用于交易开发分析金融市场数据</title>
         <pubTime>2018-08-20T16:04:30.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>c</tag>
          
         <tag>CCTALib</tag>
          
         <tag>TA-Lib</tag>
          
         <tag>talib</tag>
-         
-        <tag>c</tag>
          
         <tag>financial market</tag>
          
@@ -497,9 +539,9 @@
         <title>IGListKit 简化 优化 项目</title>
         <pubTime>2018-08-19T01:08:19.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>iOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>IGListKit</tag>
          

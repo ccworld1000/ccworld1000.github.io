@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCColor Simple and flexible color color conversion module for Raku Perl 6]]></title>
+    <url>%2F2018%2F11%2F20%2FCCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6%2F</url>
+    <content type="text"><![CDATA[CCColor12Simple and flexible color color conversion module for Raku Perl 6 , easy-to-use simple learning. ## HEX Color (use CCColor) ## See test123456789101112131415161718192021222324252627use CCColor;my @list =(" #FFFEA963 "," #FF FE A9 63 "," #FF # FE # A9 # 63 "," #"," #1"," #123"," #FFH"," #FHF"," #1234"," #12345"," #FFEE5"," #FFEE56"," #FFEE56A"," #FFEE56AH"," #FFEE56AA"," #FFEE56AA11"," #FFEE56AAFF11",);for @list -&gt; $color &#123; my ($r, $g, $b, $a) = hex2rgba($color); say "$r, $g, $b, $a";&#125; Call test/test.p6 ## Local installation and unloading12zef install .zef uninstall CCColor ## Network install12zef updatezef install CCColor]]></content>
+      <categories>
+        <category>Perl 6</category>
+      </categories>
+      <tags>
+        <tag>color</tag>
+        <tag>CCColor</tag>
+        <tag>draw</tag>
+        <tag>pie</tag>
+        <tag>line</tag>
+        <tag>graphics</tag>
+        <tag>chart</tag>
+        <tag>raku</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Simple draw chart for Perl 6]]></title>
     <url>%2F2018%2F11%2F12%2FSimple-draw-chart-for-Perl-6%2F</url>
     <content type="text"><![CDATA[Simple draw chart for Perl 6 , easy-to-use simple learning.Local installation and unloading12zef install .zef uninstall CCChart Network install12zef updatezef install CCChart CCChart pie ## CCChart lines ## CCChart testThe call will generate a default “default.png” in the command line execution directory.]]></content>
@@ -8,17 +30,17 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>CCLog</tag>
-        <tag>Perl 6</tag>
-        <tag>perl6</tag>
-        <tag>Perl 5</tag>
-        <tag>Perl</tag>
-        <tag>CCChart</tag>
         <tag>draw</tag>
         <tag>pie</tag>
         <tag>line</tag>
         <tag>graphics</tag>
         <tag>chart</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
+        <tag>CCLog</tag>
+        <tag>CCChart</tag>
         <tag>png</tag>
         <tag>Cairo</tag>
       </tags>
@@ -31,17 +53,17 @@
         <category>Perl 6</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
+        <tag>Perl 6</tag>
+        <tag>perl6</tag>
+        <tag>Perl 5</tag>
+        <tag>Perl</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
         <tag>log</tag>
         <tag>cross-platform</tag>
-        <tag>Objective-C</tag>
         <tag>shell</tag>
-        <tag>Perl 6</tag>
-        <tag>perl6</tag>
-        <tag>Perl 5</tag>
-        <tag>Perl</tag>
       </tags>
   </entry>
   <entry>
@@ -89,9 +111,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCSQLite</tag>
         <tag>FMDB</tag>
         <tag>YapDatabase</tag>
@@ -112,16 +134,16 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -132,7 +154,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>CCColor</tag>
@@ -141,9 +166,6 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -154,8 +176,8 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>iOS</tag>
+        <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>IGListSectionController</tag>
@@ -204,12 +226,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
-        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
-        <tag>c</tag>
+        <tag>Objective-C</tag>
+        <tag>Foundation</tag>
         <tag>CCSugar</tag>
+        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -228,13 +250,13 @@
         <category>金融</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -247,9 +269,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCRuntime</tag>
         <tag>runtime</tag>
         <tag>MAObjCRuntime</tag>
@@ -263,8 +285,8 @@
         <category>组件优化</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>iOS</tag>
+        <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
