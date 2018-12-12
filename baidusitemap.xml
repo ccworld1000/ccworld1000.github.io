@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C/</loc>
+    <lastmod>2018-12-12T14:33:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>netural style & AI effect [神经网络风格画 & AI效果]</title>
+        <pubTime>2018-12-12T14:03:43.000Z</pubTime>
+        
+        <tag>CCStyle</tag>
+         
+        <tag>AI</tag>
+         
+        <tag>netural style</tag>
+         
+        <tag>netural art</tag>
+         
+        <tag>神经网络</tag>
+         
+        <tag>AI效果</tag>
+         
+        <tag>ml</tag>
+         
+        <tag>coreml</tag>
+         
+        <tag>deep-learning</tag>
+         
+        <tag>machine-learning</tag>
+         
+        <tag>dl</tag>
+         
+         
+           
+             
+              <breadCrumb title="AI" url="https://ccworld1000.github.io/categories/AI/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/</loc>
     <lastmod>2018-11-20T13:55:34.000Z</lastmod>
     <data>
@@ -11,8 +51,6 @@
         <title>CCColor Simple and flexible color color conversion module for Raku Perl 6</title>
         <pubTime>2018-11-20T13:51:11.000Z</pubTime>
         
-        <tag>color</tag>
-         
         <tag>CCColor</tag>
          
         <tag>draw</tag>
@@ -24,6 +62,8 @@
         <tag>graphics</tag>
          
         <tag>chart</tag>
+         
+        <tag>color</tag>
          
         <tag>raku</tag>
          
@@ -97,8 +137,6 @@
         <title>CCLog Simple and lightweight cross-platform logs</title>
         <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>Perl 6</tag>
          
         <tag>perl6</tag>
@@ -106,6 +144,8 @@
         <tag>Perl 5</tag>
          
         <tag>Perl</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCLog</tag>
          
@@ -281,6 +321,14 @@
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
         <pubTime>2018-09-08T10:19:24.000Z</pubTime>
         
+        <tag>color</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
         <tag>CCDebug</tag>
          
         <tag>debug</tag>
@@ -292,14 +340,6 @@
         <tag>XcodeColors</tag>
          
         <tag>Xcode</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
-         
-        <tag>color</tag>
          
          
            
@@ -320,19 +360,13 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
+        <tag>CCColor</tag>
          
         <tag>color</tag>
          
         <tag>CCFont</tag>
          
         <tag>Foundation</tag>
-         
-        <tag>CCColor</tag>
          
         <tag>UIFont</tag>
          
@@ -343,6 +377,12 @@
         <tag>NSColor</tag>
          
         <tag>font</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
          
            
@@ -370,6 +410,8 @@
          
         <tag>CCIGListKitDemo</tag>
          
+        <tag>UIColllectionView</tag>
+         
         <tag>IGListSectionController</tag>
          
         <tag>IGListAdapter</tag>
@@ -377,8 +419,6 @@
         <tag>UIViewController</tag>
          
         <tag>IGListDiffable</tag>
-         
-        <tag>UIColllectionView</tag>
          
          
            
@@ -457,13 +497,13 @@
         <title>CCSugar Foundation 附加函数集</title>
         <pubTime>2018-08-22T14:33:17.000Z</pubTime>
         
+        <tag>Foundation</tag>
+         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>Foundation</tag>
          
         <tag>CCSugar</tag>
          

@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[netural style & AI effect [神经网络风格画 & AI效果]]]></title>
+    <url>%2F2018%2F12%2F12%2Fnetural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C%2F</url>
+    <content type="text"><![CDATA[Scene1: CCStyle &amp; ButterflyHundreds of pictures have been generated. This is the best set of pictures. Material used to shoot butterflies.In most cases, the effect of the generated images is not very ideal. Scene2: FlowerDiscrimination of Flowers Using Existing AI Model.The main first picture was actually a lotus flower, but it was identified as a cyclamen.]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>CCStyle</tag>
+        <tag>AI</tag>
+        <tag>netural style</tag>
+        <tag>netural art</tag>
+        <tag>神经网络</tag>
+        <tag>AI效果</tag>
+        <tag>ml</tag>
+        <tag>coreml</tag>
+        <tag>deep-learning</tag>
+        <tag>machine-learning</tag>
+        <tag>dl</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCColor Simple and flexible color color conversion module for Raku Perl 6]]></title>
     <url>%2F2018%2F11%2F20%2FCCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6%2F</url>
     <content type="text"><![CDATA[CCColor12Simple and flexible color color conversion module for Raku Perl 6 , easy-to-use simple learning. ## HEX Color (use CCColor) ## See test123456789101112131415161718192021222324252627use CCColor;my @list =(" #FFFEA963 "," #FF FE A9 63 "," #FF # FE # A9 # 63 "," #"," #1"," #123"," #FFH"," #FHF"," #1234"," #12345"," #FFEE5"," #FFEE56"," #FFEE56A"," #FFEE56AH"," #FFEE56AA"," #FFEE56AA11"," #FFEE56AAFF11",);for @list -&gt; $color &#123; my ($r, $g, $b, $a) = hex2rgba($color); say "$r, $g, $b, $a";&#125; Call test/test.p6 ## Local installation and unloading12zef install .zef uninstall CCColor ## Network install12zef updatezef install CCColor]]></content>
@@ -8,13 +29,13 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>color</tag>
         <tag>CCColor</tag>
         <tag>draw</tag>
         <tag>pie</tag>
         <tag>line</tag>
         <tag>graphics</tag>
         <tag>chart</tag>
+        <tag>color</tag>
         <tag>raku</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
@@ -53,11 +74,11 @@
         <category>Perl 6</category>
       </categories>
       <tags>
-        <tag>Objective-C</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
@@ -134,16 +155,16 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>color</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
-        <tag>color</tag>
       </tags>
   </entry>
   <entry>
@@ -154,18 +175,18 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
+        <tag>CCColor</tag>
         <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
-        <tag>CCColor</tag>
         <tag>UIFont</tag>
         <tag>NSFont</tag>
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -180,11 +201,11 @@
         <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
+        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
-        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -226,10 +247,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>Foundation</tag>
         <tag>CCSugar</tag>
         <tag>c</tag>
         <tag>C</tag>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-11-20T13:55:34.000Z</updated>
+  <updated>2018-12-12T14:33:17.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>netural style &amp; AI effect [神经网络风格画 &amp; AI效果]</title>
+    <link href="https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C/"/>
+    <id>https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-神经网络风格画-AI效果/</id>
+    <published>2018-12-12T14:03:43.000Z</published>
+    <updated>2018-12-12T14:33:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Scene1-CCStyle-amp-Butterfly"><a href="#Scene1-CCStyle-amp-Butterfly" class="headerlink" title="Scene1: CCStyle &amp;  Butterfly"></a>Scene1: CCStyle &amp;  <a href="https://github.com/ccworld1000/CCStyle/tree/master/butterfly" target="_blank" rel="noopener">Butterfly</a></h2><h2 id="Hundreds-of-pictures-have-been-generated-This-is-the-best-set-of-pictures-Material-used-to-shoot-butterflies"><a href="#Hundreds-of-pictures-have-been-generated-This-is-the-best-set-of-pictures-Material-used-to-shoot-butterflies" class="headerlink" title="Hundreds of pictures have been generated. This is the best set of pictures. Material used to shoot butterflies."></a>Hundreds of pictures have been generated. This is the best set of pictures. Material used to shoot butterflies.</h2><h2 id="In-most-cases-the-effect-of-the-generated-images-is-not-very-ideal"><a href="#In-most-cases-the-effect-of-the-generated-images-is-not-very-ideal" class="headerlink" title="In most cases, the effect of the generated images is not very ideal."></a>In most cases, the effect of the generated images is not very ideal.</h2><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_1.jpg" alt="ccstlye_1.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_2.jpg" alt="ccstlye_2.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_3.jpg" alt="ccstlye_3.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_4.jpg" alt="ccstlye_4.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_5.jpg" alt="ccstlye_5.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_6.jpg" alt="ccstlye_6.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_7.jpg" alt="ccstlye_7.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_8.jpg" alt="ccstlye_8.jpg"></p><p><img src="https://raw.githubusercontent.com/ccworld1000/CCStyle/master/butterfly/ccstlye_9.jpg" alt="ccstlye_9.jpg"></p><h2 id="Scene2-Flower"><a href="#Scene2-Flower" class="headerlink" title="Scene2: Flower"></a>Scene2: Flower</h2><h2 id="Discrimination-of-Flowers-Using-Existing-AI-Model"><a href="#Discrimination-of-Flowers-Using-Existing-AI-Model" class="headerlink" title="Discrimination of Flowers Using Existing AI Model."></a>Discrimination of Flowers Using Existing AI Model.</h2><h2 id="The-main-first-picture-was-actually-a-lotus-flower-but-it-was-identified-as-a-cyclamen"><a href="#The-main-first-picture-was-actually-a-lotus-flower-but-it-was-identified-as-a-cyclamen" class="headerlink" title="The main first picture was actually a lotus flower, but it was identified as a cyclamen."></a>The main first picture was actually a lotus flower, but it was identified as a cyclamen.</h2><p><img src="https://raw.githubusercontent.com/ccworld1000/CCFlowerDemo/master/Screenshots/RightWrong.png" alt="flower compare"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Scene1-CCStyle-amp-Butterfly&quot;&gt;&lt;a href=&quot;#Scene1-CCStyle-amp-Butterfly&quot; class=&quot;headerlink&quot; title=&quot;Scene1: CCStyle &amp;amp;  Butterfly&quot;&gt;&lt;/
+      
+    
+    </summary>
+    
+      <category term="AI" scheme="https://ccworld1000.github.io/categories/AI/"/>
+    
+    
+      <category term="CCStyle" scheme="https://ccworld1000.github.io/tags/CCStyle/"/>
+    
+      <category term="AI" scheme="https://ccworld1000.github.io/tags/AI/"/>
+    
+      <category term="netural style" scheme="https://ccworld1000.github.io/tags/netural-style/"/>
+    
+      <category term="netural art" scheme="https://ccworld1000.github.io/tags/netural-art/"/>
+    
+      <category term="神经网络" scheme="https://ccworld1000.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="AI效果" scheme="https://ccworld1000.github.io/tags/AI%E6%95%88%E6%9E%9C/"/>
+    
+      <category term="ml" scheme="https://ccworld1000.github.io/tags/ml/"/>
+    
+      <category term="coreml" scheme="https://ccworld1000.github.io/tags/coreml/"/>
+    
+      <category term="deep-learning" scheme="https://ccworld1000.github.io/tags/deep-learning/"/>
+    
+      <category term="machine-learning" scheme="https://ccworld1000.github.io/tags/machine-learning/"/>
+    
+      <category term="dl" scheme="https://ccworld1000.github.io/tags/dl/"/>
+    
+  </entry>
   
   <entry>
     <title>CCColor Simple and flexible color color conversion module for Raku Perl 6</title>
@@ -37,8 +82,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
       <category term="draw" scheme="https://ccworld1000.github.io/tags/draw/"/>
@@ -50,6 +93,8 @@
       <category term="graphics" scheme="https://ccworld1000.github.io/tags/graphics/"/>
     
       <category term="chart" scheme="https://ccworld1000.github.io/tags/chart/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="raku" scheme="https://ccworld1000.github.io/tags/raku/"/>
     
@@ -133,8 +178,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -142,6 +185,8 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
     
@@ -307,6 +352,14 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -318,14 +371,6 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
   </entry>
   
@@ -350,19 +395,13 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
-      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
       <category term="UIFont" scheme="https://ccworld1000.github.io/tags/UIFont/"/>
     
@@ -373,6 +412,12 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -405,6 +450,8 @@
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
+    
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
       <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
@@ -412,8 +459,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -512,13 +557,13 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
