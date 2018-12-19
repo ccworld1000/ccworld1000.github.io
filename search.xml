@@ -36,6 +36,7 @@
         <tag>graphics</tag>
         <tag>chart</tag>
         <tag>color</tag>
+        <tag>svg</tag>
         <tag>raku</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
@@ -156,15 +157,15 @@
       </categories>
       <tags>
         <tag>color</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -177,6 +178,9 @@
       <tags>
         <tag>CCColor</tag>
         <tag>color</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>UIFont</tag>
@@ -184,9 +188,6 @@
         <tag>UIColor</tag>
         <tag>NSColor</tag>
         <tag>font</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -247,12 +248,12 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>Foundation</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>CCSugar</tag>
+        <tag>Foundation</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -274,10 +275,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

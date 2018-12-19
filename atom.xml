@@ -66,9 +66,9 @@
     <link href="https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/"/>
     <id>https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/</id>
     <published>2018-11-20T13:51:11.000Z</published>
-    <updated>2018-11-20T13:55:34.000Z</updated>
+    <updated>2018-12-19T15:35:34.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="CCColor"><a href="#CCColor" class="headerlink" title="CCColor"></a><a href="https://github.com/ccworld1000/CCColor" target="_blank" rel="noopener">CCColor</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Simple and flexible color color conversion module for Raku Perl 6 , </span><br><span class="line">easy-to-use simple learning.</span><br></pre></td></tr></table></figure><p>## </p><h2 id="HEX-Color-use-CCColor"><a href="#HEX-Color-use-CCColor" class="headerlink" title="HEX Color (use CCColor)"></a>HEX Color (use CCColor)</h2><p><a href="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/colors.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/colors.png" alt="colors"></a></p><p>## </p><h2 id="See-test"><a href="#See-test" class="headerlink" title="See test"></a>See test</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> CCColor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">my</span> @list =</span><br><span class="line">(</span><br><span class="line"><span class="string">"   #FFFEA963 "</span>,</span><br><span class="line"><span class="string">"   #FF FE A9 63 "</span>,</span><br><span class="line"><span class="string">"   #FF # FE #   A9 #     63 "</span>,</span><br><span class="line"><span class="string">"   #"</span>,</span><br><span class="line"><span class="string">"   #1"</span>,</span><br><span class="line"><span class="string">"   #123"</span>,</span><br><span class="line"><span class="string">"   #FFH"</span>,</span><br><span class="line"><span class="string">"   #FHF"</span>,</span><br><span class="line"><span class="string">"   #1234"</span>,</span><br><span class="line"><span class="string">"   #12345"</span>,</span><br><span class="line"><span class="string">"   #FFEE5"</span>,</span><br><span class="line"><span class="string">"   #FFEE56"</span>,</span><br><span class="line"><span class="string">"   #FFEE56A"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AH"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AA"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AA11"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AAFF11"</span>,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> @list -&gt; $color &#123;</span><br><span class="line">  <span class="keyword">my</span> ($r, $g, $b, $a) = hex2rgba($color);</span><br><span class="line">  <span class="keyword">say</span> <span class="string">"$r, $g, $b, $a"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Call test/test.p6</p><p><a href="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/test.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/test.png" alt="test"></a></p><p>## </p><h2 id="Local-installation-and-unloading"><a href="#Local-installation-and-unloading" class="headerlink" title="Local installation and unloading"></a>Local installation and unloading</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef install .</span><br><span class="line">zef uninstall CCColor</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Network-install"><a href="#Network-install" class="headerlink" title="Network install"></a>Network install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef update</span><br><span class="line">zef install CCColor</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="CCColor"><a href="#CCColor" class="headerlink" title="CCColor"></a><a href="https://github.com/ccworld1000/CCColor" target="_blank" rel="noopener">CCColor</a></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Simple and flexible color color conversion module for Raku Perl 6 , </span><br><span class="line">easy-to-use simple learning.</span><br></pre></td></tr></table></figure><p>## </p><h2 id="HEX-Color-use-CCColor"><a href="#HEX-Color-use-CCColor" class="headerlink" title="HEX Color (use CCColor)"></a>HEX Color (use CCColor)</h2><p><img src="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/colors.svg?sanitize=true" alt="colors"></p><p>## </p><h2 id="See-test"><a href="#See-test" class="headerlink" title="See test"></a>See test</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> CCColor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">my</span> @list =</span><br><span class="line">(</span><br><span class="line"><span class="string">"   #FFFEA963 "</span>,</span><br><span class="line"><span class="string">"   #FF FE A9 63 "</span>,</span><br><span class="line"><span class="string">"   #FF # FE #   A9 #     63 "</span>,</span><br><span class="line"><span class="string">"   #"</span>,</span><br><span class="line"><span class="string">"   #1"</span>,</span><br><span class="line"><span class="string">"   #123"</span>,</span><br><span class="line"><span class="string">"   #FFH"</span>,</span><br><span class="line"><span class="string">"   #FHF"</span>,</span><br><span class="line"><span class="string">"   #1234"</span>,</span><br><span class="line"><span class="string">"   #12345"</span>,</span><br><span class="line"><span class="string">"   #FFEE5"</span>,</span><br><span class="line"><span class="string">"   #FFEE56"</span>,</span><br><span class="line"><span class="string">"   #FFEE56A"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AH"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AA"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AA11"</span>,</span><br><span class="line"><span class="string">"   #FFEE56AAFF11"</span>,</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> @list -&gt; $color &#123;</span><br><span class="line">  <span class="keyword">my</span> ($r, $g, $b, $a) = hex2rgba($color);</span><br><span class="line">  <span class="keyword">say</span> <span class="string">"$r, $g, $b, $a"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Call test/test.p6</p><p><a href="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/test.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/ccworld1000/CCColor/master/doc/screenshot/test.png" alt="test"></a></p><p>## </p><h2 id="Local-installation-and-unloading"><a href="#Local-installation-and-unloading" class="headerlink" title="Local installation and unloading"></a>Local installation and unloading</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef install .</span><br><span class="line">zef uninstall CCColor</span><br></pre></td></tr></table></figure><p>## </p><h2 id="Network-install"><a href="#Network-install" class="headerlink" title="Network install"></a>Network install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">zef update</span><br><span class="line">zef install CCColor</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -95,6 +95,8 @@
       <category term="chart" scheme="https://ccworld1000.github.io/tags/chart/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
+      <category term="svg" scheme="https://ccworld1000.github.io/tags/svg/"/>
     
       <category term="raku" scheme="https://ccworld1000.github.io/tags/raku/"/>
     
@@ -354,12 +356,6 @@
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -371,6 +367,12 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -399,6 +401,12 @@
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
@@ -412,12 +420,6 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -557,17 +559,17 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
+      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -614,13 +616,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     

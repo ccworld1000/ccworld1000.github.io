@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/</loc>
+    <lastmod>2018-12-19T15:35:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>CCColor Simple and flexible color color conversion module for Raku Perl 6</title>
+        <pubTime>2018-11-20T13:51:11.000Z</pubTime>
+        
+        <tag>CCColor</tag>
+         
+        <tag>draw</tag>
+         
+        <tag>pie</tag>
+         
+        <tag>line</tag>
+         
+        <tag>graphics</tag>
+         
+        <tag>chart</tag>
+         
+        <tag>color</tag>
+         
+        <tag>svg</tag>
+         
+        <tag>raku</tag>
+         
+        <tag>Perl 6</tag>
+         
+        <tag>perl6</tag>
+         
+        <tag>Perl 5</tag>
+         
+        <tag>Perl</tag>
+         
+         
+           
+             
+              <breadCrumb title="Perl 6" url="https://ccworld1000.github.io/categories/Perl-6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C/</loc>
     <lastmod>2018-12-12T14:33:17.000Z</lastmod>
     <data>
@@ -37,48 +81,6 @@
            
              
               <breadCrumb title="AI" url="https://ccworld1000.github.io/categories/AI/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/</loc>
-    <lastmod>2018-11-20T13:55:34.000Z</lastmod>
-    <data>
-        <display>
-        <title>CCColor Simple and flexible color color conversion module for Raku Perl 6</title>
-        <pubTime>2018-11-20T13:51:11.000Z</pubTime>
-        
-        <tag>CCColor</tag>
-         
-        <tag>draw</tag>
-         
-        <tag>pie</tag>
-         
-        <tag>line</tag>
-         
-        <tag>graphics</tag>
-         
-        <tag>chart</tag>
-         
-        <tag>color</tag>
-         
-        <tag>raku</tag>
-         
-        <tag>Perl 6</tag>
-         
-        <tag>perl6</tag>
-         
-        <tag>Perl 5</tag>
-         
-        <tag>Perl</tag>
-         
-         
-           
-             
-              <breadCrumb title="Perl 6" url="https://ccworld1000.github.io/categories/Perl-6/"/>
           
         </display>
     </data>
@@ -323,12 +325,6 @@
         
         <tag>color</tag>
          
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
-         
         <tag>CCDebug</tag>
          
         <tag>debug</tag>
@@ -340,6 +336,12 @@
         <tag>XcodeColors</tag>
          
         <tag>Xcode</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
          
            
@@ -364,6 +366,12 @@
          
         <tag>color</tag>
          
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
         <tag>CCFont</tag>
          
         <tag>Foundation</tag>
@@ -377,12 +385,6 @@
         <tag>NSColor</tag>
          
         <tag>font</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
          
          
            
@@ -497,17 +499,17 @@
         <title>CCSugar Foundation 附加函数集</title>
         <pubTime>2018-08-22T14:33:17.000Z</pubTime>
         
-        <tag>Foundation</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
          
-        <tag>CCSugar</tag>
+        <tag>Foundation</tag>
          
         <tag>c</tag>
+         
+        <tag>CCSugar</tag>
          
         <tag>C</tag>
          
@@ -549,13 +551,13 @@
          
         <tag>Objective-C</tag>
          
-        <tag>c</tag>
-         
         <tag>CCTALib</tag>
          
         <tag>TA-Lib</tag>
          
         <tag>talib</tag>
+         
+        <tag>c</tag>
          
         <tag>financial market</tag>
          
