@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCFPSStatus show FPS status]]></title>
+    <url>%2F2019%2F05%2F04%2FCCFPSStatus-show-FPS-status%2F</url>
+    <content type="text"><![CDATA[CCFPSStatusCCFPSStatus show FPS status | Flexible location (Built-in on JPFPSStatus, optimize and adjust it) Screenshots Podfile​123platform :ios, '9.0'pod 'CCFPSStatus'​ InstructionNote：Use CCFPSStatus in DEBUG mode add the code in AppDelegate.m #import "CCFPSStatus.h" - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { // Override point for customization after application launch. #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] open]; #endif return YES; } #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] openWithHandler:^(NSInteger fpsValue) { NSLog(@"fpsvalue %@",@(fpsValue)); }]; #endif #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] close]; #endif LicensesAll source code is licensed under the MIT License.]]></content>
+      <tags>
+        <tag>Objective-C</tag>
+        <tag>CCFPSStatus</tag>
+        <tag>fps</tag>
+        <tag>FPSStatus</tag>
+        <tag>FPS-Status</tag>
+        <tag>JPFPSStatus</tag>
+        <tag>ios</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[netural style & AI effect [神经网络风格画 & AI效果]]]></title>
     <url>%2F2018%2F12%2F12%2Fnetural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C%2F</url>
     <content type="text"><![CDATA[Scene1: CCStyle &amp; ButterflyHundreds of pictures have been generated. This is the best set of pictures. Material used to shoot butterflies.In most cases, the effect of the generated images is not very ideal. Scene2: FlowerDiscrimination of Flowers Using Existing AI Model.The main first picture was actually a lotus flower, but it was identified as a cyclamen.]]></content>
@@ -252,8 +266,8 @@
         <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
-        <tag>c</tag>
         <tag>CCSugar</tag>
+        <tag>c</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -275,10 +289,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

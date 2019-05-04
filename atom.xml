@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2018-12-12T14:33:17.000Z</updated>
+  <updated>2019-05-04T02:55:47.000Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCFPSStatus show FPS status</title>
+    <link href="https://ccworld1000.github.io/2019/05/04/CCFPSStatus-show-FPS-status/"/>
+    <id>https://ccworld1000.github.io/2019/05/04/CCFPSStatus-show-FPS-status/</id>
+    <published>2019-05-04T02:39:49.000Z</published>
+    <updated>2019-05-04T02:55:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCFPSStatus"><a href="#CCFPSStatus" class="headerlink" title="CCFPSStatus"></a>CCFPSStatus</h1><p><a href="https://github.com/ccworld1000/CCFPSStatus" target="_blank" rel="noopener">CCFPSStatus</a> show FPS status | Flexible location (Built-in on <a href="https://github.com/joggerplus/JPFPSStatus" target="_blank" rel="noopener">JPFPSStatus</a>, optimize and adjust it)</p><h2 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h2><p><img src="https://github.com/ccworld1000/CCFPSStatus/blob/master/fps.gif?raw=true" alt="CCFPSStatus fps"></p><h4 id="Podfile"><a href="#Podfile" class="headerlink" title="Podfile"></a>Podfile</h4><p>​<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">platform <span class="symbol">:ios</span>, <span class="string">'9.0'</span></span><br><span class="line">pod <span class="string">'CCFPSStatus'</span></span><br><span class="line">​</span><br></pre></td></tr></table></figure></p><h4 id="Instruction"><a href="#Instruction" class="headerlink" title="Instruction"></a>Instruction</h4><p>Note：Use CCFPSStatus in DEBUG mode</p><p>add the code in AppDelegate.m    </p><pre>#import "CCFPSStatus.h"- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    // Override point for customization after application launch.#if defined(DEBUG)||defined(_DEBUG)    [[CCFPSStatus sharedInstance] open];#endif    return YES;}</pre><pre>#if defined(DEBUG)||defined(_DEBUG)    [[CCFPSStatus sharedInstance] openWithHandler:^(NSInteger fpsValue) {        NSLog(@"fpsvalue %@",@(fpsValue));    }];#endif</pre><pre>#if defined(DEBUG)||defined(_DEBUG)    [[CCFPSStatus sharedInstance] close];#endif</pre><h4 id="Licenses"><a href="#Licenses" class="headerlink" title="Licenses"></a>Licenses</h4><p>All source code is licensed under the <a href="https://github.com/ccworld1000/CCFPSStatus/blob/master/LICENSE" target="_blank" rel="noopener">MIT License</a>.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCFPSStatus&quot;&gt;&lt;a href=&quot;#CCFPSStatus&quot; class=&quot;headerlink&quot; title=&quot;CCFPSStatus&quot;&gt;&lt;/a&gt;CCFPSStatus&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ccworl
+      
+    
+    </summary>
+    
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCFPSStatus" scheme="https://ccworld1000.github.io/tags/CCFPSStatus/"/>
+    
+      <category term="fps" scheme="https://ccworld1000.github.io/tags/fps/"/>
+    
+      <category term="FPSStatus" scheme="https://ccworld1000.github.io/tags/FPSStatus/"/>
+    
+      <category term="FPS-Status" scheme="https://ccworld1000.github.io/tags/FPS-Status/"/>
+    
+      <category term="JPFPSStatus" scheme="https://ccworld1000.github.io/tags/JPFPSStatus/"/>
+    
+      <category term="ios" scheme="https://ccworld1000.github.io/tags/ios/"/>
+    
+  </entry>
   
   <entry>
     <title>netural style &amp; AI effect [神经网络风格画 &amp; AI效果]</title>
@@ -567,9 +602,9 @@
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -616,13 +651,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
