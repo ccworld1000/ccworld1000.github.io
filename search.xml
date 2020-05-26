@@ -225,9 +225,9 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
@@ -279,8 +279,8 @@
         <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
-        <tag>CCSugar</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
@@ -302,10 +302,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -334,9 +334,9 @@
         <category>组件优化</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
       </tags>
