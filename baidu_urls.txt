@@ -1,3 +1,4 @@
+https://ccworld1000.github.io/2020/05/26/CCComposition-for-code-style/
 https://ccworld1000.github.io/2019/05/04/CCFPSStatus-show-FPS-status/
 https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-神经网络风格画-AI效果/
 https://ccworld1000.github.io/2018/11/20/CCColor-Simple-and-flexible-color-color-conversion-module-for-Raku-Perl-6/
@@ -7,4 +8,3 @@ https://ccworld1000.github.io/2018/10/15/Cairo-2D-Graphics-library-binding-for-P
 https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-层次架构体系/
 https://ccworld1000.github.io/2018/09/09/CCSQLite-Objective-C-封装的SQLite-结合YapDatabase-key-value-store-FMDB/
 https://ccworld1000.github.io/2018/09/08/CCDebug-一种灵活的、轻量级的、可扩展的、可定制的日志调试-支持iOS与macOS/
-https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/

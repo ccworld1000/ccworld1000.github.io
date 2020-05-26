@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCComposition for code style]]></title>
+    <url>%2F2020%2F05%2F26%2FCCComposition-for-code-style%2F</url>
+    <content type="text"><![CDATA[CCCompositionCCComposition for code style, Accept code style conversion business(接受code style转换业务) ASD CCAFNetworking Charts CoreML IGListKit MPAndroidChart]]></content>
+      <tags>
+        <tag>ASD</tag>
+        <tag>AFNetworking</tag>
+        <tag>Charts</tag>
+        <tag>CoreML</tag>
+        <tag>IGListKit</tag>
+        <tag>MPAndroidChart</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCFPSStatus show FPS status]]></title>
     <url>%2F2019%2F05%2F04%2FCCFPSStatus-show-FPS-status%2F</url>
     <content type="text"><![CDATA[CCFPSStatusCCFPSStatus show FPS status | Flexible location (Built-in on JPFPSStatus, optimize and adjust it) Screenshots Podfile​123platform :ios, '9.0'pod 'CCFPSStatus'​ InstructionNote：Use CCFPSStatus in DEBUG mode add the code in AppDelegate.m #import "CCFPSStatus.h" - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { // Override point for customization after application launch. #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] open]; #endif return YES; } #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] openWithHandler:^(NSInteger fpsValue) { NSLog(@"fpsvalue %@",@(fpsValue)); }]; #endif #if defined(DEBUG)||defined(_DEBUG) [[CCFPSStatus sharedInstance] close]; #endif LicensesAll source code is licensed under the MIT License.]]></content>
@@ -212,9 +225,9 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
+        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
-        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
@@ -321,9 +334,9 @@
         <category>组件优化</category>
       </categories>
       <tags>
+        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
-        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
       </tags>

@@ -4,8 +4,35 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2020/05/26/CCComposition-for-code-style/</loc>
+    <lastmod>2020-05-26T15:02:03.791Z</lastmod>
+    <data>
+        <display>
+        <title>CCComposition for code style</title>
+        <pubTime>2020-05-26T14:58:48.000Z</pubTime>
+        
+        <tag>ASD</tag>
+         
+        <tag>AFNetworking</tag>
+         
+        <tag>Charts</tag>
+         
+        <tag>CoreML</tag>
+         
+        <tag>IGListKit</tag>
+         
+        <tag>MPAndroidChart</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2019/05/04/CCFPSStatus-show-FPS-status/</loc>
-    <lastmod>2019-05-04T02:55:47.000Z</lastmod>
+    <lastmod>2019-05-04T02:55:46.000Z</lastmod>
     <data>
         <display>
         <title>CCFPSStatus show FPS status</title>
@@ -78,7 +105,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/12/12/netural-style-AI-effect-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%A3%8E%E6%A0%BC%E7%94%BB-AI%E6%95%88%E6%9E%9C/</loc>
-    <lastmod>2018-12-12T14:33:17.000Z</lastmod>
+    <lastmod>2018-12-12T14:33:16.000Z</lastmod>
     <data>
         <display>
         <title>netural style & AI effect [神经网络风格画 & AI效果]</title>
@@ -234,7 +261,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-%E5%B1%82%E6%AC%A1%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB/</loc>
-    <lastmod>2018-10-04T07:27:17.000Z</lastmod>
+    <lastmod>2018-10-04T07:27:16.000Z</lastmod>
     <data>
         <display>
         <title>Perl 6 architecture 层次架构体系</title>
@@ -346,7 +373,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/09/08/CCDebug-%E4%B8%80%E7%A7%8D%E7%81%B5%E6%B4%BB%E7%9A%84%E3%80%81%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E3%80%81%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E3%80%81%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%9A%84%E6%97%A5%E5%BF%97%E8%B0%83%E8%AF%95-%E6%94%AF%E6%8C%81iOS%E4%B8%8EmacOS/</loc>
-    <lastmod>2018-09-08T10:56:33.000Z</lastmod>
+    <lastmod>2018-09-08T10:56:32.000Z</lastmod>
     <data>
         <display>
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
@@ -385,7 +412,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/09/01/CCFont-A-simple-iOS-and-OS-X-CCFont-replace-UIFont-NSFont-CCColor-replace-UIColor-NSColor/</loc>
-    <lastmod>2018-09-01T05:04:51.000Z</lastmod>
+    <lastmod>2018-09-01T05:04:50.000Z</lastmod>
     <data>
         <display>
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
@@ -433,11 +460,11 @@
         <title>IGListKit简单入门 CCIGListKitDemo 例子</title>
         <pubTime>2018-08-28T15:25:42.000Z</pubTime>
         
+        <tag>IGListKit</tag>
+         
         <tag>iOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>IGListKit</tag>
          
         <tag>CCIGListKitDemo</tag>
          
@@ -463,7 +490,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-%E7%BD%91%E7%AB%99%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/</loc>
-    <lastmod>2018-08-25T02:54:25.000Z</lastmod>
+    <lastmod>2018-08-25T02:54:24.000Z</lastmod>
     <data>
         <display>
         <title>Perl 6 perl6.org 网站中文翻译</title>
@@ -492,7 +519,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</loc>
-    <lastmod>2018-08-23T12:46:37.000Z</lastmod>
+    <lastmod>2018-08-23T12:46:36.000Z</lastmod>
     <data>
         <display>
         <title>OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)</title>
@@ -522,7 +549,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-%E9%99%84%E5%8A%A0%E5%87%BD%E6%95%B0%E9%9B%86/</loc>
-    <lastmod>2018-08-22T14:54:51.000Z</lastmod>
+    <lastmod>2018-08-22T14:54:50.000Z</lastmod>
     <data>
         <display>
         <title>CCSugar Foundation 附加函数集</title>
@@ -568,7 +595,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/21/CCTALib-TA-Lib-%E5%B9%BF%E6%B3%9B%E5%BA%94%E7%94%A8%E4%BA%8E%E4%BA%A4%E6%98%93%E5%BC%80%E5%8F%91%E5%88%86%E6%9E%90%E9%87%91%E8%9E%8D%E5%B8%82%E5%9C%BA%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2018-08-20T16:15:09.000Z</lastmod>
+    <lastmod>2018-08-20T16:15:08.000Z</lastmod>
     <data>
         <display>
         <title>CCTALib TA-Lib 广泛应用于交易开发分析金融市场数据</title>
@@ -604,17 +631,17 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2018/08/19/IGListKit-%E7%AE%80%E5%8C%96-%E4%BC%98%E5%8C%96-%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2018-08-19T14:11:29.000Z</lastmod>
+    <lastmod>2018-08-19T14:11:28.000Z</lastmod>
     <data>
         <display>
         <title>IGListKit 简化 优化 项目</title>
         <pubTime>2018-08-19T01:08:19.000Z</pubTime>
         
+        <tag>IGListKit</tag>
+         
         <tag>iOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>IGListKit</tag>
          
         <tag>CCIGListKitDemo</tag>
          
