@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCBinStyle for bin style]]></title>
+    <url>%2F2020%2F06%2F21%2FCCBinStyle-for-bin-style%2F</url>
+    <content type="text"><![CDATA[CCBinStylehttps://github.com/ccworld1000/CCBinStyle CCBinStyle for bin style, Accept bin style conversion business(接受bin style转换业务)]]></content>
+      <tags>
+        <tag>CCBinStyle</tag>
+        <tag>xpc</tag>
+        <tag>ccxpc</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCComposition for code style]]></title>
     <url>%2F2020%2F05%2F26%2FCCComposition-for-code-style%2F</url>
     <content type="text"><![CDATA[CCCompositionCCComposition for code style, Accept code style conversion business(接受code style转换业务) ASD CCAFNetworking Charts CoreML IGListKit MPAndroidChart]]></content>
@@ -102,11 +115,11 @@
         <category>Perl 6</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
-        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
@@ -183,6 +196,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
@@ -190,9 +206,6 @@
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -203,11 +216,11 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCColor</tag>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCColor</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>UIFont</tag>

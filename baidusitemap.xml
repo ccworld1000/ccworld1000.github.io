@@ -4,6 +4,33 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2020/06/21/CCBinStyle-for-bin-style/</loc>
+    <lastmod>2020-06-21T14:40:32.552Z</lastmod>
+    <data>
+        <display>
+        <title>CCBinStyle for bin style</title>
+        <pubTime>2020-06-21T14:36:00.000Z</pubTime>
+        
+        <tag>CCBinStyle</tag>
+         
+        <tag>xpc</tag>
+         
+        <tag>ccxpc</tag>
+         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2020/05/26/CCComposition-for-code-style/</loc>
     <lastmod>2020-05-26T15:02:03.791Z</lastmod>
     <data>
@@ -195,6 +222,8 @@
         <title>CCLog Simple and lightweight cross-platform logs</title>
         <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
+        <tag>Objective-C</tag>
+         
         <tag>Perl 6</tag>
          
         <tag>perl6</tag>
@@ -202,8 +231,6 @@
         <tag>Perl 5</tag>
          
         <tag>Perl</tag>
-         
-        <tag>Objective-C</tag>
          
         <tag>CCLog</tag>
          
@@ -379,6 +406,12 @@
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
         <pubTime>2018-09-08T10:19:24.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
         <tag>color</tag>
          
         <tag>CCDebug</tag>
@@ -392,12 +425,6 @@
         <tag>XcodeColors</tag>
          
         <tag>Xcode</tag>
-         
-        <tag>iOS</tag>
-         
-        <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
          
          
            
@@ -418,15 +445,15 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
-        <tag>CCColor</tag>
-         
-        <tag>color</tag>
-         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
+         
+        <tag>CCColor</tag>
+         
+        <tag>color</tag>
          
         <tag>CCFont</tag>
          

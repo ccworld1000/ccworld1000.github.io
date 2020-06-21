@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2020-05-26T15:02:03.791Z</updated>
+  <updated>2020-06-21T14:40:32.552Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCBinStyle for bin style</title>
+    <link href="https://ccworld1000.github.io/2020/06/21/CCBinStyle-for-bin-style/"/>
+    <id>https://ccworld1000.github.io/2020/06/21/CCBinStyle-for-bin-style/</id>
+    <published>2020-06-21T14:36:00.000Z</published>
+    <updated>2020-06-21T14:40:32.552Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCBinStyle"><a href="#CCBinStyle" class="headerlink" title="CCBinStyle"></a>CCBinStyle</h1><p><a href="https://github.com/ccworld1000/CCBinStyle" target="_blank" rel="noopener">https://github.com/ccworld1000/CCBinStyle</a></p><p>CCBinStyle for bin style, Accept bin style conversion business(接受bin style转换业务) </p><p><img src="https://raw.github.com/ccworld1000/CCBinStyle/master/ccxpc.png" alt="ccxpc.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCBinStyle&quot;&gt;&lt;a href=&quot;#CCBinStyle&quot; class=&quot;headerlink&quot; title=&quot;CCBinStyle&quot;&gt;&lt;/a&gt;CCBinStyle&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ccworld100
+      
+    
+    </summary>
+    
+    
+      <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
+    
+      <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
+    
+      <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+  </entry>
   
   <entry>
     <title>CCComposition for code style</title>
@@ -248,6 +281,8 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -255,8 +290,6 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
     
@@ -422,6 +455,12 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
@@ -435,12 +474,6 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -465,15 +498,15 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
