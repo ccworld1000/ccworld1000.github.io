@@ -281,8 +281,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -290,6 +288,8 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
     
@@ -455,13 +455,13 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
@@ -498,15 +498,15 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
@@ -553,8 +553,6 @@
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
-    
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
       <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
@@ -562,6 +560,8 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
+    
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -605,9 +605,9 @@
     <link href="https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/"/>
     <id>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</id>
     <published>2018-08-23T12:33:55.000Z</published>
-    <updated>2018-08-23T12:46:36.000Z</updated>
+    <updated>2020-07-01T13:48:03.965Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="OKKLineMin"><a href="#OKKLineMin" class="headerlink" title="OKKLineMin"></a>OKKLineMin</h3><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><a href="https://github.com/ccworld1000/OKKLineMin" target="_blank" rel="noopener"><strong>OKKLineMin</strong></a> kline for min for learning for iPhone*<em> </em>(支持 Swift4 &amp; iPhone X)* (主要用于学习目的)</p><h3 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h3><p>[支持 拖曳、 长按 、缩放]</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/OKKLineMin.gif" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/OKKLineMin.gif" alt="OKKLineMin"></a></p><p>iPhone X 全屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/X.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/X.png" alt="X"></a></p><p>iPhone X 半屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/Half.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/Half.png" alt="X"></a></p><p>iPhone 设备</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/iPhoneDevice.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/iPhoneDevice.png" alt="iPhoneDevice"></a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="OKKLineMin"><a href="#OKKLineMin" class="headerlink" title="OKKLineMin"></a>OKKLineMin</h3><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><a href="https://github.com/ccworld1000/OKKLineMin" target="_blank" rel="noopener"><strong>OKKLineMin</strong></a> kline for min for learning for iPhone (support Swift5 &amp; iPhone X &amp; iPhone 12 &amp; iOS 14)(min K线图 用于学习了解)</p><h3 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h3><p>[支持 拖曳、 长按 、缩放]</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/OKKLineMin.gif" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/OKKLineMin.gif" alt="OKKLineMin"></a></p><p>iPhone X 全屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/X.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/X.png" alt="X"></a></p><p>iPhone X 半屏</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/Half.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/Half.png" alt="X"></a></p><p>iPhone 设备</p><p><a href="https://github.com/ccworld1000/OKKLineMin/blob/master/Screenshot/iPhoneDevice.png" target="_blank" rel="noopener"><img src="https://github.com/ccworld1000/OKKLineMin/raw/master/Screenshot/iPhoneDevice.png" alt="iPhoneDevice"></a></p>]]></content>
     
     <summary type="html">
     
@@ -632,6 +632,12 @@
       <category term="iPhone X" scheme="https://ccworld1000.github.io/tags/iPhone-X/"/>
     
       <category term="OKKLineSwift" scheme="https://ccworld1000.github.io/tags/OKKLineSwift/"/>
+    
+      <category term="Xcode12" scheme="https://ccworld1000.github.io/tags/Xcode12/"/>
+    
+      <category term="iOS14" scheme="https://ccworld1000.github.io/tags/iOS14/"/>
+    
+      <category term="iPhone12" scheme="https://ccworld1000.github.io/tags/iPhone12/"/>
     
   </entry>
   
@@ -668,9 +674,9 @@
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
@@ -717,13 +723,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     

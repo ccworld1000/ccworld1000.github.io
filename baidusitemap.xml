@@ -4,6 +4,42 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</loc>
+    <lastmod>2020-07-01T13:48:03.965Z</lastmod>
+    <data>
+        <display>
+        <title>OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)</title>
+        <pubTime>2018-08-23T12:33:55.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>OKKLineMin</tag>
+         
+        <tag>kline</tag>
+         
+        <tag>K线，Swift</tag>
+         
+        <tag>iPhone X</tag>
+         
+        <tag>OKKLineSwift</tag>
+         
+        <tag>Xcode12</tag>
+         
+        <tag>iOS14</tag>
+         
+        <tag>iPhone12</tag>
+         
+         
+           
+             
+              <breadCrumb title="金融" url="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2020/06/21/CCBinStyle-for-bin-style/</loc>
     <lastmod>2020-06-21T14:40:32.552Z</lastmod>
     <data>
@@ -222,8 +258,6 @@
         <title>CCLog Simple and lightweight cross-platform logs</title>
         <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>Perl 6</tag>
          
         <tag>perl6</tag>
@@ -231,6 +265,8 @@
         <tag>Perl 5</tag>
          
         <tag>Perl</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCLog</tag>
          
@@ -406,13 +442,13 @@
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
         <pubTime>2018-09-08T10:19:24.000Z</pubTime>
         
+        <tag>color</tag>
+         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>color</tag>
          
         <tag>CCDebug</tag>
          
@@ -445,15 +481,15 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
+        <tag>CCColor</tag>
+         
+        <tag>color</tag>
+         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>CCColor</tag>
-         
-        <tag>color</tag>
          
         <tag>CCFont</tag>
          
@@ -495,8 +531,6 @@
          
         <tag>CCIGListKitDemo</tag>
          
-        <tag>UIColllectionView</tag>
-         
         <tag>IGListSectionController</tag>
          
         <tag>IGListAdapter</tag>
@@ -504,6 +538,8 @@
         <tag>UIViewController</tag>
          
         <tag>IGListDiffable</tag>
+         
+        <tag>UIColllectionView</tag>
          
          
            
@@ -545,36 +581,6 @@
     
     
   <url>
-    <loc>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</loc>
-    <lastmod>2018-08-23T12:46:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)</title>
-        <pubTime>2018-08-23T12:33:55.000Z</pubTime>
-        
-        <tag>iOS</tag>
-         
-        <tag>OKKLineMin</tag>
-         
-        <tag>kline</tag>
-         
-        <tag>K线，Swift</tag>
-         
-        <tag>iPhone X</tag>
-         
-        <tag>OKKLineSwift</tag>
-         
-         
-           
-             
-              <breadCrumb title="金融" url="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://ccworld1000.github.io/2018/08/22/CCSugar-Foundation-%E9%99%84%E5%8A%A0%E5%87%BD%E6%95%B0%E9%9B%86/</loc>
     <lastmod>2018-08-22T14:54:50.000Z</lastmod>
     <data>
@@ -590,9 +596,9 @@
          
         <tag>Foundation</tag>
          
-        <tag>c</tag>
-         
         <tag>CCSugar</tag>
+         
+        <tag>c</tag>
          
         <tag>C</tag>
          
@@ -634,13 +640,13 @@
          
         <tag>Objective-C</tag>
          
+        <tag>c</tag>
+         
         <tag>CCTALib</tag>
          
         <tag>TA-Lib</tag>
          
         <tag>talib</tag>
-         
-        <tag>c</tag>
          
         <tag>financial market</tag>
          
