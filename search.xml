@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCMemoryStyle memory map]]></title>
+    <url>%2F2020%2F11%2F04%2FCCMemoryStyle-memory-map%2F</url>
+    <content type="text"><![CDATA[CCMemoryStyleCCMemoryStyle memory map, Memory distribution, maybe you can do more from it. Fg: 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364CC # CCMemory CCMemoryStyle.framework/CCMemoryStyleClass Name Memory sizeCCMemory01 16CCMemory02 16CCMemory03 32CCMemory04 16CCMemory05 176CCMemory06 64CCMemory07 64CCMemory08 80CCMemory09 80CCMemory10 96CCMemory11 96CCMemory12 112CCMemory13 112CCMemory14 128CCMemory15 128CCMemory16 144CCMemory17 144CCMemory18 160CCMemory19 160CCMemory20 176CCMemory21 176CCMemory22 192CCMemory23 192CCMemory24 208CCMemory25 208CCMemory26 224CCMemory27 224CCMemory28 240CCMemory29 240CCMemory30 256CCMemorySub01 16CCMemorySub02 32CCMemorySub03 16CCMemorySub04 176CCMemorySub05 64CCMemorySub06 64CCMemorySub07 80CCMemorySub08 80CCMemorySub09 96CCMemorySub10 96CCMemorySub11 112CCMemorySub12 112CCMemorySub13 128CCMemorySub14 128CCMemorySub15 144CCMemorySub16 144CCMemorySub17 160CCMemorySub18 160CCMemorySub19 176CCMemorySub20 176CCMemorySub21 192CCMemorySub22 192CCMemorySub23 208CCMemorySub24 208CCMemorySub25 224CCMemorySub26 224CCMemorySub27 240CCMemorySub28 240CCMemorySub29 256CCMemorySub30 256CC #]]></content>
+      <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>CCMemoryStyle</tag>
+        <tag>CCMemory</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCBinStyle for bin style]]></title>
     <url>%2F2020%2F06%2F21%2FCCBinStyle-for-bin-style%2F</url>
     <content type="text"><![CDATA[CCBinStylehttps://github.com/ccworld1000/CCBinStyle CCBinStyle for bin style, Accept bin style conversion business(接受bin style转换业务)]]></content>
       <tags>
-        <tag>CCBinStyle</tag>
-        <tag>xpc</tag>
-        <tag>ccxpc</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCBinStyle</tag>
+        <tag>xpc</tag>
+        <tag>ccxpc</tag>
       </tags>
   </entry>
   <entry>
@@ -197,15 +209,15 @@
       </categories>
       <tags>
         <tag>color</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -238,15 +250,15 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
+        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
-        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
+        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
-        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -350,9 +362,9 @@
         <category>组件优化</category>
       </categories>
       <tags>
+        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
-        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
       </tags>

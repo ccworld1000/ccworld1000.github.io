@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2020-06-21T14:40:32.552Z</updated>
+  <updated>2020-11-04T11:28:47.916Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCMemoryStyle memory map</title>
+    <link href="https://ccworld1000.github.io/2020/11/04/CCMemoryStyle-memory-map/"/>
+    <id>https://ccworld1000.github.io/2020/11/04/CCMemoryStyle-memory-map/</id>
+    <published>2020-11-04T11:25:20.000Z</published>
+    <updated>2020-11-04T11:28:47.916Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCMemoryStyle"><a href="#CCMemoryStyle" class="headerlink" title="CCMemoryStyle"></a><a href="https://github.com/ccworld1000/CCMemoryStyle" target="_blank" rel="noopener">CCMemoryStyle</a></h1><p>CCMemoryStyle memory map, Memory distribution, maybe you can do more from it.</p><p>Fg:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">CC # CCMemory CCMemoryStyle.framework/CCMemoryStyle</span><br><span class="line">Class Name                                         Memory size</span><br><span class="line"></span><br><span class="line">CCMemory01                                         16</span><br><span class="line">CCMemory02                                         16</span><br><span class="line">CCMemory03                                         32</span><br><span class="line">CCMemory04                                         16</span><br><span class="line">CCMemory05                                         176</span><br><span class="line">CCMemory06                                         64</span><br><span class="line">CCMemory07                                         64</span><br><span class="line">CCMemory08                                         80</span><br><span class="line">CCMemory09                                         80</span><br><span class="line">CCMemory10                                         96</span><br><span class="line">CCMemory11                                         96</span><br><span class="line">CCMemory12                                         112</span><br><span class="line">CCMemory13                                         112</span><br><span class="line">CCMemory14                                         128</span><br><span class="line">CCMemory15                                         128</span><br><span class="line">CCMemory16                                         144</span><br><span class="line">CCMemory17                                         144</span><br><span class="line">CCMemory18                                         160</span><br><span class="line">CCMemory19                                         160</span><br><span class="line">CCMemory20                                         176</span><br><span class="line">CCMemory21                                         176</span><br><span class="line">CCMemory22                                         192</span><br><span class="line">CCMemory23                                         192</span><br><span class="line">CCMemory24                                         208</span><br><span class="line">CCMemory25                                         208</span><br><span class="line">CCMemory26                                         224</span><br><span class="line">CCMemory27                                         224</span><br><span class="line">CCMemory28                                         240</span><br><span class="line">CCMemory29                                         240</span><br><span class="line">CCMemory30                                         256</span><br><span class="line">CCMemorySub01                                      16</span><br><span class="line">CCMemorySub02                                      32</span><br><span class="line">CCMemorySub03                                      16</span><br><span class="line">CCMemorySub04                                      176</span><br><span class="line">CCMemorySub05                                      64</span><br><span class="line">CCMemorySub06                                      64</span><br><span class="line">CCMemorySub07                                      80</span><br><span class="line">CCMemorySub08                                      80</span><br><span class="line">CCMemorySub09                                      96</span><br><span class="line">CCMemorySub10                                      96</span><br><span class="line">CCMemorySub11                                      112</span><br><span class="line">CCMemorySub12                                      112</span><br><span class="line">CCMemorySub13                                      128</span><br><span class="line">CCMemorySub14                                      128</span><br><span class="line">CCMemorySub15                                      144</span><br><span class="line">CCMemorySub16                                      144</span><br><span class="line">CCMemorySub17                                      160</span><br><span class="line">CCMemorySub18                                      160</span><br><span class="line">CCMemorySub19                                      176</span><br><span class="line">CCMemorySub20                                      176</span><br><span class="line">CCMemorySub21                                      192</span><br><span class="line">CCMemorySub22                                      192</span><br><span class="line">CCMemorySub23                                      208</span><br><span class="line">CCMemorySub24                                      208</span><br><span class="line">CCMemorySub25                                      224</span><br><span class="line">CCMemorySub26                                      224</span><br><span class="line">CCMemorySub27                                      240</span><br><span class="line">CCMemorySub28                                      240</span><br><span class="line">CCMemorySub29                                      256</span><br><span class="line">CCMemorySub30                                      256</span><br><span class="line">CC #</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCMemoryStyle&quot;&gt;&lt;a href=&quot;#CCMemoryStyle&quot; class=&quot;headerlink&quot; title=&quot;CCMemoryStyle&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/ccworld1000/CCMemor
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCMemoryStyle" scheme="https://ccworld1000.github.io/tags/CCMemoryStyle/"/>
+    
+      <category term="CCMemory" scheme="https://ccworld1000.github.io/tags/CCMemory/"/>
+    
+  </entry>
   
   <entry>
     <title>CCBinStyle for bin style</title>
@@ -35,17 +66,17 @@
     </summary>
     
     
-      <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
-    
-      <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
-    
-      <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
+    
+      <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
+    
+      <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
     
   </entry>
   
@@ -457,12 +488,6 @@
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
       <category term="debug" scheme="https://ccworld1000.github.io/tags/debug/"/>
@@ -474,6 +499,12 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -545,13 +576,15 @@
       <category term="CCIGListKitDemo &amp;&amp; IGListKit" scheme="https://ccworld1000.github.io/categories/CCIGListKitDemo-IGListKit/"/>
     
     
+      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
-    
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
+    
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
@@ -560,8 +593,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -794,11 +825,11 @@
       <category term="组件优化" scheme="https://ccworld1000.github.io/categories/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
     
     
+      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
+    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
