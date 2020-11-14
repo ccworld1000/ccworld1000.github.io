@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCObj2opengl]]></title>
+    <url>%2F2020%2F11%2F14%2FCCObj2opengl%2F</url>
+    <content type="text"><![CDATA[CCObj2openglscript to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad CCObj2opengl come frome obj2openglobj2opengl –&gt;It will not be updated for a long time. This script will be slightly adjusted later Convert 3D models of OBJ file123456789101112131415161718CC # lsCCObj2opengl.pl CCTest.obj CCTestObj.png CCTestRun.png LICENSE README.mdCC # ./CCObj2opengl.pl CCTest.objdefined(@array) is deprecated at ./CCObj2opengl.pl line 156. (Maybe you should just omit the defined()?)Input file : ./CCTest.objOutput file : ./CCTest.hObject name : CCTestCenter : &lt;0, 0, 0&gt;Scale by : 0.5----------------Vertices : 8Faces : 12Texture Coords : 14Normals : 6CC # lsCCObj2opengl.pl CCTest.h CCTest.obj CCTestObj.png CCTestRun.png LICENSE README.mdCC # Test OBJ file Test OBJ file run iPhone]]></content>
+      <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
+        <tag>CCObj2opengl</tag>
+        <tag>OpenGL</tag>
+        <tag>OpenGL ES</tag>
+        <tag>C</tag>
+        <tag>iPhone</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCMemoryStyle memory map]]></title>
     <url>%2F2020%2F11%2F04%2FCCMemoryStyle-memory-map%2F</url>
     <content type="text"><![CDATA[CCMemoryStyleCCMemoryStyle memory map, Memory distribution, maybe you can do more from it. Fg: 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364CC # CCMemory CCMemoryStyle.framework/CCMemoryStyleClass Name Memory sizeCCMemory01 16CCMemory02 16CCMemory03 32CCMemory04 16CCMemory05 176CCMemory06 64CCMemory07 64CCMemory08 80CCMemory09 80CCMemory10 96CCMemory11 96CCMemory12 112CCMemory13 112CCMemory14 128CCMemory15 128CCMemory16 144CCMemory17 144CCMemory18 160CCMemory19 160CCMemory20 176CCMemory21 176CCMemory22 192CCMemory23 192CCMemory24 208CCMemory25 208CCMemory26 224CCMemory27 224CCMemory28 240CCMemory29 240CCMemory30 256CCMemorySub01 16CCMemorySub02 32CCMemorySub03 16CCMemorySub04 176CCMemorySub05 64CCMemorySub06 64CCMemorySub07 80CCMemorySub08 80CCMemorySub09 96CCMemorySub10 96CCMemorySub11 112CCMemorySub12 112CCMemorySub13 128CCMemorySub14 128CCMemorySub15 144CCMemorySub16 144CCMemorySub17 160CCMemorySub18 160CCMemorySub19 176CCMemorySub20 176CCMemorySub21 192CCMemorySub22 192CCMemorySub23 208CCMemorySub24 208CCMemorySub25 224CCMemorySub26 224CCMemorySub27 240CCMemorySub28 240CCMemorySub29 256CCMemorySub30 256CC #]]></content>
@@ -17,12 +32,12 @@
     <url>%2F2020%2F06%2F21%2FCCBinStyle-for-bin-style%2F</url>
     <content type="text"><![CDATA[CCBinStylehttps://github.com/ccworld1000/CCBinStyle CCBinStyle for bin style, Accept bin style conversion business(接受bin style转换业务)]]></content>
       <tags>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
         <tag>CCBinStyle</tag>
         <tag>xpc</tag>
         <tag>ccxpc</tag>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -127,11 +142,11 @@
         <category>Perl 6</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
-        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
@@ -208,6 +223,9 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
+        <tag>iOS</tag>
+        <tag>macOS</tag>
+        <tag>Objective-C</tag>
         <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
@@ -215,9 +233,6 @@
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
         <tag>Xcode</tag>
-        <tag>iOS</tag>
-        <tag>macOS</tag>
-        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -228,11 +243,11 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCColor</tag>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCColor</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>UIFont</tag>
@@ -250,9 +265,9 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
@@ -307,9 +322,9 @@
         <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
+        <tag>C</tag>
         <tag>CCSugar</tag>
         <tag>c</tag>
-        <tag>C</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -362,9 +377,9 @@
         <category>组件优化</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
       </tags>

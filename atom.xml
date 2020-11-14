@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2020-11-04T11:28:47.916Z</updated>
+  <updated>2020-11-14T15:32:17.518Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCObj2opengl</title>
+    <link href="https://ccworld1000.github.io/2020/11/14/CCObj2opengl/"/>
+    <id>https://ccworld1000.github.io/2020/11/14/CCObj2opengl/</id>
+    <published>2020-11-14T15:29:29.000Z</published>
+    <updated>2020-11-14T15:32:17.518Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CCObj2opengl"><a href="#CCObj2opengl" class="headerlink" title="CCObj2opengl"></a>CCObj2opengl</h1><p>script to convert 3D models of OBJ files to C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad</p><h3 id="CCObj2opengl-come-frome-obj2opengl"><a href="#CCObj2opengl-come-frome-obj2opengl" class="headerlink" title="CCObj2opengl come frome obj2opengl"></a>CCObj2opengl come frome obj2opengl</h3><p>obj2opengl –&gt;It will not be updated for a long time. This script will be slightly adjusted later</p><h3 id="Convert-3D-models-of-OBJ-file"><a href="#Convert-3D-models-of-OBJ-file" class="headerlink" title="Convert 3D models of OBJ file"></a>Convert 3D models of OBJ file</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">CC <span class="comment"># ls</span></span><br><span class="line">CCObj2opengl.plCCTest.objCCTestObj.pngCCTestRun.pngLICENSEREADME.md</span><br><span class="line">CC <span class="comment"># ./CCObj2opengl.pl CCTest.obj</span></span><br><span class="line">defined(@array) is deprecated at ./CCObj2opengl.pl line 156.</span><br><span class="line">(Maybe you should just omit the defined()?)</span><br><span class="line">Input file     : ./CCTest.obj</span><br><span class="line">Output file    : ./CCTest.h</span><br><span class="line">Object name    : CCTest</span><br><span class="line">Center         : &lt;0, 0, 0&gt;</span><br><span class="line">Scale by       : 0.5</span><br><span class="line">----------------</span><br><span class="line">Vertices       : 8</span><br><span class="line">Faces          : 12</span><br><span class="line">Texture Coords : 14</span><br><span class="line">Normals        : 6</span><br><span class="line">CC <span class="comment"># ls</span></span><br><span class="line">CCObj2opengl.plCCTest.hCCTest.objCCTestObj.pngCCTestRun.pngLICENSEREADME.md</span><br><span class="line">CC <span class="comment">#</span></span><br></pre></td></tr></table></figure><h3 id="Test-OBJ-file"><a href="#Test-OBJ-file" class="headerlink" title="Test OBJ file"></a>Test OBJ file</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/master/CCTestObj.png" alt="CCTestObj.png"></p><h3 id="Test-OBJ-file-run-iPhone"><a href="#Test-OBJ-file-run-iPhone" class="headerlink" title="Test OBJ file run iPhone"></a>Test OBJ file run iPhone</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/master/CCTestRun.png" alt="CCCTestRun.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CCObj2opengl&quot;&gt;&lt;a href=&quot;#CCObj2opengl&quot; class=&quot;headerlink&quot; title=&quot;CCObj2opengl&quot;&gt;&lt;/a&gt;CCObj2opengl&lt;/h1&gt;&lt;p&gt;script to convert 3D models of
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCObj2opengl" scheme="https://ccworld1000.github.io/tags/CCObj2opengl/"/>
+    
+      <category term="OpenGL" scheme="https://ccworld1000.github.io/tags/OpenGL/"/>
+    
+      <category term="OpenGL ES" scheme="https://ccworld1000.github.io/tags/OpenGL-ES/"/>
+    
+      <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
+    
+      <category term="iPhone" scheme="https://ccworld1000.github.io/tags/iPhone/"/>
+    
+  </entry>
   
   <entry>
     <title>CCMemoryStyle memory map</title>
@@ -66,17 +103,17 @@
     </summary>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
     
       <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
     
       <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -312,6 +349,8 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
     
       <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
@@ -319,8 +358,6 @@
       <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCLog" scheme="https://ccworld1000.github.io/tags/CCLog/"/>
     
@@ -486,6 +523,12 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
@@ -499,12 +542,6 @@
       <category term="XcodeColors" scheme="https://ccworld1000.github.io/tags/XcodeColors/"/>
     
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -529,15 +566,15 @@
       <category term="iOS &amp;&amp; macOS" scheme="https://ccworld1000.github.io/categories/iOS-macOS/"/>
     
     
-      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
-    
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
@@ -576,11 +613,11 @@
       <category term="CCIGListKitDemo &amp;&amp; IGListKit" scheme="https://ccworld1000.github.io/categories/CCIGListKitDemo-IGListKit/"/>
     
     
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
@@ -705,11 +742,11 @@
     
       <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
+      <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
+    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
-      <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
       <category term="NSNumber" scheme="https://ccworld1000.github.io/tags/NSNumber/"/>
     
@@ -800,40 +837,6 @@
       <category term="runtime" scheme="https://ccworld1000.github.io/tags/runtime/"/>
     
       <category term="MAObjCRuntime" scheme="https://ccworld1000.github.io/tags/MAObjCRuntime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IGListKit 简化 优化 项目</title>
-    <link href="https://ccworld1000.github.io/2018/08/19/IGListKit-%E7%AE%80%E5%8C%96-%E4%BC%98%E5%8C%96-%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://ccworld1000.github.io/2018/08/19/IGListKit-简化-优化-项目/</id>
-    <published>2018-08-19T01:08:19.000Z</published>
-    <updated>2018-08-19T14:11:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>## </p><h2 id="IGListKit-优势"><a href="#IGListKit-优势" class="headerlink" title="IGListKit 优势"></a>IGListKit 优势</h2><p> 一个数据驱动的“UICollectionView”框架，用于构建快速灵活的列表。</p><table><thead><tr><th></th><th>主要特性</th></tr></thead><tbody><tr><td>🙅</td><td>不要直接调用 <code>performBatchUpdates(_:, completion:)</code> 或 <code>reloadData()</code></td></tr><tr><td>🏠</td><td>更好的可复用cell和组件体系结构</td></tr><tr><td>🔠</td><td>创建具有多个数据类型的集合</td></tr><tr><td>🔑</td><td>解耦扩散算法</td></tr><tr><td>✅</td><td>全单元测试</td></tr><tr><td>🔍</td><td>自定义差异行为模型的</td></tr><tr><td>📱</td><td>简化 <code>UICollectionView</code>核心</td></tr><tr><td>🚀</td><td>可扩展API</td></tr><tr><td>🐦</td><td>Objective-C编写,同时完全支持Swift</td></tr></tbody></table><p><a href="https://github.com/ccworld1000/IGListKit/blob/master/README.zh.md" target="_blank" rel="noopener">更多详情请参考</a> </p><h2 id="CCIGListKitDemo-可参加demo具体代码"><a href="#CCIGListKitDemo-可参加demo具体代码" class="headerlink" title="CCIGListKitDemo 可参加demo具体代码"></a><a href="https://github.com/ccworld1000/CCIGListKitDemo" target="_blank" rel="noopener"><strong>CCIGListKitDemo</strong></a> 可参加demo具体代码</h2><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/MixedDataViewController.png?raw=true" alt="**MixedDataViewController.png**"></p><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/SearchViewController.png?raw=true" alt="**SearchViewController.png**"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;## &lt;/p&gt;
-&lt;h2 id=&quot;IGListKit-优势&quot;&gt;&lt;a href=&quot;#IGListKit-优势&quot; class=&quot;headerlink&quot; title=&quot;IGListKit 优势&quot;&gt;&lt;/a&gt;IGListKit 优势&lt;/h2&gt;&lt;p&gt; 一个数据驱动的“UICollecti
-      
-    
-    </summary>
-    
-      <category term="组件优化" scheme="https://ccworld1000.github.io/categories/%E7%BB%84%E4%BB%B6%E4%BC%98%E5%8C%96/"/>
-    
-    
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
