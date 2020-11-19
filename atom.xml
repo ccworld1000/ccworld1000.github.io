@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2020-11-19T04:52:40.792Z</updated>
+  <updated>2020-11-19T08:40:58.740Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://ccworld1000.github.io/2020/11/14/CCObj2opengl/"/>
     <id>https://ccworld1000.github.io/2020/11/14/CCObj2opengl/</id>
     <published>2020-11-14T15:29:29.000Z</published>
-    <updated>2020-11-19T04:52:40.792Z</updated>
+    <updated>2020-11-19T08:40:58.740Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Test-OBJ-file"><a href="#Test-OBJ-file" class="headerlink" title="Test OBJ file"></a>Test OBJ file</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCTestObj.png" alt="CCTestObj.png"></p><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCSphere1.png" alt="CCSphere1.png"></p><h3 id="Test-OBJ-file-run-iPhone"><a href="#Test-OBJ-file-run-iPhone" class="headerlink" title="Test OBJ file run iPhone"></a>Test OBJ file run iPhone</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCTestRun.png" alt="CCCTestRun.png"></p><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCSphere2.png" alt="CCSphere2.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="CCObj2opengl"><a href="#CCObj2opengl" class="headerlink" title="CCObj2opengl"></a><a href="https://github.com/ccworld1000/CCObj2opengl" target="_blank" rel="noopener">CCObj2opengl</a></h1><p>script to convert 3D models of OBJ files to OC/C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad/macOS</p><h3 id="CCObj2opengl-come-frome-obj2opengl"><a href="#CCObj2opengl-come-frome-obj2opengl" class="headerlink" title="CCObj2opengl come frome obj2opengl"></a>CCObj2opengl come frome obj2opengl</h3><p>obj2opengl –&gt;It will not be updated for a long time. This script will be slightly adjusted later</p><h3 id="Convert-3D-models-of-OBJ-file"><a href="#Convert-3D-models-of-OBJ-file" class="headerlink" title="Convert 3D models of OBJ file"></a>Convert 3D models of OBJ file</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">CC <span class="comment"># ls</span></span><br><span class="line">CCObj2opengl.plCCTest.objCCTestObj.pngCCTestRun.pngLICENSEREADME.md</span><br><span class="line">CC <span class="comment"># ./CCObj2opengl.pl CCTest.obj</span></span><br><span class="line">Input file     : ./CCTest.obj</span><br><span class="line">Output file    : ./CCTest.h</span><br><span class="line">Object name    : CCTest</span><br><span class="line">Center         : &lt;0, 0, 0&gt;</span><br><span class="line">Scale by       : 0.5</span><br><span class="line">----------------</span><br><span class="line">Vertices       : 8</span><br><span class="line">Faces          : 12</span><br><span class="line">Texture Coords : 14</span><br><span class="line">Normals        : 6</span><br><span class="line">CC <span class="comment"># ls</span></span><br><span class="line">CCObj2opengl.plCCTest.hCCTest.objCCTestObj.pngCCTestRun.pngLICENSEREADME.md</span><br><span class="line">CC <span class="comment">#</span></span><br></pre></td></tr></table></figure><h3 id="Test-OBJ-file"><a href="#Test-OBJ-file" class="headerlink" title="Test OBJ file"></a>Test OBJ file</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCTestObj.png" alt="CCTestObj.png"></p><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCSphere1.png" alt="CCSphere1.png"></p><h3 id="Test-OBJ-file-run-iPhone"><a href="#Test-OBJ-file-run-iPhone" class="headerlink" title="Test OBJ file run iPhone"></a>Test OBJ file run iPhone</h3><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCTestRun.png" alt="CCCTestRun.png"></p><p><img src="https://raw.github.com/ccworld1000/CCObj2opengl/main/CCSphere2.png" alt="CCSphere2.png"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;Test-OBJ-file&quot;&gt;&lt;a href=&quot;#Test-OBJ-file&quot; class=&quot;headerlink&quot; title=&quot;Test OBJ file&quot;&gt;&lt;/a&gt;Test OBJ file&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://raw.gith
+        &lt;h1 id=&quot;CCObj2opengl&quot;&gt;&lt;a href=&quot;#CCObj2opengl&quot; class=&quot;headerlink&quot; title=&quot;CCObj2opengl&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/ccworld1000/CCObj2open
       
     
     </summary>
@@ -613,13 +613,15 @@
       <category term="CCIGListKitDemo &amp;&amp; IGListKit" scheme="https://ccworld1000.github.io/categories/CCIGListKitDemo-IGListKit/"/>
     
     
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
-    
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
+    
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
+    
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
@@ -628,8 +630,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -740,9 +740,9 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
-    
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
+    
+      <category term="Foundation" scheme="https://ccworld1000.github.io/tags/Foundation/"/>
     
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
