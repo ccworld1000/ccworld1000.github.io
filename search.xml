@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[CCGPUImage change for GPUImage]]></title>
     <url>%2F2021%2F01%2F05%2FCCGPUImage-change-for-GPUImage%2F</url>
-    <content type="text"><![CDATA[CCGPUImage/GPUImageCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];&#125; beauty effect]]></content>
+    <content type="text"><![CDATA[CCGPUImage/GPUImageCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];&#125; BeautifyFace effect SimpleImageFilter effect]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>macOS</tag>
@@ -26,10 +26,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>C</tag>
         <tag>CCObj2opengl</tag>
         <tag>OpenGL</tag>
         <tag>OpenGL ES</tag>
+        <tag>C</tag>
         <tag>iPhone</tag>
       </tags>
   </entry>
@@ -160,11 +160,11 @@
         <category>Perl 6</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
-        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
@@ -241,10 +241,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
@@ -261,11 +261,11 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCColor</tag>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCColor</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>UIFont</tag>
@@ -340,9 +340,9 @@
         <tag>macOS</tag>
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
-        <tag>CCSugar</tag>
-        <tag>c</tag>
         <tag>C</tag>
+        <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -363,10 +363,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
