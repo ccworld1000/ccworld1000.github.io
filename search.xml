@@ -287,11 +287,11 @@
         <tag>Objective-C</tag>
         <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
+        <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
         <tag>IGListAdapter</tag>
         <tag>UIViewController</tag>
         <tag>IGListDiffable</tag>
-        <tag>UIColllectionView</tag>
       </tags>
   </entry>
   <entry>
@@ -341,8 +341,8 @@
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
         <tag>C</tag>
-        <tag>c</tag>
         <tag>CCSugar</tag>
+        <tag>c</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -363,10 +363,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>

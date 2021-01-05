@@ -664,6 +664,8 @@
     
       <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
     
+      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
+    
       <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
     
       <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
@@ -671,8 +673,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
     
   </entry>
   
@@ -787,9 +787,9 @@
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="NSNumber" scheme="https://ccworld1000.github.io/tags/NSNumber/"/>
     
@@ -834,13 +834,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
-    
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     
