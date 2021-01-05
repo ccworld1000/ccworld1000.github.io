@@ -4,6 +4,43 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2021/01/05/CCGPUImage-change-for-GPUImage/</loc>
+    <lastmod>2021-01-05T07:57:46.695Z</lastmod>
+    <data>
+        <display>
+        <title>CCGPUImage change for GPUImage</title>
+        <pubTime>2021-01-05T07:49:04.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>CCGPUImage</tag>
+         
+        <tag>GPUImage</tag>
+         
+        <tag>美颜</tag>
+         
+        <tag>一键美颜</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>beauty</tag>
+         
+        <tag>filter</tag>
+         
+        <tag>GPUImageBeautifyFilter</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2020/11/14/CCObj2opengl/</loc>
     <lastmod>2020-11-22T07:03:12.994Z</lastmod>
     <data>
@@ -17,13 +54,13 @@
          
         <tag>Objective-C</tag>
          
+        <tag>C</tag>
+         
         <tag>CCObj2opengl</tag>
          
         <tag>OpenGL</tag>
          
         <tag>OpenGL ES</tag>
-         
-        <tag>C</tag>
          
         <tag>iPhone</tag>
          
@@ -188,8 +225,6 @@
         
         <tag>CCColor</tag>
          
-        <tag>color</tag>
-         
         <tag>draw</tag>
          
         <tag>pie</tag>
@@ -199,6 +234,8 @@
         <tag>graphics</tag>
          
         <tag>chart</tag>
+         
+        <tag>color</tag>
          
         <tag>svg</tag>
          
@@ -314,8 +351,6 @@
         <title>CCLog Simple and lightweight cross-platform logs</title>
         <pubTime>2018-11-01T14:41:45.000Z</pubTime>
         
-        <tag>Objective-C</tag>
-         
         <tag>Perl 6</tag>
          
         <tag>perl6</tag>
@@ -323,6 +358,8 @@
         <tag>Perl 5</tag>
          
         <tag>Perl</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCLog</tag>
          
@@ -394,10 +431,6 @@
          
         <tag>Perl</tag>
          
-        <tag>perl</tag>
-         
-        <tag>perl6.org</tag>
-         
         <tag>rakudo</tag>
          
         <tag>VM</tag>
@@ -405,6 +438,10 @@
         <tag>moarvm</tag>
          
         <tag>nqp</tag>
+         
+        <tag>perl</tag>
+         
+        <tag>perl6.org</tag>
          
          
            
@@ -498,13 +535,13 @@
         <title>CCDebug 一种灵活的、轻量级的、可扩展的、可定制的日志调试 支持iOS与macOS</title>
         <pubTime>2018-09-08T10:19:24.000Z</pubTime>
         
+        <tag>color</tag>
+         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
          
         <tag>Objective-C</tag>
-         
-        <tag>color</tag>
          
         <tag>CCDebug</tag>
          
@@ -537,6 +574,10 @@
         <title>CCFont : A simple iOS and OS X CCFont replace [UIFont, NSFont], CCColor replace [UIColor, NSColor]</title>
         <pubTime>2018-09-01T04:59:17.000Z</pubTime>
         
+        <tag>CCColor</tag>
+         
+        <tag>color</tag>
+         
         <tag>iOS</tag>
          
         <tag>macOS</tag>
@@ -547,8 +588,6 @@
          
         <tag>Foundation</tag>
          
-        <tag>CCColor</tag>
-         
         <tag>UIFont</tag>
          
         <tag>NSFont</tag>
@@ -558,8 +597,6 @@
         <tag>NSColor</tag>
          
         <tag>font</tag>
-         
-        <tag>color</tag>
          
          
            
@@ -579,11 +616,11 @@
         <title>IGListKit简单入门 CCIGListKitDemo 例子</title>
         <pubTime>2018-08-28T15:25:42.000Z</pubTime>
         
-        <tag>IGListKit</tag>
-         
         <tag>iOS</tag>
          
         <tag>Objective-C</tag>
+         
+        <tag>IGListKit</tag>
          
         <tag>CCIGListKitDemo</tag>
          
@@ -652,11 +689,11 @@
          
         <tag>Foundation</tag>
          
-        <tag>C</tag>
-         
         <tag>CCSugar</tag>
          
         <tag>c</tag>
+         
+        <tag>C</tag>
          
         <tag>NSNumber</tag>
          
@@ -726,11 +763,11 @@
         <title>IGListKit 简化 优化 项目</title>
         <pubTime>2018-08-19T01:08:19.000Z</pubTime>
         
-        <tag>IGListKit</tag>
-         
         <tag>iOS</tag>
          
         <tag>Objective-C</tag>
+         
+        <tag>IGListKit</tag>
          
         <tag>CCIGListKitDemo</tag>
          
