@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2021/01/05/CCGPUImage-change-for-GPUImage/</loc>
-    <lastmod>2021-01-05T12:47:20.170Z</lastmod>
+    <lastmod>2021-01-08T10:18:26.703Z</lastmod>
     <data>
         <display>
         <title>CCGPUImage change for GPUImage</title>
@@ -431,6 +431,10 @@
          
         <tag>Perl</tag>
          
+        <tag>perl</tag>
+         
+        <tag>perl6.org</tag>
+         
         <tag>rakudo</tag>
          
         <tag>VM</tag>
@@ -438,10 +442,6 @@
         <tag>moarvm</tag>
          
         <tag>nqp</tag>
-         
-        <tag>perl</tag>
-         
-        <tag>perl6.org</tag>
          
          
            
@@ -691,9 +691,9 @@
          
         <tag>C</tag>
          
-        <tag>CCSugar</tag>
-         
         <tag>c</tag>
+         
+        <tag>CCSugar</tag>
          
         <tag>NSNumber</tag>
          
@@ -733,13 +733,13 @@
          
         <tag>Objective-C</tag>
          
-        <tag>c</tag>
-         
         <tag>CCTALib</tag>
          
         <tag>TA-Lib</tag>
          
         <tag>talib</tag>
+         
+        <tag>c</tag>
          
         <tag>financial market</tag>
          

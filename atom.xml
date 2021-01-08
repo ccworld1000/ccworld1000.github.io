@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2021-01-05T12:47:20.170Z</updated>
+  <updated>2021-01-08T10:18:26.703Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://ccworld1000.github.io/2021/01/05/CCGPUImage-change-for-GPUImage/"/>
     <id>https://ccworld1000.github.io/2021/01/05/CCGPUImage-change-for-GPUImage/</id>
     <published>2021-01-05T07:49:04.000Z</published>
-    <updated>2021-01-05T12:47:20.170Z</updated>
+    <updated>2021-01-08T10:18:26.703Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="CCGPUImage-GPUImage"><a href="#CCGPUImage-GPUImage" class="headerlink" title="CCGPUImage/GPUImage"></a>CCGPUImage/GPUImage</h1><p><a href="https://github.com/ccworld1000/CCGPUImage" target="_blank" rel="noopener">CCGPUImage</a> change for GPUImage, An open source iOS framework for GPU-based image and video processing.</p><h1 id="Pod-Install"><a href="#Pod-Install" class="headerlink" title="Pod Install"></a>Pod Install</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod <span class="string">'CCGPUImage'</span></span><br></pre></td></tr></table></figure><h1 id="Add-One-key-beauty-加入一键美颜-From-0-1-10"><a href="#Add-One-key-beauty-加入一键美颜-From-0-1-10" class="headerlink" title="Add One key beauty [加入一键美颜], From 0.1.10"></a>Add One key beauty [加入一键美颜], From 0.1.10</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// @see CCGPUImageExample -&gt; BeautifyFace</span><br><span class="line">- (void)refresBottomImage &#123;</span><br><span class="line">    self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="BeautifyFace-effect"><a href="#BeautifyFace-effect" class="headerlink" title="BeautifyFace effect"></a>BeautifyFace effect</h1><p><img src="https://github.com/ccworld1000/CCGPUImage/blob/master/Screenshots/BeautifyFace.png?raw=true" alt="BeautifyFace.png"></p><h1 id="SimpleImageFilter-effect"><a href="#SimpleImageFilter-effect" class="headerlink" title="SimpleImageFilter effect"></a>SimpleImageFilter effect</h1><p><img src="https://github.com/ccworld1000/CCGPUImage/blob/master/Screenshots/SimpleImageFilter.png?raw=true" alt="SimpleImageFilter.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="CCGPUImage-GPUImage"><a href="#CCGPUImage-GPUImage" class="headerlink" title="CCGPUImage/GPUImage"></a>CCGPUImage/GPUImage</h1><p><a href="https://github.com/ccworld1000/CCGPUImage" target="_blank" rel="noopener">CCGPUImage</a> change for GPUImage, An open source iOS framework for GPU-based image and video processing.</p><h1 id="Pod-Install"><a href="#Pod-Install" class="headerlink" title="Pod Install"></a>Pod Install</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod <span class="string">'CCGPUImage'</span></span><br></pre></td></tr></table></figure><h1 id="Add-One-key-beauty-加入一键美颜-From-0-1-10"><a href="#Add-One-key-beauty-加入一键美颜-From-0-1-10" class="headerlink" title="Add One key beauty [加入一键美颜], From 0.1.10"></a>Add One key beauty [加入一键美颜], From 0.1.10</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// @see CCGPUImageExample -&gt; BeautifyFace</span><br><span class="line">- (void)refresBottomImage &#123;</span><br><span class="line">    self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="BeautifyFace-effect"><a href="#BeautifyFace-effect" class="headerlink" title="BeautifyFace effect"></a>BeautifyFace effect</h1><p><img src="https://github.com/ccworld1000/CCGPUImage/blob/master/Screenshots/BeautifyFace.png?raw=true" alt="BeautifyFace.png"></p><h1 id="SimpleImageFilter-effect"><a href="#SimpleImageFilter-effect" class="headerlink" title="SimpleImageFilter effect"></a>SimpleImageFilter effect</h1><p><img src="https://github.com/ccworld1000/CCGPUImage/blob/master/Screenshots/SimpleImageFilter.png?raw=true" alt="SimpleImageFilter.png"></p><h1 id="RGBFilter-effect"><a href="#RGBFilter-effect" class="headerlink" title="RGBFilter effect"></a>RGBFilter effect</h1><p><img src="https://github.com/ccworld1000/CCGPUImage/blob/master/Screenshots/RGBFilter.png?raw=true" alt="RGBFilter.png"></p>]]></content>
     
     <summary type="html">
     
@@ -482,6 +482,10 @@
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
     
+      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
+    
+      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
+    
       <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
     
       <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
@@ -489,10 +493,6 @@
       <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
     
       <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
-    
-      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
-    
-      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
     
   </entry>
   
@@ -787,9 +787,9 @@
     
       <category term="C" scheme="https://ccworld1000.github.io/tags/C/"/>
     
-      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
-    
       <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
+    
+      <category term="CCSugar" scheme="https://ccworld1000.github.io/tags/CCSugar/"/>
     
       <category term="NSNumber" scheme="https://ccworld1000.github.io/tags/NSNumber/"/>
     
@@ -834,13 +834,13 @@
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
-    
       <category term="CCTALib" scheme="https://ccworld1000.github.io/tags/CCTALib/"/>
     
       <category term="TA-Lib" scheme="https://ccworld1000.github.io/tags/TA-Lib/"/>
     
       <category term="talib" scheme="https://ccworld1000.github.io/tags/talib/"/>
+    
+      <category term="c" scheme="https://ccworld1000.github.io/tags/c/"/>
     
       <category term="financial market" scheme="https://ccworld1000.github.io/tags/financial-market/"/>
     

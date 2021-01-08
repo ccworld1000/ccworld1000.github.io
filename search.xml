@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[CCGPUImage change for GPUImage]]></title>
     <url>%2F2021%2F01%2F05%2FCCGPUImage-change-for-GPUImage%2F</url>
-    <content type="text"><![CDATA[CCGPUImage/GPUImageCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];&#125; BeautifyFace effect SimpleImageFilter effect]]></content>
+    <content type="text"><![CDATA[CCGPUImage/GPUImageCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [UIImage imageWithCGImage:[[[GPUImageBeautifyFilter alloc] init] newCGImageByFilteringImage:self.topImage.image]];&#125; BeautifyFace effect SimpleImageFilter effect RGBFilter effect]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>macOS</tag>
@@ -202,12 +202,12 @@
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>perl</tag>
+        <tag>perl6.org</tag>
         <tag>rakudo</tag>
         <tag>VM</tag>
         <tag>moarvm</tag>
         <tag>nqp</tag>
-        <tag>perl</tag>
-        <tag>perl6.org</tag>
       </tags>
   </entry>
   <entry>
@@ -341,8 +341,8 @@
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
         <tag>C</tag>
-        <tag>CCSugar</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -363,10 +363,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
