@@ -161,11 +161,11 @@
         <category>Perl 6</category>
       </categories>
       <tags>
+        <tag>Objective-C</tag>
         <tag>Perl 6</tag>
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
-        <tag>Objective-C</tag>
         <tag>CCLog</tag>
         <tag>cclog</tag>
         <tag>logs</tag>
@@ -242,10 +242,10 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
@@ -262,11 +262,11 @@
         <category>iOS &amp;&amp; macOS</category>
       </categories>
       <tags>
-        <tag>CCColor</tag>
-        <tag>color</tag>
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>CCColor</tag>
+        <tag>color</tag>
         <tag>CCFont</tag>
         <tag>Foundation</tag>
         <tag>UIFont</tag>
@@ -284,9 +284,9 @@
         <category>CCIGListKitDemo &amp;&amp; IGListKit</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
         <tag>IGListSectionController</tag>
@@ -396,9 +396,9 @@
         <category>组件优化</category>
       </categories>
       <tags>
-        <tag>IGListKit</tag>
         <tag>iOS</tag>
         <tag>Objective-C</tag>
+        <tag>IGListKit</tag>
         <tag>CCIGListKitDemo</tag>
         <tag>UIColllectionView</tag>
       </tags>
