@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCCameraStyle CCCamera]]></title>
+    <url>%2F2021%2F03%2F24%2FCCCameraStyle-CCCamera%2F</url>
+    <content type="text"><![CDATA[CCCameraStyleCCCameraStyle CCCamera , AI, 3D]]></content>
+      <tags>
+        <tag>CCCameraStyle</tag>
+        <tag>CCCamera</tag>
+        <tag>camera</tag>
+        <tag>AI</tag>
+        <tag>3d</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCGPUImage change for GPUImage]]></title>
     <url>%2F2021%2F01%2F05%2FCCGPUImage-change-for-GPUImage%2F</url>
     <content type="text"><![CDATA[CCGPUImage/GPUImage/CCGPUImageExampleCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' CCGPUImageExampleCCGPUImageExample for CCGPUImage Example, https://github.com/ccworld1000/CCGPUImageExample. Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [[[GPUImageBeautifyFilter alloc] init] imageByFilteringImage:self.topImage.image];&#125; BeautifyFace effect SimpleImageFilter effect RGBFilter effect]]></content>
@@ -94,8 +106,8 @@
         <category>AI</category>
       </categories>
       <tags>
-        <tag>CCStyle</tag>
         <tag>AI</tag>
+        <tag>CCStyle</tag>
         <tag>netural style</tag>
         <tag>netural art</tag>
         <tag>神经网络</tag>
@@ -203,12 +215,12 @@
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>perl</tag>
+        <tag>perl6.org</tag>
         <tag>rakudo</tag>
         <tag>VM</tag>
         <tag>moarvm</tag>
         <tag>nqp</tag>
-        <tag>perl</tag>
-        <tag>perl6.org</tag>
       </tags>
   </entry>
   <entry>
@@ -342,8 +354,8 @@
         <tag>Objective-C</tag>
         <tag>Foundation</tag>
         <tag>C</tag>
-        <tag>CCSugar</tag>
         <tag>c</tag>
+        <tag>CCSugar</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -364,10 +376,10 @@
         <tag>iOS</tag>
         <tag>macOS</tag>
         <tag>Objective-C</tag>
-        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
+        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
