@@ -4,8 +4,77 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</loc>
+    <lastmod>2021-08-09T03:08:27.032Z</lastmod>
+    <data>
+        <display>
+        <title>OKKLineMin kline for min for learning for iPhone (support Swift5 & the latest iPhone & iOS 15)</title>
+        <pubTime>2018-08-23T12:33:55.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>iPhone</tag>
+         
+        <tag>OKKLineMin</tag>
+         
+        <tag>kline</tag>
+         
+        <tag>K线，Swift</tag>
+         
+        <tag>iPhone X</tag>
+         
+        <tag>OKKLineSwift</tag>
+         
+        <tag>Xcode13</tag>
+         
+        <tag>iOS15</tag>
+         
+         
+           
+             
+              <breadCrumb title="金融" url="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E7%B3%BB%E5%88%97/</loc>
+    <lastmod>2021-08-09T03:05:19.614Z</lastmod>
+    <data>
+        <display>
+        <title>CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列</title>
+        <pubTime>2021-08-09T03:02:11.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>Xcode</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>Swift</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>Metal</tag>
+         
+        <tag>MetalKit</tag>
+         
+        <tag>CCCanvas</tag>
+         
+        <tag>canvas</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2021/03/24/CCCameraStyle-CCCamera/</loc>
-    <lastmod>2021-03-24T06:49:58.898Z</lastmod>
+    <lastmod>2021-03-24T06:50:25.334Z</lastmod>
     <data>
         <display>
         <title>CCCameraStyle CCCamera</title>
@@ -38,9 +107,11 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCGPUImage</tag>
          
@@ -49,8 +120,6 @@
         <tag>美颜</tag>
          
         <tag>一键美颜</tag>
-         
-        <tag>GPU</tag>
          
         <tag>beauty</tag>
          
@@ -77,9 +146,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCObj2opengl</tag>
          
@@ -108,9 +177,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCMemoryStyle</tag>
          
@@ -124,42 +193,6 @@
 
     
   <url>
-    <loc>https://ccworld1000.github.io/2018/08/23/OKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X/</loc>
-    <lastmod>2020-07-01T13:48:03.965Z</lastmod>
-    <data>
-        <display>
-        <title>OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)</title>
-        <pubTime>2018-08-23T12:33:55.000Z</pubTime>
-        
-        <tag>iOS</tag>
-         
-        <tag>OKKLineMin</tag>
-         
-        <tag>kline</tag>
-         
-        <tag>K线，Swift</tag>
-         
-        <tag>iPhone X</tag>
-         
-        <tag>OKKLineSwift</tag>
-         
-        <tag>Xcode12</tag>
-         
-        <tag>iOS14</tag>
-         
-        <tag>iPhone12</tag>
-         
-         
-           
-             
-              <breadCrumb title="金融" url="https://ccworld1000.github.io/categories/%E9%87%91%E8%9E%8D/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://ccworld1000.github.io/2020/06/21/CCBinStyle-for-bin-style/</loc>
     <lastmod>2020-06-21T14:40:32.552Z</lastmod>
     <data>
@@ -167,17 +200,17 @@
         <title>CCBinStyle for bin style</title>
         <pubTime>2020-06-21T14:36:00.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
+        <tag>Objective-C</tag>
+         
         <tag>CCBinStyle</tag>
          
         <tag>xpc</tag>
          
         <tag>ccxpc</tag>
          
-        <tag>iOS</tag>
-         
         <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
          
          
            
@@ -490,9 +523,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCSQLite</tag>
          
@@ -534,9 +567,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCRuntime</tag>
          
@@ -564,9 +597,11 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
+        <tag>Xcode</tag>
          
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>color</tag>
          
@@ -579,8 +614,6 @@
         <tag>NSLog</tag>
          
         <tag>XcodeColors</tag>
-         
-        <tag>Xcode</tag>
          
          
            
@@ -603,9 +636,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCColor</tag>
          
@@ -710,17 +743,17 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>Foundation</tag>
          
         <tag>C</tag>
          
-        <tag>c</tag>
-         
         <tag>CCSugar</tag>
+         
+        <tag>c</tag>
          
         <tag>NSNumber</tag>
          
@@ -756,17 +789,17 @@
         
         <tag>iOS</tag>
          
+        <tag>Objective-C</tag>
+         
         <tag>macOS</tag>
          
-        <tag>Objective-C</tag>
+        <tag>c</tag>
          
         <tag>CCTALib</tag>
          
         <tag>TA-Lib</tag>
          
         <tag>talib</tag>
-         
-        <tag>c</tag>
          
         <tag>financial market</tag>
          

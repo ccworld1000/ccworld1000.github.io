@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列]]></title>
+    <url>%2F2021%2F08%2F09%2FCCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E7%B3%BB%E5%88%97%2F</url>
+    <content type="text"><![CDATA[CCCanvas 对iOS Metal MetalKit 的封装 主要简化演示，没有深入考虑细节 支持CocoaPods 导入, pod ‘CCCanvas’ 封装了Metal,MetalKit相关细节，极简调用 可能是史上最简的iOS演示GPU,Metal,MetalKit的demo 使用Objective-C编写，同时支持Objective-C与Swift语言调用 使用Xcode13生成动态CCCanvas.framework，仅支持iOS x86_64 模拟器 iOS GPU Metal MetalKit中的一个小小细节可能会导致卡在那里半天，几天，甚至更久,后果苦不堪言,于是可能就有了以下demo,也许不定时更新,主要是封装细节,极简调用,运行demo,初步体验，更多的细节再通过网上查阅细节。 CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 代码链接 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 代码链接 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 代码链接 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 代码链接 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 [代码链接](]]></content>
+      <tags>
+        <tag>iOS</tag>
+        <tag>Xcode</tag>
+        <tag>Objective-C</tag>
+        <tag>Swift</tag>
+        <tag>GPU</tag>
+        <tag>Metal</tag>
+        <tag>MetalKit</tag>
+        <tag>CCCanvas</tag>
+        <tag>canvas</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCCameraStyle CCCamera]]></title>
     <url>%2F2021%2F03%2F24%2FCCCameraStyle-CCCamera%2F</url>
     <content type="text"><![CDATA[CCCameraStyleCCCameraStyle CCCamera , AI, 3D]]></content>
@@ -18,13 +34,13 @@
     <content type="text"><![CDATA[CCGPUImage/GPUImage/CCGPUImageExampleCCGPUImage change for GPUImage, An open source iOS framework for GPU-based image and video processing. Pod Install1pod 'CCGPUImage' CCGPUImageExampleCCGPUImageExample for CCGPUImage Example, https://github.com/ccworld1000/CCGPUImageExample. Add One key beauty [加入一键美颜], From 0.1.101234// @see CCGPUImageExample -&gt; BeautifyFace- (void)refresBottomImage &#123; self.bottomImage.image = [[[GPUImageBeautifyFilter alloc] init] imageByFilteringImage:self.topImage.image];&#125; BeautifyFace effect SimpleImageFilter effect RGBFilter effect]]></content>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>GPU</tag>
+        <tag>macOS</tag>
         <tag>CCGPUImage</tag>
         <tag>GPUImage</tag>
         <tag>美颜</tag>
         <tag>一键美颜</tag>
-        <tag>GPU</tag>
         <tag>beauty</tag>
         <tag>filter</tag>
         <tag>GPUImageBeautifyFilter</tag>
@@ -37,8 +53,8 @@
     <content type="text"><![CDATA[CCObj2openglscript to convert 3D models of OBJ files to OC/C/C++ float arrays (vertices, faces, texture) compatible with OpenGL ES glDrawArrays compatible with iPhone/iPad/macOS CCObj2opengl come frome obj2openglobj2opengl –&gt;It will not be updated for a long time. This script will be slightly adjusted later Convert 3D models of OBJ file12345678910111213141516CC # lsCCObj2opengl.pl CCTest.obj CCTestObj.png CCTestRun.png LICENSE README.mdCC # ./CCObj2opengl.pl CCTest.objInput file : ./CCTest.objOutput file : ./CCTest.hObject name : CCTestCenter : &lt;0, 0, 0&gt;Scale by : 0.5----------------Vertices : 8Faces : 12Texture Coords : 14Normals : 6CC # lsCCObj2opengl.pl CCTest.h CCTest.obj CCTestObj.png CCTestRun.png LICENSE README.mdCC # Test OBJ file Test OBJ file run iPhone Test OBJ file run iPhone Device Effects]]></content>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>CCObj2opengl</tag>
         <tag>OpenGL</tag>
         <tag>OpenGL ES</tag>
@@ -52,8 +68,8 @@
     <content type="text"><![CDATA[CCMemoryStyleCCMemoryStyle memory map, Memory distribution, maybe you can do more from it. Fg: 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364CC # CCMemory CCMemoryStyle.framework/CCMemoryStyleClass Name Memory sizeCCMemory01 16CCMemory02 16CCMemory03 32CCMemory04 16CCMemory05 176CCMemory06 64CCMemory07 64CCMemory08 80CCMemory09 80CCMemory10 96CCMemory11 96CCMemory12 112CCMemory13 112CCMemory14 128CCMemory15 128CCMemory16 144CCMemory17 144CCMemory18 160CCMemory19 160CCMemory20 176CCMemory21 176CCMemory22 192CCMemory23 192CCMemory24 208CCMemory25 208CCMemory26 224CCMemory27 224CCMemory28 240CCMemory29 240CCMemory30 256CCMemorySub01 16CCMemorySub02 32CCMemorySub03 16CCMemorySub04 176CCMemorySub05 64CCMemorySub06 64CCMemorySub07 80CCMemorySub08 80CCMemorySub09 96CCMemorySub10 96CCMemorySub11 112CCMemorySub12 112CCMemorySub13 128CCMemorySub14 128CCMemorySub15 144CCMemorySub16 144CCMemorySub17 160CCMemorySub18 160CCMemorySub19 176CCMemorySub20 176CCMemorySub21 192CCMemorySub22 192CCMemorySub23 208CCMemorySub24 208CCMemorySub25 224CCMemorySub26 224CCMemorySub27 240CCMemorySub28 240CCMemorySub29 256CCMemorySub30 256CC #]]></content>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>CCMemoryStyle</tag>
         <tag>CCMemory</tag>
       </tags>
@@ -63,12 +79,12 @@
     <url>%2F2020%2F06%2F21%2FCCBinStyle-for-bin-style%2F</url>
     <content type="text"><![CDATA[CCBinStylehttps://github.com/ccworld1000/CCBinStyle CCBinStyle for bin style, Accept bin style conversion business(接受bin style转换业务)]]></content>
       <tags>
+        <tag>iOS</tag>
+        <tag>Objective-C</tag>
         <tag>CCBinStyle</tag>
         <tag>xpc</tag>
         <tag>ccxpc</tag>
-        <tag>iOS</tag>
         <tag>macOS</tag>
-        <tag>Objective-C</tag>
       </tags>
   </entry>
   <entry>
@@ -232,8 +248,8 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>CCSQLite</tag>
         <tag>FMDB</tag>
         <tag>YapDatabase</tag>
@@ -255,15 +271,15 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
+        <tag>Xcode</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>color</tag>
         <tag>CCDebug</tag>
         <tag>debug</tag>
         <tag>logging</tag>
         <tag>NSLog</tag>
         <tag>XcodeColors</tag>
-        <tag>Xcode</tag>
       </tags>
   </entry>
   <entry>
@@ -275,8 +291,8 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>CCColor</tag>
         <tag>color</tag>
         <tag>CCFont</tag>
@@ -323,22 +339,22 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[OKKLineMin kline for min for learning for iPhone (support Swift4 & iPhone X)]]></title>
+    <title><![CDATA[OKKLineMin kline for min for learning for iPhone (support Swift5 & the latest iPhone & iOS 15)]]></title>
     <url>%2F2018%2F08%2F23%2FOKKLineMin-kline-for-min-for-learning-for-iPhone-support-Swift4-iPhone-X%2F</url>
-    <content type="text"><![CDATA[OKKLineMin介绍OKKLineMin kline for min for learning for iPhone (support Swift5 &amp; iPhone X &amp; iPhone 12 &amp; iOS 14)(min K线图 用于学习了解) 截屏[支持 拖曳、 长按 、缩放] iPhone X 全屏 iPhone X 半屏 iPhone 设备]]></content>
+    <content type="text"><![CDATA[OKKLineMin介绍OKKLineMin kline for min for learning for iPhone (support Swift5 &amp; the latest iPhone &amp; iOS 15)(min K线图 用于学习了解) 截屏[支持 拖曳、 长按 、缩放] iPhone X 全屏 iPhone X 半屏 iPhone 设备]]></content>
       <categories>
         <category>金融</category>
       </categories>
       <tags>
         <tag>iOS</tag>
+        <tag>iPhone</tag>
         <tag>OKKLineMin</tag>
         <tag>kline</tag>
         <tag>K线，Swift</tag>
         <tag>iPhone X</tag>
         <tag>OKKLineSwift</tag>
-        <tag>Xcode12</tag>
-        <tag>iOS14</tag>
-        <tag>iPhone12</tag>
+        <tag>Xcode13</tag>
+        <tag>iOS15</tag>
       </tags>
   </entry>
   <entry>
@@ -350,12 +366,12 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>Foundation</tag>
         <tag>C</tag>
-        <tag>c</tag>
         <tag>CCSugar</tag>
+        <tag>c</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
         <tag>NSSet</tag>
@@ -374,12 +390,12 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
+        <tag>c</tag>
         <tag>CCTALib</tag>
         <tag>TA-Lib</tag>
         <tag>talib</tag>
-        <tag>c</tag>
         <tag>financial market</tag>
         <tag>market analysi</tag>
       </tags>
@@ -393,8 +409,8 @@
       </categories>
       <tags>
         <tag>iOS</tag>
-        <tag>macOS</tag>
         <tag>Objective-C</tag>
+        <tag>macOS</tag>
         <tag>CCRuntime</tag>
         <tag>runtime</tag>
         <tag>MAObjCRuntime</tag>
