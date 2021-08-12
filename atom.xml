@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2021-08-11T10:13:01.484Z</updated>
+  <updated>2021-08-12T09:52:05.763Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点</title>
+    <link href="https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%82%B9/"/>
+    <id>https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点/</id>
+    <published>2021-08-12T09:50:42.000Z</published>
+    <updated>2021-08-12T09:52:05.763Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点"><a href="#CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点" class="headerlink" title="CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点"></a><a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">CCCanvas.Point</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点</h3><p>一个点,这是个点?怎么看起来不像啊,明明就是个方块? 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a></p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a><h3 id="Screenshot"><a href="#Screenshot" class="headerlink" title="Screenshot"></a>Screenshot</h3><img src="https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点&quot;&gt;&lt;a href=&quot;#CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点&quot; cl
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
+    
+      <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
+    
+      <category term="Metal" scheme="https://ccworld1000.github.io/tags/Metal/"/>
+    
+      <category term="MetalKit" scheme="https://ccworld1000.github.io/tags/MetalKit/"/>
+    
+      <category term="CCCanvas" scheme="https://ccworld1000.github.io/tags/CCCanvas/"/>
+    
+      <category term="canvas" scheme="https://ccworld1000.github.io/tags/canvas/"/>
+    
+  </entry>
   
   <entry>
     <title>CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色</title>
@@ -37,9 +76,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -76,9 +115,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -146,11 +185,11 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCGPUImage" scheme="https://ccworld1000.github.io/tags/CCGPUImage/"/>
     
@@ -191,9 +230,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCObj2opengl" scheme="https://ccworld1000.github.io/tags/CCObj2opengl/"/>
     
@@ -228,9 +267,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCMemoryStyle" scheme="https://ccworld1000.github.io/tags/CCMemoryStyle/"/>
     
@@ -257,17 +296,17 @@
     </summary>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
     
       <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
     
       <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -593,6 +632,10 @@
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
     
+      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
+    
+      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
+    
       <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
     
       <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
@@ -600,10 +643,6 @@
       <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
     
       <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
-    
-      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
-    
-      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
     
   </entry>
   
@@ -630,9 +669,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCSQLite" scheme="https://ccworld1000.github.io/tags/CCSQLite/"/>
     
@@ -679,13 +718,13 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="CCDebug" scheme="https://ccworld1000.github.io/tags/CCDebug/"/>
     
@@ -722,13 +761,13 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCFont" scheme="https://ccworld1000.github.io/tags/CCFont/"/>
     
@@ -784,41 +823,6 @@
       <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
     
       <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Perl 6 perl6.org 网站中文翻译</title>
-    <link href="https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-%E7%BD%91%E7%AB%99%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91/"/>
-    <id>https://ccworld1000.github.io/2018/08/25/Perl-6-perl6-org-网站中文翻译/</id>
-    <published>2018-08-25T02:47:29.000Z</published>
-    <updated>2018-08-25T02:54:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="本数据仓缘由"><a href="#本数据仓缘由" class="headerlink" title="本数据仓缘由"></a>本数据仓缘由</h5><blockquote><pre><code>很多年过去,有关Perl 6相关的中文文档少之又少.</code></pre><p>于是我打算翻译一些部分文档入口促进Perl 6 在中国的发展.</p><p>如果有一定的英文功底,建议直接看官方文档.</p><p>部分文档直接按英语翻译过来的意思可能不太好,所以有的采用意译.</p><h5 id="2018-04-10-by-CC"><a href="#2018-04-10-by-CC" class="headerlink" title="2018/04/10 by CC"></a>2018/04/10 by CC</h5></blockquote><h5 id="Perl-5-amp-amp-Perl-6"><a href="#Perl-5-amp-amp-Perl-6" class="headerlink" title="Perl 5 &amp;&amp; Perl 6"></a>Perl 5 &amp;&amp; Perl 6</h5><blockquote><pre><code>讲到Perl 6 就不得不提Perl 5,后续我简写为P6 与 P5.</code></pre><p>建议把P6当成一门新语言,可能对接触过P5的童鞋来讲是一样的.</p><p>不过他们确实很多相识点,更多细节需要通过学习深入了解,</p><p>祝大家在P6的路途愉快.</p></blockquote><h5 id="翻译进度"><a href="#翻译进度" class="headerlink" title="翻译进度"></a>翻译进度</h5><blockquote><pre><code>网站主体入口差不多翻译完成。</code></pre><p>doc模块<a href="https://github.com/ccworld1000/doc" target="_blank" rel="noopener">https://github.com/ccworld1000/doc</a>还没有咋开始。</p><p>缘由：编译通不过去，一旦开始翻译就没有办法与官网同步。</p><p>如果有更好的提议，欢迎提议。</p></blockquote><h5 id="已翻译入口"><a href="#已翻译入口" class="headerlink" title="已翻译入口"></a>已翻译入口</h5><blockquote><p><a href="https://github.com/ccworld1000/doc/blob/master/README.zh.md" target="_blank" rel="noopener">P6官方中文文档入口1</a> 或者 <a href="https://github.com/perl6/doc/blob/master/README.zh.md" target="_blank" rel="noopener">P6官方中文文档入口2</a></p><p>翻译当前进度：大致入口翻译已经完毕，可以下载到本地运行。</p></blockquote><h5 id="贡献本数据仓"><a href="#贡献本数据仓" class="headerlink" title="贡献本数据仓"></a>贡献本数据仓</h5><blockquote><pre><code>如果想帮忙可以fork  [https://github.com/ccworld1000/perl6.org](https://github.com/ccworld1000/perl6.org),帮助形式不限.</code></pre><p>项目本身采用我私用工具CCAutoTag自动打tag,这个实际上也是最近用P6完成的.</p></blockquote><h5 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h5><p><img src="https://github.com/ccworld1000/perl6.org/blob/master/ScreenShots/p6.zh.jpg?raw=true" alt="p6.zh"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h5 id=&quot;本数据仓缘由&quot;&gt;&lt;a href=&quot;#本数据仓缘由&quot; class=&quot;headerlink&quot; title=&quot;本数据仓缘由&quot;&gt;&lt;/a&gt;本数据仓缘由&lt;/h5&gt;&lt;blockquote&gt;
-&lt;pre&gt;&lt;code&gt;很多年过去,有关Perl 6相关的中文文档少之又少.
-&lt;/code
-      
-    
-    </summary>
-    
-      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
-    
-    
-      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
-    
-      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
-    
-      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
-    
-      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
-    
-      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
     
   </entry>
   
