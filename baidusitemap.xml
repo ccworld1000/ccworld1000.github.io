@@ -4,41 +4,8 @@
 
     
   <url>
-    <loc>https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%82%B9/</loc>
-    <lastmod>2021-08-12T09:52:05.763Z</lastmod>
-    <data>
-        <display>
-        <title>CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点</title>
-        <pubTime>2021-08-12T09:50:42.000Z</pubTime>
-        
-        <tag>iOS</tag>
-         
-        <tag>Objective-C</tag>
-         
-        <tag>Xcode</tag>
-         
-        <tag>Swift</tag>
-         
-        <tag>GPU</tag>
-         
-        <tag>Metal</tag>
-         
-        <tag>MetalKit</tag>
-         
-        <tag>CCCanvas</tag>
-         
-        <tag>canvas</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2021-08-11T10:13:57.523Z</lastmod>
+    <lastmod>2021-08-13T02:49:45.827Z</lastmod>
     <data>
         <display>
         <title>CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列</title>
@@ -46,9 +13,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>Xcode</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>Swift</tag>
          
@@ -71,7 +38,7 @@
     
   <url>
     <loc>https://ccworld1000.github.io/2021/08/11/CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%A2%9C%E8%89%B2/</loc>
-    <lastmod>2021-08-11T10:13:01.484Z</lastmod>
+    <lastmod>2021-08-13T02:48:57.157Z</lastmod>
     <data>
         <display>
         <title>CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色</title>
@@ -79,9 +46,75 @@
         
         <tag>iOS</tag>
          
+        <tag>Xcode</tag>
+         
         <tag>Objective-C</tag>
          
+        <tag>Swift</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>Metal</tag>
+         
+        <tag>MetalKit</tag>
+         
+        <tag>CCCanvas</tag>
+         
+        <tag>canvas</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%82%B9/</loc>
+    <lastmod>2021-08-13T02:48:11.003Z</lastmod>
+    <data>
+        <display>
+        <title>CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点</title>
+        <pubTime>2021-08-12T09:50:42.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
         <tag>Xcode</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>Swift</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>Metal</tag>
+         
+        <tag>MetalKit</tag>
+         
+        <tag>CCCanvas</tag>
+         
+        <tag>canvas</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ccworld1000.github.io/2021/08/13/CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%BA%BF/</loc>
+    <lastmod>2021-08-13T02:47:15.467Z</lastmod>
+    <data>
+        <display>
+        <title>CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线</title>
+        <pubTime>2021-08-13T02:43:51.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>Xcode</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>Swift</tag>
          
@@ -173,11 +206,11 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
          
         <tag>GPU</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCGPUImage</tag>
          
@@ -212,9 +245,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCObj2opengl</tag>
          
@@ -243,9 +276,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCMemoryStyle</tag>
          
@@ -266,17 +299,17 @@
         <title>CCBinStyle for bin style</title>
         <pubTime>2020-06-21T14:36:00.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
+        <tag>Objective-C</tag>
+         
         <tag>CCBinStyle</tag>
          
         <tag>xpc</tag>
          
         <tag>ccxpc</tag>
          
-        <tag>iOS</tag>
-         
         <tag>macOS</tag>
-         
-        <tag>Objective-C</tag>
          
          
            
@@ -557,10 +590,6 @@
          
         <tag>Perl</tag>
          
-        <tag>perl</tag>
-         
-        <tag>perl6.org</tag>
-         
         <tag>rakudo</tag>
          
         <tag>VM</tag>
@@ -568,6 +597,10 @@
         <tag>moarvm</tag>
          
         <tag>nqp</tag>
+         
+        <tag>perl</tag>
+         
+        <tag>perl6.org</tag>
          
          
            
@@ -589,9 +622,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCSQLite</tag>
          
@@ -633,9 +666,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCRuntime</tag>
          
@@ -663,11 +696,11 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
+        <tag>Xcode</tag>
          
         <tag>Objective-C</tag>
          
-        <tag>Xcode</tag>
+        <tag>macOS</tag>
          
         <tag>color</tag>
          
@@ -702,9 +735,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>CCColor</tag>
          
@@ -809,9 +842,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>Foundation</tag>
          
@@ -855,9 +888,9 @@
         
         <tag>iOS</tag>
          
-        <tag>macOS</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>macOS</tag>
          
         <tag>c</tag>
          

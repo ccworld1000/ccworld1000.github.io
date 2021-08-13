@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2021-08-12T09:52:05.763Z</updated>
+  <updated>2021-08-13T02:47:15.467Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -17,13 +17,52 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线</title>
+    <link href="https://ccworld1000.github.io/2021/08/13/CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%BA%BF/"/>
+    <id>https://ccworld1000.github.io/2021/08/13/CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-线/</id>
+    <published>2021-08-13T02:43:51.000Z</published>
+    <updated>2021-08-13T02:47:15.467Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-线"><a href="#CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-线" class="headerlink" title="CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线"></a><a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">CCCanvas.Line</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线</h3><p>两点一线 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Line/CCCanvas.Line.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Line/CCCanvas.Line.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a></p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 <a href="https://github.com/ccworld1000/CCCanvas.Texture" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a><h3 id="CCCanvas-Line-Screenshot"><a href="#CCCanvas-Line-Screenshot" class="headerlink" title="CCCanvas.Line Screenshot"></a>CCCanvas.Line Screenshot</h3><img src="https://raw.github.com/ccworld1000/CCCanvas.Line/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Line iPhone Screenshot"></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-线&quot;&gt;&lt;a href=&quot;#CCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-线&quot; clas
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
+    
+      <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
+    
+      <category term="Metal" scheme="https://ccworld1000.github.io/tags/Metal/"/>
+    
+      <category term="MetalKit" scheme="https://ccworld1000.github.io/tags/MetalKit/"/>
+    
+      <category term="CCCanvas" scheme="https://ccworld1000.github.io/tags/CCCanvas/"/>
+    
+      <category term="canvas" scheme="https://ccworld1000.github.io/tags/canvas/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点</title>
     <link href="https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%82%B9/"/>
     <id>https://ccworld1000.github.io/2021/08/12/CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点/</id>
     <published>2021-08-12T09:50:42.000Z</published>
-    <updated>2021-08-12T09:52:05.763Z</updated>
+    <updated>2021-08-13T02:48:11.003Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点"><a href="#CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点" class="headerlink" title="CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点"></a><a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">CCCanvas.Point</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点</h3><p>一个点,这是个点?怎么看起来不像啊,明明就是个方块? 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a></p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a><h3 id="Screenshot"><a href="#Screenshot" class="headerlink" title="Screenshot"></a>Screenshot</h3><img src="https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></li></ol>]]></content>
+    <content type="html"><![CDATA[<h3 id="CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点"><a href="#CCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-点" class="headerlink" title="CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点"></a><a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">CCCanvas.Point</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点</h3><p>一个点,这是个点?怎么看起来不像啊,明明就是个方块? 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Point/CCCanvas.Point.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a></p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a><h3 id="CCCanvas-Point-Screenshot"><a href="#CCCanvas-Point-Screenshot" class="headerlink" title="CCCanvas.Point Screenshot"></a>CCCanvas.Point Screenshot</h3><img src="https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></li></ol>]]></content>
     
     <summary type="html">
     
@@ -37,9 +76,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -60,9 +99,9 @@
     <link href="https://ccworld1000.github.io/2021/08/11/CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%A2%9C%E8%89%B2/"/>
     <id>https://ccworld1000.github.io/2021/08/11/CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-颜色/</id>
     <published>2021-08-11T10:11:02.000Z</published>
-    <updated>2021-08-11T10:13:01.484Z</updated>
+    <updated>2021-08-13T02:48:57.157Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-颜色"><a href="#CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-颜色" class="headerlink" title="CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色"></a><a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">CCCanvas.Color</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色</h3><p>背景颜色,核心变更一个参数即可,调用如此简单 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Color/CCCanvas.Color.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Color/CCCanvas.Color.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a> </p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><h3 id="Screenshot"><a href="#Screenshot" class="headerlink" title="Screenshot"></a>Screenshot</h3><p><img src="https://github.com/ccworld1000/CCCanvas.Color/blob/main/Screenshot/iPhone.jpg" alt="CCCanvas.Color iPhone Screenshot"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-颜色"><a href="#CCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-颜色" class="headerlink" title="CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色"></a><a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">CCCanvas.Color</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色</h3><p>背景颜色,核心变更一个参数即可,调用如此简单 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Color/CCCanvas.Color.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Color/CCCanvas.Color.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a> </p><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><h3 id="CCCanvas-Color-Screenshot"><a href="#CCCanvas-Color-Screenshot" class="headerlink" title="CCCanvas.Color Screenshot"></a>CCCanvas.Color Screenshot</h3><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Color/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Color iPhone Screenshot"></p>]]></content>
     
     <summary type="html">
     
@@ -76,9 +115,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -99,15 +138,15 @@
     <link href="https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E7%B3%BB%E5%88%97/"/>
     <id>https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列/</id>
     <published>2021-08-09T03:02:11.000Z</published>
-    <updated>2021-08-11T10:13:57.523Z</updated>
+    <updated>2021-08-13T02:49:45.827Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="CCCanvas-对iOS-Metal-MetalKit-的封装"><a href="#CCCanvas-对iOS-Metal-MetalKit-的封装" class="headerlink" title="CCCanvas 对iOS Metal MetalKit 的封装"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> 对iOS Metal MetalKit 的封装</h3><ul><li>主要简化演示，没有深入考虑细节</li><li>支持CocoaPods 导入, pod ‘CCCanvas’</li><li>封装了Metal,MetalKit相关细节，极简调用</li><li>可能是史上最简的iOS演示GPU,Metal,MetalKit的demo</li><li>使用Objective-C编写，同时支持Objective-C与Swift语言调用</li><li>使用Xcode13生成动态CCCanvas.framework，仅支持iOS x86_64 模拟器</li><li>iOS GPU Metal MetalKit中的一个小小细节可能会导致卡在那里半天，几天，甚至更久,后果苦不堪言,于是可能就有了以下demo,也许不定时更新,主要是封装细节,极简调用,运行demo,初步体验，更多的细节再通过网上查阅细节。</li></ul><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<h3 id="CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装"><a href="#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装" class="headerlink" title="CCCanvas 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装</h3><ul><li>主要简化演示，没有深入考虑细节</li><li>支持CocoaPods 导入, pod ‘CCCanvas’</li><li>封装了Metal,MetalKit相关细节，极简调用</li><li>可能是史上最简的iOS演示GPU,Metal,MetalKit的demo</li><li>使用Objective-C编写，同时支持Objective-C与Swift语言调用</li><li>对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装</li><li>使用Xcode13生成动态CCCanvas.framework，仅支持iOS x86_64 模拟器</li><li>iOS GPU Metal MetalKit中的一个小小细节可能会导致卡在那里半天，几天，甚至更久,后果苦不堪言,于是可能就有了以下demo,也许不定时更新,主要是封装细节,极简调用,运行demo,初步体验，更多的细节再通过网上查阅细节。</li></ul><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Color/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Color iPhone Screenshot"></p><ol start="2"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></p><ol start="3"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Line/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Line iPhone Screenshot"></p><ol start="4"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Triangle/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Triangle iPhone Screenshot"></p><ol start="5"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Plane/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Plane iPhone Screenshot"></p><ol start="6"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 <a href="https://github.com/ccworld1000/CCCanvas.Texture" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Texture/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Texture iPhone Screenshot"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;CCCanvas-对iOS-Metal-MetalKit-的封装&quot;&gt;&lt;a href=&quot;#CCCanvas-对iOS-Metal-MetalKit-的封装&quot; class=&quot;headerlink&quot; title=&quot;CCCanvas 对iOS Metal MetalKit
+        &lt;h3 id=&quot;CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装&quot;&gt;&lt;a href=&quot;#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装&quot; class=&quot;heade
       
     
     </summary>
@@ -115,9 +154,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -185,11 +224,11 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCGPUImage" scheme="https://ccworld1000.github.io/tags/CCGPUImage/"/>
     
@@ -230,9 +269,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCObj2opengl" scheme="https://ccworld1000.github.io/tags/CCObj2opengl/"/>
     
@@ -267,9 +306,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCMemoryStyle" scheme="https://ccworld1000.github.io/tags/CCMemoryStyle/"/>
     
@@ -296,17 +335,17 @@
     </summary>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
     
       <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
     
       <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -632,10 +671,6 @@
     
       <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
     
-      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
-    
-      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
-    
       <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
     
       <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
@@ -643,6 +678,10 @@
       <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
     
       <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
+    
+      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
+    
+      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
     
   </entry>
   
@@ -669,9 +708,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCSQLite" scheme="https://ccworld1000.github.io/tags/CCSQLite/"/>
     
@@ -718,11 +757,11 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
@@ -761,9 +800,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
@@ -782,47 +821,6 @@
       <category term="NSColor" scheme="https://ccworld1000.github.io/tags/NSColor/"/>
     
       <category term="font" scheme="https://ccworld1000.github.io/tags/font/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IGListKit简单入门 CCIGListKitDemo 例子</title>
-    <link href="https://ccworld1000.github.io/2018/08/28/IGListKit%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8-CCIGListKitDemo-%E4%BE%8B%E5%AD%90/"/>
-    <id>https://ccworld1000.github.io/2018/08/28/IGListKit简单入门-CCIGListKitDemo-例子/</id>
-    <published>2018-08-28T15:25:42.000Z</published>
-    <updated>2018-08-28T15:40:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="简单IGListKit入门"><a href="#简单IGListKit入门" class="headerlink" title="简单IGListKit入门"></a>简单IGListKit入门</h2><h3 id="简单滴框架示意图"><a href="#简单滴框架示意图" class="headerlink" title="简单滴框架示意图"></a>简单滴框架示意图</h3><p><img src="https://github.com/ccworld1000/CCIGListKitDemo/blob/master/Document/CCIGListKitSimpleFramework.png?raw=true" alt="CCIGListKitSimpleFramework.png"></p><h2 id="代码逻辑"><a href="#代码逻辑" class="headerlink" title="代码逻辑"></a>代码逻辑</h2><h3 id="数据项-DemoItem实现-IGListDiffable"><a href="#数据项-DemoItem实现-IGListDiffable" class="headerlink" title="数据项 DemoItem实现 IGListDiffable"></a>数据项 DemoItem实现 IGListDiffable</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">nonnull</span> <span class="keyword">id</span>&lt;<span class="built_in">NSObject</span>&gt;)diffIdentifier &#123;</span><br><span class="line">    <span class="keyword">return</span> _name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="built_in">BOOL</span>)isEqualToDiffableObject:(<span class="keyword">nullable</span> <span class="keyword">id</span>&lt;IGListDiffable&gt;)object &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">self</span> == object) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">YES</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    DemoItem *item = (DemoItem *)object;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> _controllerClass == item.controllerClass &amp;&amp; _controllerIdentifier == item.controllerIdentifier;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="数据列表"><a href="#数据列表" class="headerlink" title="数据列表"></a>数据列表</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="built_in">NSArray</span> *)demos &#123;</span><br><span class="line">    <span class="keyword">if</span> (!_demos) &#123;</span><br><span class="line">        _demos = @[</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Tail Loading"</span> controllerClass: <span class="string">@"LoadMoreViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Search Autocomplete"</span> controllerClass: <span class="string">@"SearchViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Mixed Data"</span> controllerClass: <span class="string">@"MixedDataViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Nested Adapter"</span> controllerClass: <span class="string">@"NestedAdapterViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Empty View"</span> controllerClass: <span class="string">@"EmptyViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Single Section Controller"</span> controllerClass: <span class="string">@"SingleSectionViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Storyboard"</span> controllerClass: <span class="string">@"SingleSectionViewController"</span> controllerIdentifier: <span class="string">@"demo"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Single Section Storyboard"</span> controllerClass: <span class="string">@"SingleSectionStoryboardViewController"</span> controllerIdentifier: <span class="string">@"singleSectionDemo"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Working Range"</span> controllerClass: <span class="string">@"WorkingRangeViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Diff Algorithm"</span> controllerClass: <span class="string">@"DiffTableViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Supplementary Views"</span> controllerClass: <span class="string">@"SupplementaryViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Self-sizing cells"</span> controllerClass: <span class="string">@"SelfSizingCellsViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Display delegate"</span> controllerClass: <span class="string">@"DisplayViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Stacked Section Controllers"</span> controllerClass: <span class="string">@"StackedViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Objc Demo"</span> controllerClass: <span class="string">@"ObjcDemoViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Objc Generated Model Demo"</span> controllerClass: <span class="string">@"ObjcGeneratedModelDemoViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Calendar (auto diffing)"</span> controllerClass: <span class="string">@"CalendarViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Dependency Injection"</span> controllerClass: <span class="string">@"AnnouncingDepsViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Reorder Cells"</span> controllerClass: <span class="string">@"ReorderableViewController"</span>],</span><br><span class="line">                   [[DemoItem alloc] initWithName:<span class="string">@"Reorder Stacked Section Controllers"</span> controllerClass: <span class="string">@"ReorderableStackedViewController"</span>],</span><br><span class="line">                   ];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> _demos;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="绑定数据列表"><a href="#绑定数据列表" class="headerlink" title="绑定数据列表"></a>绑定数据列表</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="built_in">NSArray</span>&lt;<span class="keyword">id</span> &lt;IGListDiffable&gt;&gt; *)objectsForListAdapter:(IGListAdapter *)listAdapter &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">self</span>.demos;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="绑定IGListSectionController"><a href="#绑定IGListSectionController" class="headerlink" title="绑定IGListSectionController"></a>绑定IGListSectionController</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(<span class="keyword">id</span>)object &#123;</span><br><span class="line">    <span class="keyword">return</span> [DemoSectionController new];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="keyword">nullable</span> <span class="built_in">UIView</span> *)emptyViewForListAdapter:(IGListAdapter *)listAdapter &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nil</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="adapter-与-collectionView-关联"><a href="#adapter-与-collectionView-关联" class="headerlink" title="adapter 与 collectionView 关联"></a>adapter 与 collectionView 关联</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">self</span>.adapter.collectionView = <span class="keyword">self</span>.collectionView;</span><br><span class="line"><span class="keyword">self</span>.adapter.dataSource = <span class="keyword">self</span>;</span><br></pre></td></tr></table></figure><h3 id="DemoSectionController-关联-cell"><a href="#DemoSectionController-关联-cell" class="headerlink" title="DemoSectionController 关联 cell"></a>DemoSectionController 关联 cell</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="built_in">CGSize</span>)sizeForItemAtIndex:(<span class="built_in">NSInteger</span>)index &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">CGSizeMake</span>(<span class="keyword">self</span>.collectionContext.containerSize.width, <span class="number">55</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="built_in">UICollectionViewCell</span> *)cellForItemAtIndex:(<span class="built_in">NSInteger</span>)index &#123;</span><br><span class="line">    LabelCell *cell = [<span class="keyword">self</span>.collectionContext dequeueReusableCellOfClass:[LabelCell <span class="keyword">class</span>] forSectionController:<span class="keyword">self</span> atIndex:index];</span><br><span class="line">    cell.text = <span class="keyword">self</span>.item.name;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> cell;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="keyword">void</span>)didUpdateToObject:(<span class="keyword">id</span>)object &#123;</span><br><span class="line">    <span class="keyword">self</span>.item = object;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="keyword">void</span>)didSelectItemAtIndex:(<span class="built_in">NSInteger</span>)index &#123;</span><br><span class="line">    <span class="built_in">NSString</span> *classString = <span class="keyword">self</span>.item.controllerClass;</span><br><span class="line">    <span class="built_in">NSString</span> *controllerIdentifier = <span class="keyword">self</span>.item.controllerIdentifier;</span><br><span class="line">    CCDebugPrint(classString);</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">UIViewController</span> *vc = <span class="literal">nil</span>;</span><br><span class="line">    <span class="keyword">if</span> (controllerIdentifier) &#123;</span><br><span class="line">        <span class="built_in">UIStoryboard</span> *storyboard = [<span class="built_in">UIStoryboard</span> storyboardWithName:<span class="string">@"Demo"</span> bundle: <span class="literal">nil</span>];</span><br><span class="line">        vc = [storyboard instantiateViewControllerWithIdentifier:controllerIdentifier];</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        vc = [<span class="built_in">NSClassFromString</span>(classString) new];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (vc) &#123;</span><br><span class="line">        vc.title = <span class="keyword">self</span>.item.name;</span><br><span class="line">        [<span class="keyword">self</span>.viewController.navigationController pushViewController:vc animated: <span class="literal">NO</span>];</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        CCDebugWarningPrint([<span class="built_in">NSString</span> stringWithFormat:<span class="string">@"%@ : [The interface may not be implemented] "</span>, classString]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="更多细节"><a href="#更多细节" class="headerlink" title="更多细节"></a>更多细节</h2><h3 id="查查看CCIGListKitDemo"><a href="#查查看CCIGListKitDemo" class="headerlink" title="查查看CCIGListKitDemo"></a>查查看<a href="https://github.com/ccworld1000/CCIGListKitDemo" target="_blank" rel="noopener">CCIGListKitDemo</a></h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;简单IGListKit入门&quot;&gt;&lt;a href=&quot;#简单IGListKit入门&quot; class=&quot;headerlink&quot; title=&quot;简单IGListKit入门&quot;&gt;&lt;/a&gt;简单IGListKit入门&lt;/h2&gt;&lt;h3 id=&quot;简单滴框架示意图&quot;&gt;&lt;a href=&quot;#简
-      
-    
-    </summary>
-    
-      <category term="CCIGListKitDemo &amp;&amp; IGListKit" scheme="https://ccworld1000.github.io/categories/CCIGListKitDemo-IGListKit/"/>
-    
-    
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
-      <category term="IGListKit" scheme="https://ccworld1000.github.io/tags/IGListKit/"/>
-    
-      <category term="CCIGListKitDemo" scheme="https://ccworld1000.github.io/tags/CCIGListKitDemo/"/>
-    
-      <category term="UIColllectionView" scheme="https://ccworld1000.github.io/tags/UIColllectionView/"/>
-    
-      <category term="IGListSectionController" scheme="https://ccworld1000.github.io/tags/IGListSectionController/"/>
-    
-      <category term="IGListAdapter" scheme="https://ccworld1000.github.io/tags/IGListAdapter/"/>
-    
-      <category term="UIViewController" scheme="https://ccworld1000.github.io/tags/UIViewController/"/>
-    
-      <category term="IGListDiffable" scheme="https://ccworld1000.github.io/tags/IGListDiffable/"/>
     
   </entry>
   
