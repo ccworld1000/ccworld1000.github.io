@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CCCanvas.Texture - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理]]></title>
+    <url>%2F2021%2F08%2F20%2FCCCanvas-Texture-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%BA%B9%E7%90%86%2F</url>
+    <content type="text"><![CDATA[CCCanvas.Texture - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理友情提示:因为主要是演示用,不考虑向前兼容,可升级到最新的framework纹理可简单理解为图片 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas.Texture Screenshot]]></content>
+      <tags>
+        <tag>iOS</tag>
+        <tag>Objective-C</tag>
+        <tag>Xcode</tag>
+        <tag>Swift</tag>
+        <tag>GPU</tag>
+        <tag>Metal</tag>
+        <tag>MetalKit</tag>
+        <tag>CCCanvas</tag>
+        <tag>canvas</tag>
+        <tag>texture</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[CCCanvas.Plane - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面]]></title>
     <url>%2F2021%2F08%2F15%2FCCCanvas-Plane-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%9D%A2%2F</url>
     <content type="text"><![CDATA[CCCanvas.Plane - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面四点成面 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas.Plane Screenshot]]></content>
