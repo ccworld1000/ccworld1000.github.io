@@ -37,9 +37,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -78,9 +78,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -117,9 +117,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -156,9 +156,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -195,9 +195,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -234,9 +234,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -257,15 +257,15 @@
     <link href="https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E7%B3%BB%E5%88%97/"/>
     <id>https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列/</id>
     <published>2021-08-09T03:02:11.000Z</published>
-    <updated>2021-08-13T02:49:45.827Z</updated>
+    <updated>2021-08-25T09:51:30.928Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装"><a href="#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装" class="headerlink" title="CCCanvas 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装</h3><ul><li>主要简化演示，没有深入考虑细节</li><li>支持CocoaPods 导入, pod ‘CCCanvas’</li><li>封装了Metal,MetalKit相关细节，极简调用</li><li>可能是史上最简的iOS演示GPU,Metal,MetalKit的demo</li><li>使用Objective-C编写，同时支持Objective-C与Swift语言调用</li><li>对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理 demo 的封装</li><li>使用Xcode13生成动态CCCanvas.framework，仅支持iOS x86_64 模拟器</li><li>iOS GPU Metal MetalKit中的一个小小细节可能会导致卡在那里半天，几天，甚至更久,后果苦不堪言,于是可能就有了以下demo,也许不定时更新,主要是封装细节,极简调用,运行demo,初步体验，更多的细节再通过网上查阅细节。</li></ul><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Color/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Color iPhone Screenshot"></p><ol start="2"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Point/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></p><ol start="3"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Line/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Line iPhone Screenshot"></p><ol start="4"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Triangle/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Triangle iPhone Screenshot"></p><ol start="5"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Plane/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Plane iPhone Screenshot"></p><ol start="6"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 <a href="https://github.com/ccworld1000/CCCanvas.Texture" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Texture/main/Screenshot/iPhone.jpg?raw=true" alt="CCCanvas.Texture iPhone Screenshot"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-金字塔-六边形-七边形-立方体-demo-的封装"><a href="#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-金字塔-六边形-七边形-立方体-demo-的封装" class="headerlink" title="CCCanvas 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理,金字塔,六边形,七边形,立方体 demo 的封装"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> 对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理,金字塔,六边形,七边形,立方体 demo 的封装</h3><ul><li>主要简化演示，没有深入考虑细节</li><li>支持CocoaPods 导入, pod ‘CCCanvas’</li><li>封装了Metal,MetalKit相关细节，极简调用</li><li>可能是史上最简的iOS演示GPU,Metal,MetalKit的demo</li><li>使用Objective-C编写，同时支持Objective-C与Swift语言调用</li><li>使用Xcode13生成动态CCCanvas.framework，仅支持iOS x86_64 模拟器</li><li>对iOS Metal MetalKit 颜色,点,线,三角形,面,纹理,金字塔,六边形,七边形,立方体 demo 的封装</li><li>iOS GPU Metal MetalKit中的一个小小细节可能会导致卡在那里半天，几天，甚至更久,后果苦不堪言,于是可能就有了以下demo,也许不定时更新,主要是封装细节,极简调用,运行demo,初步体验，更多的细节再通过网上查阅细节。</li></ul><h3 id="CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Color.jpg?raw=true" alt="CCCanvas.Color iPhone Screenshot"></p><ol start="2"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Point.jpg?raw=true" alt="CCCanvas.Point iPhone Screenshot"></p><ol start="3"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Line.jpg?raw=true" alt="CCCanvas.Line iPhone Screenshot"></p><ol start="4"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Triangle.jpg?raw=true" alt="CCCanvas.Triangle iPhone Screenshot"></p><ol start="5"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Plane.jpg?raw=true" alt="CCCanvas.Plane iPhone Screenshot"></p><ol start="6"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 <a href="https://github.com/ccworld1000/CCCanvas.Texture" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Texture.jpg?raw=true" alt="CCCanvas.Texture iPhone Screenshot"></p><ol start="7"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 <a href="https://github.com/ccworld1000/CCCanvas.Pyamid" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Pyamid.jpg?raw=true" alt="CCCanvas.Pyamid iPhone Screenshot"></p><ol start="8"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 <a href="https://github.com/ccworld1000/CCCanvas.Hexagon" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Hexagon.jpg?raw=true" alt="CCCanvas.Hexagon iPhone Screenshot"></p><ol start="9"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 <a href="https://github.com/ccworld1000/CCCanvas.Heptagonal" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Heptagonal.jpg?raw=true" alt="CCCanvas.Heptagonal iPhone Screenshot"></p><ol start="10"><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 <a href="https://github.com/ccworld1000/CCCanvas.Cube" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Cube.jpg?raw=true" alt="CCCanvas.Cube iPhone Screenshot"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装&quot;&gt;&lt;a href=&quot;#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-demo-的封装&quot; class=&quot;heade
+        &lt;h3 id=&quot;CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-金字塔-六边形-七边形-立方体-demo-的封装&quot;&gt;&lt;a href=&quot;#CCCanvas-对iOS-Metal-MetalKit-颜色-点-线-三角形-面-纹理-金字塔-六边
       
     
     </summary>
@@ -273,9 +273,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -343,11 +343,11 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCGPUImage" scheme="https://ccworld1000.github.io/tags/CCGPUImage/"/>
     
@@ -388,9 +388,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCObj2opengl" scheme="https://ccworld1000.github.io/tags/CCObj2opengl/"/>
     
@@ -425,9 +425,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCMemoryStyle" scheme="https://ccworld1000.github.io/tags/CCMemoryStyle/"/>
     
@@ -454,17 +454,17 @@
     </summary>
     
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
       <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
     
       <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
     
       <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -602,8 +602,6 @@
       <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
     
     
-      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
-    
       <category term="CCColor" scheme="https://ccworld1000.github.io/tags/CCColor/"/>
     
       <category term="draw" scheme="https://ccworld1000.github.io/tags/draw/"/>
@@ -615,6 +613,8 @@
       <category term="graphics" scheme="https://ccworld1000.github.io/tags/graphics/"/>
     
       <category term="chart" scheme="https://ccworld1000.github.io/tags/chart/"/>
+    
+      <category term="color" scheme="https://ccworld1000.github.io/tags/color/"/>
     
       <category term="svg" scheme="https://ccworld1000.github.io/tags/svg/"/>
     
