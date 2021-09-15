@@ -20,7 +20,7 @@
   <entry>
     <title><![CDATA[CCCanvas.Plane - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面]]></title>
     <url>%2F2021%2F08%2F15%2FCCCanvas-Plane-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%9D%A2%2F</url>
-    <content type="text"><![CDATA[CCCanvas.Plane - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面四点成面 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas.Plane Screenshot]]></content>
+    <content type="text"><![CDATA[CCCanvas.Plane - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面[友情提示1:主要是演示用,不考虑向前兼容][友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可][友情提示3:开发环境, Xcode 13, CocoaPods 1.11.0, CCCanvas (&gt;= 0.0.30)]四点成面 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 &lt;&lt;代码链接&gt;&gt; CCCanvas.Plane Screenshot]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>Xcode</tag>
@@ -36,7 +36,7 @@
   <entry>
     <title><![CDATA[CCCanvas.Triangle - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形]]></title>
     <url>%2F2021%2F08%2F15%2FCCCanvas-Triangle-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E4%B8%89%E8%A7%92%E5%BD%A2%2F</url>
-    <content type="text"><![CDATA[CCCanvas.Triangle - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形三点一个三角形 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas.Triangle Screenshot]]></content>
+    <content type="text"><![CDATA[CCCanvas.Triangle - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形[友情提示1:主要是演示用,不考虑向前兼容][友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可][友情提示3:开发环境, Xcode 13, CocoaPods 1.11.0, CCCanvas (&gt;= 0.0.30)]三点一个三角形 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 &lt;&lt;代码链接&gt;&gt; CCCanvas.Triangle Screenshot]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>Xcode</tag>
@@ -52,7 +52,7 @@
   <entry>
     <title><![CDATA[CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线]]></title>
     <url>%2F2021%2F08%2F13%2FCCCanvas-Line-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%BA%BF%2F</url>
-    <content type="text"><![CDATA[CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线两点一线 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt;CCCanvas.Line Screenshot]]></content>
+    <content type="text"><![CDATA[CCCanvas.Line - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线[友情提示1:主要是演示用,不考虑向前兼容][友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可][友情提示3:开发环境, Xcode 13, CocoaPods 1.11.0, CCCanvas (&gt;= 0.0.30)]两点一线 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 &lt;&lt;代码链接&gt;&gt; CCCanvas.Line Screenshot]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>Xcode</tag>
@@ -68,7 +68,7 @@
   <entry>
     <title><![CDATA[CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点]]></title>
     <url>%2F2021%2F08%2F12%2FCCCanvas-Point-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E7%82%B9%2F</url>
-    <content type="text"><![CDATA[CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点一个点,这是个点?怎么看起来不像啊,明明就是个方块? 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt;CCCanvas.Point Screenshot]]></content>
+    <content type="text"><![CDATA[CCCanvas.Point - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点[友情提示1:主要是演示用,不考虑向前兼容][友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可][友情提示3:开发环境, Xcode 13, CocoaPods 1.11.0, CCCanvas (&gt;= 0.0.30)]一个点,这是个点?怎么看起来不像啊,明明就是个方块? 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 &lt;&lt;代码链接&gt;&gt; CCCanvas.Point Screenshot]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>Xcode</tag>
@@ -84,7 +84,7 @@
   <entry>
     <title><![CDATA[CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色]]></title>
     <url>%2F2021%2F08%2F11%2FCCCanvas-Color-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%A2%9C%E8%89%B2%2F</url>
-    <content type="text"><![CDATA[CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色背景颜色,核心变更一个参数即可,调用如此简单 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas.Color Screenshot]]></content>
+    <content type="text"><![CDATA[CCCanvas.Color - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色[友情提示1:主要是演示用,不考虑向前兼容][友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可][友情提示3:开发环境, Xcode 13, CocoaPods 1.11.0, CCCanvas (&gt;= 0.0.30)]背景颜色,核心变更一个参数即可,调用如此简单 具体详情 &lt;&lt;Objective-C代码链接&gt;&gt; &lt;&lt;Swift代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo系列 CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 颜色 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 点 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 线 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 三角形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 面 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 金字塔 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 六边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 七边形 &lt;&lt;代码链接&gt;&gt; CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 立方体 &lt;&lt;代码链接&gt;&gt; CCCanvas.Color Screenshot]]></content>
       <tags>
         <tag>iOS</tag>
         <tag>Xcode</tag>
@@ -328,12 +328,12 @@
         <tag>perl6</tag>
         <tag>Perl 5</tag>
         <tag>Perl</tag>
+        <tag>perl</tag>
+        <tag>perl6.org</tag>
         <tag>rakudo</tag>
         <tag>VM</tag>
         <tag>moarvm</tag>
         <tag>nqp</tag>
-        <tag>perl</tag>
-        <tag>perl6.org</tag>
       </tags>
   </entry>
   <entry>
@@ -392,8 +392,8 @@
         <tag>macOS</tag>
         <tag>CCColor</tag>
         <tag>color</tag>
-        <tag>Foundation</tag>
         <tag>CCFont</tag>
+        <tag>Foundation</tag>
         <tag>UIFont</tag>
         <tag>NSFont</tag>
         <tag>UIColor</tag>
@@ -465,9 +465,9 @@
         <tag>iOS</tag>
         <tag>Objective-C</tag>
         <tag>macOS</tag>
+        <tag>Foundation</tag>
         <tag>C</tag>
         <tag>CCSugar</tag>
-        <tag>Foundation</tag>
         <tag>c</tag>
         <tag>NSNumber</tag>
         <tag>NSArray</tag>
