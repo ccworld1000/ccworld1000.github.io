@@ -4,6 +4,45 @@
 
     
   <url>
+    <loc>https://ccworld1000.github.io/2021/11/17/CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%87%91%E5%AD%97%E5%A1%94/</loc>
+    <lastmod>2021-11-17T07:20:58.737Z</lastmod>
+    <data>
+        <display>
+        <title>CCCanvas.Pyamid - CCCanvas iOS Metal GPU 极简体验Demo之 - 金字塔</title>
+        <pubTime>2021-11-17T07:16:12.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+        <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
+         
+        <tag>Swift</tag>
+         
+        <tag>GPU</tag>
+         
+        <tag>Metal</tag>
+         
+        <tag>MetalKit</tag>
+         
+        <tag>CCCanvas</tag>
+         
+        <tag>canvas</tag>
+         
+        <tag>texture</tag>
+         
+        <tag>pyamid</tag>
+         
+        <tag>金字塔</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ccworld1000.github.io/2021/08/15/CCCanvas-Plane-CCCanvas-iOS-Metal-MetalKit-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%9D%A2/</loc>
     <lastmod>2021-09-15T14:29:57.302Z</lastmod>
     <data>
@@ -13,9 +52,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -46,9 +85,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -79,9 +118,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -112,9 +151,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -145,9 +184,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -178,9 +217,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -211,9 +250,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
-         
         <tag>Objective-C</tag>
+         
+        <tag>Xcode</tag>
          
         <tag>Swift</tag>
          
@@ -307,11 +346,11 @@
         
         <tag>iOS</tag>
          
+        <tag>macOS</tag>
+         
         <tag>Objective-C</tag>
          
         <tag>GPU</tag>
-         
-        <tag>macOS</tag>
          
         <tag>CCGPUImage</tag>
          
@@ -346,9 +385,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCObj2opengl</tag>
          
@@ -377,9 +416,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCMemoryStyle</tag>
          
@@ -400,17 +439,17 @@
         <title>CCBinStyle for bin style</title>
         <pubTime>2020-06-21T14:36:00.000Z</pubTime>
         
-        <tag>iOS</tag>
-         
-        <tag>Objective-C</tag>
-         
         <tag>CCBinStyle</tag>
          
         <tag>xpc</tag>
          
         <tag>ccxpc</tag>
          
+        <tag>iOS</tag>
+         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
          
            
@@ -691,10 +730,6 @@
          
         <tag>Perl</tag>
          
-        <tag>perl</tag>
-         
-        <tag>perl6.org</tag>
-         
         <tag>rakudo</tag>
          
         <tag>VM</tag>
@@ -702,6 +737,10 @@
         <tag>moarvm</tag>
          
         <tag>nqp</tag>
+         
+        <tag>perl</tag>
+         
+        <tag>perl6.org</tag>
          
          
            
@@ -723,9 +762,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCSQLite</tag>
          
@@ -767,9 +806,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCRuntime</tag>
          
@@ -797,11 +836,11 @@
         
         <tag>iOS</tag>
          
-        <tag>Xcode</tag>
+        <tag>macOS</tag>
          
         <tag>Objective-C</tag>
          
-        <tag>macOS</tag>
+        <tag>Xcode</tag>
          
         <tag>color</tag>
          
@@ -836,9 +875,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>CCColor</tag>
          
@@ -943,9 +982,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>Foundation</tag>
          
@@ -989,9 +1028,9 @@
         
         <tag>iOS</tag>
          
-        <tag>Objective-C</tag>
-         
         <tag>macOS</tag>
+         
+        <tag>Objective-C</tag>
          
         <tag>c</tag>
          

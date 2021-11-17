@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccworld1000.github.io/"/>
-  <updated>2021-08-20T11:07:34.386Z</updated>
+  <updated>2021-11-17T07:20:58.737Z</updated>
   <id>https://ccworld1000.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CCCanvas.Pyamid - CCCanvas iOS Metal GPU 极简体验Demo之 - 金字塔</title>
+    <link href="https://ccworld1000.github.io/2021/11/17/CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-%E6%9E%81%E7%AE%80%E4%BD%93%E9%AA%8CDemo%E4%B9%8B-%E9%87%91%E5%AD%97%E5%A1%94/"/>
+    <id>https://ccworld1000.github.io/2021/11/17/CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔/</id>
+    <published>2021-11-17T07:16:12.000Z</published>
+    <updated>2021-11-17T07:20:58.737Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔"><a href="#CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔" class="headerlink" title="CCCanvas.Pyamid - CCCanvas iOS Metal GPU 极简体验Demo之 - 金字塔"></a><a href="https://github.com/ccworld1000/CCCanvas.Pyamid" target="_blank" rel="noopener">CCCanvas.Pyamid</a> - <a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 金字塔</h3><h6 id="友情提示1-主要是演示用-不考虑向前兼容"><a href="#友情提示1-主要是演示用-不考虑向前兼容" class="headerlink" title="[友情提示1:主要是演示用,不考虑向前兼容]"></a>[友情提示1:主要是演示用,不考虑向前兼容]</h6><h6 id="友情提示2-可通过Pod升级到最新的framework-或者直接手动导入项目皆可"><a href="#友情提示2-可通过Pod升级到最新的framework-或者直接手动导入项目皆可" class="headerlink" title="[友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可]"></a>[友情提示2:可通过Pod升级到最新的framework,或者直接手动导入项目皆可]</h6><h6 id="友情提示3-开发环境-Xcode-13-1-CocoaPods-1-11-0-CCCanvas-gt-0-0-30"><a href="#友情提示3-开发环境-Xcode-13-1-CocoaPods-1-11-0-CCCanvas-gt-0-0-30" class="headerlink" title="[友情提示3:开发环境, Xcode 13.1, CocoaPods 1.11.0, CCCanvas (&gt; 0.0.30)]"></a>[友情提示3:开发环境, Xcode 13.1, CocoaPods 1.11.0, CCCanvas (&gt; 0.0.30)]</h6><p>5点是不是可以形成金字塔 具体详情  <a href="https://github.com/ccworld1000/CCCanvas.Pyamid/CCCanvas.Pyamid.OC" target="_blank" rel="noopener">&lt;&lt;Objective-C代码链接&gt;&gt;</a>  <a href="https://github.com/ccworld1000/CCCanvas.Pyamid/CCCanvas.Pyamid.Swift" target="_blank" rel="noopener">&lt;&lt;Swift代码链接&gt;&gt;</a> </p><h3 id="CCCanvas-iOS-Metal-GPU-极简体验Demo系列"><a href="#CCCanvas-iOS-Metal-GPU-极简体验Demo系列" class="headerlink" title="CCCanvas iOS Metal GPU 极简体验Demo系列"></a><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo系列</h3><ol><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 颜色 <a href="https://github.com/ccworld1000/CCCanvas.Color" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 点 <a href="https://github.com/ccworld1000/CCCanvas.Point" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 线 <a href="https://github.com/ccworld1000/CCCanvas.Line" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 三角形 <a href="https://github.com/ccworld1000/CCCanvas.Triangle" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 面 <a href="https://github.com/ccworld1000/CCCanvas.Plane" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 纹理 <a href="https://github.com/ccworld1000/CCCanvas.Texture" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 金字塔 <a href="https://github.com/ccworld1000/CCCanvas.Pyamid" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 六边形 <a href="https://github.com/ccworld1000/CCCanvas.Hexagon" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 七边形 <a href="https://github.com/ccworld1000/CCCanvas.Heptagonal" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li><li><a href="https://github.com/ccworld1000/CCCanvas" target="_blank" rel="noopener">CCCanvas</a> iOS Metal GPU 极简体验Demo之 - 立方体 <a href="https://github.com/ccworld1000/CCCanvas.Cube" target="_blank" rel="noopener">&lt;&lt;代码链接&gt;&gt;</a></li></ol><h3 id="CCCanvas-Pyamid-Screenshot"><a href="#CCCanvas-Pyamid-Screenshot" class="headerlink" title="CCCanvas.Pyamid Screenshot"></a>CCCanvas.Pyamid Screenshot</h3><p><img src="https://raw.github.com/ccworld1000/CCCanvas.Screenshot/main/CCCanvas.Pyamid.jpg?raw=true" alt="CCCanvas.Pyamid iPhone Screenshot"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔&quot;&gt;&lt;a href=&quot;#CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔&quot; class=&quot;headerl
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
+    
+      <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
+    
+      <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
+    
+      <category term="Metal" scheme="https://ccworld1000.github.io/tags/Metal/"/>
+    
+      <category term="MetalKit" scheme="https://ccworld1000.github.io/tags/MetalKit/"/>
+    
+      <category term="CCCanvas" scheme="https://ccworld1000.github.io/tags/CCCanvas/"/>
+    
+      <category term="canvas" scheme="https://ccworld1000.github.io/tags/canvas/"/>
+    
+      <category term="texture" scheme="https://ccworld1000.github.io/tags/texture/"/>
+    
+      <category term="pyamid" scheme="https://ccworld1000.github.io/tags/pyamid/"/>
+    
+      <category term="金字塔" scheme="https://ccworld1000.github.io/tags/%E9%87%91%E5%AD%97%E5%A1%94/"/>
+    
+  </entry>
   
   <entry>
     <title>CCCanvas.Texture - CCCanvas iOS Metal MetalKit GPU 极简体验Demo之 - 纹理</title>
@@ -37,9 +82,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -78,9 +123,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -117,9 +162,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -156,9 +201,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -195,9 +240,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -234,9 +279,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -273,9 +318,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
-    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
+    
+      <category term="Xcode" scheme="https://ccworld1000.github.io/tags/Xcode/"/>
     
       <category term="Swift" scheme="https://ccworld1000.github.io/tags/Swift/"/>
     
@@ -343,11 +388,11 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
+      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
       <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="GPU" scheme="https://ccworld1000.github.io/tags/GPU/"/>
-    
-      <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
     
       <category term="CCGPUImage" scheme="https://ccworld1000.github.io/tags/CCGPUImage/"/>
     
@@ -388,9 +433,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCObj2opengl" scheme="https://ccworld1000.github.io/tags/CCObj2opengl/"/>
     
@@ -425,9 +470,9 @@
     
       <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
     
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
       <category term="CCMemoryStyle" scheme="https://ccworld1000.github.io/tags/CCMemoryStyle/"/>
     
@@ -454,17 +499,17 @@
     </summary>
     
     
-      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
-    
-      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
-    
       <category term="CCBinStyle" scheme="https://ccworld1000.github.io/tags/CCBinStyle/"/>
     
       <category term="xpc" scheme="https://ccworld1000.github.io/tags/xpc/"/>
     
       <category term="ccxpc" scheme="https://ccworld1000.github.io/tags/ccxpc/"/>
     
+      <category term="iOS" scheme="https://ccworld1000.github.io/tags/iOS/"/>
+    
       <category term="macOS" scheme="https://ccworld1000.github.io/tags/macOS/"/>
+    
+      <category term="Objective-C" scheme="https://ccworld1000.github.io/tags/Objective-C/"/>
     
   </entry>
   
@@ -758,49 +803,6 @@
       <category term="2D" scheme="https://ccworld1000.github.io/tags/2D/"/>
     
       <category term="graphic" scheme="https://ccworld1000.github.io/tags/graphic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Perl 6 architecture 层次架构体系</title>
-    <link href="https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-%E5%B1%82%E6%AC%A1%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB/"/>
-    <id>https://ccworld1000.github.io/2018/10/04/Perl-6-architecture-层次架构体系/</id>
-    <published>2018-10-04T07:22:45.000Z</published>
-    <updated>2018-10-04T07:27:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Perl-6-architecture-层次架构体系"><a href="#Perl-6-architecture-层次架构体系" class="headerlink" title="Perl 6 architecture 层次架构体系"></a>Perl 6 architecture 层次架构体系</h3><p><img src="https://raw.github.com/ccworld1000/CCArchitecture/master/6.svg?sanitize=true" alt="Perl 6 architecture "></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Perl-6-architecture-层次架构体系&quot;&gt;&lt;a href=&quot;#Perl-6-architecture-层次架构体系&quot; class=&quot;headerlink&quot; title=&quot;Perl 6 architecture 层次架构体系&quot;&gt;&lt;/a&gt;Perl 6 a
-      
-    
-    </summary>
-    
-      <category term="Perl 6" scheme="https://ccworld1000.github.io/categories/Perl-6/"/>
-    
-    
-      <category term="Perl 6" scheme="https://ccworld1000.github.io/tags/Perl-6/"/>
-    
-      <category term="perl6" scheme="https://ccworld1000.github.io/tags/perl6/"/>
-    
-      <category term="Perl 5" scheme="https://ccworld1000.github.io/tags/Perl-5/"/>
-    
-      <category term="Perl" scheme="https://ccworld1000.github.io/tags/Perl/"/>
-    
-      <category term="perl" scheme="https://ccworld1000.github.io/tags/perl/"/>
-    
-      <category term="perl6.org" scheme="https://ccworld1000.github.io/tags/perl6-org/"/>
-    
-      <category term="rakudo" scheme="https://ccworld1000.github.io/tags/rakudo/"/>
-    
-      <category term="VM" scheme="https://ccworld1000.github.io/tags/VM/"/>
-    
-      <category term="moarvm" scheme="https://ccworld1000.github.io/tags/moarvm/"/>
-    
-      <category term="nqp" scheme="https://ccworld1000.github.io/tags/nqp/"/>
     
   </entry>
   

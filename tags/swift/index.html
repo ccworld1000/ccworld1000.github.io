@@ -441,7 +441,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">30</span>
+                    <span class="site-state-item-count">31</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -757,7 +757,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">139</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">141</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1348,7 +1352,23 @@
 
 </body>
 </html>
-slice(0, upperBound);
+ and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
                   }
 
                   // highlight title and content

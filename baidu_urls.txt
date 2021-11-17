@@ -1,3 +1,4 @@
+https://ccworld1000.github.io/2021/11/17/CCCanvas-Pyamid-CCCanvas-iOS-Metal-GPU-极简体验Demo之-金字塔/
 https://ccworld1000.github.io/2021/08/20/CCCanvas-Texture-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-纹理/
 https://ccworld1000.github.io/2021/08/15/CCCanvas-Plane-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-面/
 https://ccworld1000.github.io/2021/08/15/CCCanvas-Triangle-CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo之-三角形/
@@ -7,4 +8,3 @@ https://ccworld1000.github.io/2021/08/11/CCCanvas-Color-CCCanvas-iOS-Metal-Metal
 https://ccworld1000.github.io/2021/08/09/CCCanvas-iOS-Metal-MetalKit-GPU-极简体验Demo系列/
 https://ccworld1000.github.io/2021/03/24/CCCameraStyle-CCCamera/
 https://ccworld1000.github.io/2021/01/05/CCGPUImage-change-for-GPUImage/
-https://ccworld1000.github.io/2020/11/14/CCObj2opengl/
